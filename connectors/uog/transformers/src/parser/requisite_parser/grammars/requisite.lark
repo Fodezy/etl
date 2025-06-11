@@ -1,24 +1,40 @@
 // File: src/parser/requisite_parser/grammars/requisite.lark
 
 %import .common.COURSE_CODE
+%import .common.NUMBER
 %import .common.WS
 
 %ignore WS
 
 // --- GRAMMAR HIERARCHY ---
 
-?start: logical_or
+?start: or_expression
 
-// LEVEL 1 (Lowest Precedence): OR
-?logical_or: logical_and ("OR" logical_and)*
+// LEVEL 1 (Lowest Precedence): An OR expression is one or more 'and_or_nof' expressions.
+or_expression: and_or_nof_expression ("OR" and_or_nof_expression)* -> create_or
 
-// LEVEL 2: AND (comma)
-?logical_and: atomic_expression ("," atomic_expression)*
+// LEVEL 2: This is the key change. This rule forces the parser to choose:
+// is this chunk of text an N_OF expression, OR is it a comma-separated list?
+// It cannot be both, which removes the ambiguity.
+?and_or_nof_expression: n_of_expression
+                      | and_expression
 
-// LEVEL 3 (Highest Precedence): Atomic units
-?atomic_expression: course_code
-                  | "(" logical_or ")" -> group  // <-- NEW: Handles (E)
-                  | "[" logical_or "]" -> group  // <-- NEW: Handles [E]
+// An AND expression is a list of simple atoms separated by a comma.
+and_expression: simple_atom ("," simple_atom)* -> create_and
 
-// Base rule for a course code
-course_code: COURSE_CODE
+// A SIMPLE ATOM CANNOT BE an n_of_expression. This is critical.
+?simple_atom: course_code | group
+
+// --- ATOMIC RULE DEFINITIONS ---
+
+course_code: COURSE_CODE -> to_course_obj
+
+group: "(" or_expression ")"
+     | "[" or_expression "]"
+
+// This rule defines the "N of" structure. It is now greedy.
+n_of_expression: NUMBER "OF" n_of_choice_list -> create_n_of
+
+// This defines the list of choices *inside* an N_OF block.
+// Each choice is a simple_atom, allowing nesting like (A, B).
+n_of_choice_list: simple_atom ( ("," | "OR") simple_atom )*

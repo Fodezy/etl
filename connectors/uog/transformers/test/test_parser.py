@@ -205,3 +205,105 @@ def test_sprint4_complex_nesting():
     # The second operand is a single course G
     assert group3["operands"][1]["code"] == "MDST*1080"
 
+# --- SPRINT 5 TESTS (New) ---
+
+def test_sprint5_simple_unbracketed_nof():
+    """
+    Tests a simple 'N of' list that isn't enclosed in brackets.
+    The comma here must be interpreted as OR.
+    """
+    test_string = "1 of BIOL*1070, BIOL*1080"
+    result = parse_prereq(test_string)[0]
+
+    assert result["type"] == "N_OF"
+    assert result["count"] == 1
+    assert len(result["operands"]) == 2
+    assert result["operands"][0]["type"] == "COURSE"
+    assert result["operands"][1]["code"] == "BIOL*1080"
+
+def test_sprint5_course_and_bracketed_nof():
+    """
+    Tests a top-level AND between a course and a bracketed 'N of' list.
+    """
+    test_string = "BIOC*2580, [1 of HK*3810, ZOO*3600]"
+    result = parse_prereq(test_string)[0]
+
+    assert result["type"] == "AND"
+    assert len(result["operands"]) == 2
+    
+    # First operand is the course
+    assert result["operands"][0]["type"] == "COURSE"
+    assert result["operands"][0]["code"] == "BIOC*2580"
+
+    # Second operand is the N_OF block
+    nof_block = result["operands"][1]
+    assert nof_block["type"] == "N_OF"
+    assert nof_block["count"] == 1
+    assert len(nof_block["operands"]) == 2
+    assert nof_block["operands"][0]["code"] == "HK*3810"
+
+def test_sprint5_nof_with_nested_and_group():
+    """
+    Tests an 'N of' list where one of the choices is a nested AND group.
+    Case: [1 of BIOM*3200, (ZOO*3200, ZOO*3210), ZOO*3600]
+    """
+    test_string = "[1 of BIOM*3200, (ZOO*3200, ZOO*3210), ZOO*3600]"
+    result = parse_prereq(test_string)[0]
+
+    assert result["type"] == "N_OF"
+    assert result["count"] == 1
+    assert len(result["operands"]) == 3
+
+    # Check the first operand (a simple course)
+    assert result["operands"][0]["code"] == "BIOM*3200"
+
+    # Check the second operand (the nested AND group)
+    nested_and = result["operands"][1]
+    assert nested_and["type"] == "AND"
+    assert len(nested_and["operands"]) == 2
+    assert nested_and["operands"][0]["code"] == "ZOO*3200"
+    assert nested_and["operands"][1]["code"] == "ZOO*3210"
+
+    # Check the third operand (a simple course)
+    assert result["operands"][2]["code"] == "ZOO*3600"
+
+def test_sprint5_multiple_nofs_and_course():
+    """
+    Tests a complex top-level AND with multiple 'N of' lists.
+    Case: MGMT*3320, [1 of ...], (1 of ...)
+    """
+    test_string = "MGMT*3320, [1 of ECON*2560, ECON*3560], (1 of FARE*3310, HTM*3120)"
+    result = parse_prereq(test_string)[0]
+
+    assert result["type"] == "AND"
+    assert len(result["operands"]) == 3
+
+    # Check operand 1 (course)
+    assert result["operands"][0]["type"] == "COURSE"
+    assert result["operands"][0]["code"] == "MGMT*3320"
+
+    # Check operand 2 (first N_OF)
+    nof1 = result["operands"][1]
+    assert nof1["type"] == "N_OF"
+    assert nof1["count"] == 1
+    assert len(nof1["operands"]) == 2
+
+    # Check operand 3 (second N_OF)
+    nof2 = result["operands"][2]
+    assert nof2["type"] == "N_OF"
+    assert nof2["count"] == 1
+    assert len(nof2["operands"]) == 2
+
+def test_sprint5_nof_with_mixed_or_separators():
+    """
+    Tests that the 'or_choice_list' correctly handles both commas and 'OR'.
+    """
+    test_string = "(2 of CIS*1300, CIS*1500 or CIS*1910)"
+    result = parse_prereq(test_string)[0]
+
+    assert result["type"] == "N_OF"
+    assert result["count"] == 2
+    assert len(result["operands"]) == 3
+    assert result["operands"][0]["code"] == "CIS*1300"
+    assert result["operands"][1]["code"] == "CIS*1500"
+    assert result["operands"][2]["code"] == "CIS*1910"
