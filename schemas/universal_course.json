@@ -1,0 +1,664 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/universal-course.draft-02.json",
+  "title": "Universal Course Schema",
+  "description": "Draft 02 of a canonical, school-agnostic schema for course catalog data.",
+  "type": "object",
+  "version": "02",
+  "$defs": {
+    "Department": {
+      "type": "object",
+      "description": "Academic unit offering the course.",
+      "properties": {
+        "deptId": {
+          "type": "string",
+          "description": "System-generated unique ID."
+        },
+        "code": {
+          "type": "string",
+          "description": "School-local dept code (e.g. 'CS')."
+        },
+        "name": {
+          "type": "string",
+          "description": "Full dept/faculty name."
+        },
+        "parentId": {
+          "type": "string",
+          "description": "deptId of parent unit, if any."
+        }
+      },
+      "required": [
+        "deptId",
+        "name"
+      ]
+    },
+    "Term": {
+      "type": "object",
+      "description": "Academic term for course offerings.",
+      "properties": {
+        "termId": {
+          "type": "string",
+          "description": "Canonical ID, e.g. '2025FA'."
+        },
+        "year": {
+          "type": "integer",
+          "description": "Calendar year, e.g. 2025."
+        },
+        "season": {
+          "type": "string",
+          "enum": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "description": "Season name."
+        },
+        "startDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Term start date."
+        },
+        "endDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Term end date."
+        }
+      },
+      "required": [
+        "termId",
+        "year",
+        "season"
+      ]
+    },
+    "Instructor": {
+      "type": "object",
+      "description": "Person teaching or facilitating.",
+      "properties": {
+        "instructorId": {
+          "type": "string",
+          "description": "System-generated unique ID."
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Contact email."
+        },
+        "role": {
+          "type": "string",
+          "description": "Teaching role (e.g. 'Lecturer','TA')."
+        },
+        "departmentId": {
+          "type": "string",
+          "description": "deptId of home department."
+        }
+      },
+      "required": [
+        "instructorId",
+        "name",
+        "email"
+      ]
+    },
+    "Meeting": {
+      "type": "object",
+      "description": "Scheduled block of time for a section.",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Lecture",
+            "Lab",
+            "Tutorial",
+            "Exam",
+            "Other",
+            "Seminar"
+          ],
+          "description": "Block type."
+        },
+        "dayOfWeek": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thu",
+              "Fri",
+              "Sat",
+              "Sun"
+            ]
+          },
+          "description": "Days of week."
+        },
+        "startTime": {
+          "type": "string",
+          "pattern": "^([01]\\d|2[0-3]):([0-5]\\d)$"
+        },
+        "endTime": {
+          "type": "string",
+          "pattern": "^([01]\\d|2[0-3]):([0-5]\\d)$"
+        },
+        "startDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "endDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "location": {
+          "type": "string"
+        },
+        "raw": {
+          "type": "string",
+          "description": "Original raw schedule text."
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    "Section": {
+      "type": "object",
+      "description": "One offering of a Course in a given Term.",
+      "properties": {
+        "sectionId": {
+          "type": "string"
+        },
+        "courseCode": {
+          "type": "string"
+        },
+        "termId": {
+          "type": "string"
+        },
+        "sectionCode": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "capacity": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "enrolled": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "waitlist": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "delivery": {
+          "type": "string",
+          "enum": [
+            "InPerson",
+            "Online",
+            "Hybrid",
+            "Distance"
+          ]
+        },
+        "instructors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Instructor"
+          }
+        },
+        "meetings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Meeting"
+          }
+        },
+        "raw": {
+          "type": "object",
+          "description": "All raw source-section fields."
+        }
+      },
+      "required": [
+        "sectionId",
+        "courseCode",
+        "termId"
+      ]
+    },
+    "RequisiteExpression": {
+      "type": "object",
+      "description": "Represents a structured requisite expression, allowing for AND/OR logic and credit requirements.",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "AND",
+            "OR",
+            "COURSE",
+            "CREDITS",
+            "N_OF",
+            "RAW_UNPARSED",
+            "PROGRAM_REGISTRATION",
+            "SUBJECT_CREDITS_AT_LEVEL",
+            "MIN_AVERAGE"
+          ],
+          "description": "The type of requisite: logical operator (AND/OR), a single course, a credit requirement, 'N of' a set of courses, a program registration, subject-specific credits at a level, minimum average, or an unparsed raw string."
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The number of courses required if type is 'N_OF'."
+        },
+        "courses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of course codes (e.g., 'ACCT*1240', 'ACCT*2230') if type is COURSE or N_OF, or courses involved in an AND/OR. This should use canonical course codes."
+        },
+        "credits": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Number of credits required if type is CREDITS or SUBJECT_CREDITS_AT_LEVEL."
+        },
+        "expressions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/RequisiteExpression"
+          },
+          "description": "Array of nested requisite expressions for AND/OR logic."
+        },
+        "raw": {
+          "type": "string",
+          "description": "The original raw text for this specific part of the requisite, if available."
+        },
+        "value": {
+          "type": "string",
+          "description": "The raw string value if the type is 'RAW_UNPARSED'."
+        },
+        "subject": {
+          "type": "string",
+          "description": "The specific subject area for which the credits are required (e.g., 'STATISTICS', 'ANSC').",
+          "nullable": true
+        },
+        "program": {
+          "type": "string",
+          "description": "The name of the program for which registration is required, if type is 'PROGRAM_REGISTRATION'.",
+          "nullable": true
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The academic level required for subject-specific credits (e.g., 3000 for 3rd year), if type is 'SUBJECT_CREDITS_AT_LEVEL'.",
+          "nullable": true
+        },
+        "percentage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "The minimum percentage required for an average, if type is 'MIN_AVERAGE'.",
+          "nullable": true
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "AND" } } },
+          "then": {
+            "required": ["expressions"],
+            "properties": {
+              "expressions": { "minItems": 1 },
+              "courses": { "not": { "type": "array" } },
+              "credits": { "not": { "type": "number" } },
+              "count": { "not": { "type": "integer" } },
+              "value": { "not": { "type": "string" } },
+              "subject": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "OR" } } },
+          "then": {
+            "required": ["expressions"],
+            "properties": {
+              "expressions": { "minItems": 1 },
+              "courses": { "not": { "type": "array" } },
+              "credits": { "not": { "type": "number" } },
+              "count": { "not": { "type": "integer" } },
+              "value": { "not": { "type": "string" } },
+              "subject": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "COURSE" } } },
+          "then": {
+            "required": ["courses"],
+            "properties": {
+              "courses": { "minItems": 1, "maxItems": 1 },
+              "expressions": { "not": { "type": "array" } },
+              "credits": { "not": { "type": "number" } },
+              "count": { "not": { "type": "integer" } },
+              "value": { "not": { "type": "string" } },
+              "subject": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "CREDITS" } } },
+          "then": {
+            "required": ["credits"],
+            "properties": {
+              "credits": { "minimum": 0 },
+              "subject": { "type": "string", "nullable": true },
+              "courses": { "not": { "type": "array" } },
+              "expressions": { "not": { "type": "array" } },
+              "count": { "not": { "type": "integer" } },
+              "value": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "N_OF" } } },
+          "then": {
+            "required": ["count", "courses"],
+            "properties": {
+              "count": { "type": "integer", "minimum": 1 },
+              "courses": { "minItems": 1 },
+              "expressions": { "not": { "type": "array" } },
+              "credits": { "not": { "type": "number" } },
+              "value": { "not": { "type": "string" } },
+              "subject": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "RAW_UNPARSED" } } },
+          "then": {
+            "required": ["value"],
+            "properties": {
+              "value": { "type": "string", "minLength": 1 },
+              "courses": { "not": { "type": "array" } },
+              "expressions": { "not": { "type": "array" } },
+              "credits": { "not": { "type": "number" } },
+              "count": { "not": { "type": "integer" } },
+              "subject": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "PROGRAM_REGISTRATION" } } },
+          "then": {
+            "required": ["program"],
+            "properties": {
+              "program": { "type": "string", "minLength": 1 },
+              "courses": { "not": { "type": "array" } },
+              "expressions": { "not": { "type": "array" } },
+              "credits": { "not": { "type": "number" } },
+              "count": { "not": { "type": "integer" } },
+              "subject": { "not": { "type": "string" } },
+              "value": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "SUBJECT_CREDITS_AT_LEVEL" } } },
+          "then": {
+            "required": ["credits", "subject", "level"],
+            "properties": {
+              "credits": { "type": "number", "minimum": 0 },
+              "subject": { "type": "string", "minLength": 1 },
+              "level": { "type": "integer", "minimum": 0 },
+              "courses": { "not": { "type": "array" } },
+              "expressions": { "not": { "type": "array" } },
+              "count": { "not": { "type": "integer" } },
+              "value": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "percentage": { "not": { "type": "number" } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "MIN_AVERAGE" } } },
+          "then": {
+            "required": ["percentage"],
+            "properties": {
+              "percentage": { "type": "number", "minimum": 0, "maximum": 100 },
+              "courses": { "not": { "type": "array" } },
+              "expressions": { "not": { "type": "array" } },
+              "credits": { "not": { "type": "number" } },
+              "count": { "not": { "type": "integer" } },
+              "subject": { "not": { "type": "string" } },
+              "value": { "not": { "type": "string" } },
+              "program": { "not": { "type": "string" } },
+              "level": { "not": { "type": "integer" } }
+            }
+          }
+        }
+      ]
+    },
+    "OfferingPattern": {
+      "type": "object",
+      "description": "Describes the general pattern of when a course is typically offered.",
+      "properties": {
+        "terms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Winter",
+              "Spring",
+              "Summer",
+              "Fall"
+            ]
+          },
+          "description": "Which academic terms the course is typically offered in."
+        },
+        "years": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "All",
+              "Even",
+              "Odd",
+              "Annually",
+              "Biennially",
+              "Triennially"
+            ]
+          },
+          "description": "Which years the course is typically offered (e.g., 'All', 'Even', 'Odd', 'Annually', 'Biennially')."
+        },
+        "note": {
+          "type": "string",
+          "description": "Any additional notes about the offering pattern (e.g., 'May be offered online', 'Subject to change')."
+        }
+      },
+      "minProperties": 1,
+      "description": "Describes the general pattern of when a course is offered."
+    }
+  },
+  "properties": {
+    "courseId": {
+      "type": "string",
+      "description": "A canonical, unique ID for the course across all systems."
+    },
+    "courseCode": {
+      "type": "string",
+      "description": "The school-specific code (e.g., 'ACCT*1220', 'CS 101')."
+    },
+    "title": {
+      "type": "string",
+      "description": "The official title of the course."
+    },
+    "description": {
+      "type": "string",
+      "description": "The comprehensive descriptive text for the course, including the main summary."
+    },
+    "department": {
+      "$ref": "#/$defs/Department",
+      "description": "The primary academic department offering the course."
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The academic level of the course (e.g., 1000 for 1st year, 2000 for 2nd year). This can often be derived from the first digit of the course code."
+    },
+    "credits": {
+      "type": "number",
+      "minimum": 0,
+      "description": "The academic credit value of the course."
+    },
+    "countForPrograms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Program codes this course explicitly counts toward."
+    },
+    "excludeFromPrograms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Program codes this course explicitly does NOT count toward."
+    },
+    "prerequisites": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/RequisiteExpression"
+        },
+        {
+          "type": "string",
+          "description": "A raw string if complex parsing is not possible."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Structured expression for prerequisites, or a raw string."
+    },
+    "corequisites": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/RequisiteExpression"
+        },
+        {
+          "type": "string",
+          "description": "A raw string if complex parsing is not possible."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Structured expression for corequisites, or a raw string."
+    },
+    "antirequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Courses that cannot be taken if this course is taken (e.g., duplicate content)."
+    },
+    "crossListings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other course codes under which this course is also listed (e.g., BIOL 3000 also listed as ENVS 3000)."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Keywords for interest-based search or categorization (e.g., 'Sustainability', 'Quantitative')."
+    },
+    "termsOffered": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/OfferingPattern"
+      },
+      "description": "General patterns of when the course is offered (e.g., 'Fall Only, All Years'). This complements specific 'sections'."
+    },
+    "courseStatus": {
+      "type": "string",
+      "enum": [
+        "Active",
+        "Inactive",
+        "New",
+        "Retired",
+        "Pending Review",
+        "Cancelled",
+        "Closed"
+      ],
+      "description": "The current status of the course in the catalog."
+    },
+    "effectiveStartDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The date from which this course definition (e.g., requisites, credits) is effective."
+    },
+    "effectiveEndDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The date until which this course definition is effective, if applicable."
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Section"
+      },
+      "description": "Specific offerings of this course in various terms."
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Catch-all for school-specific or non-standard extras.",
+      "patternProperties": {
+        "^(?!raw$|description$|title$|credits$|department$|level$|courseId$|courseCode$|countForPrograms$|excludeFromPrograms$|prerequisites$|corequisites$|antirequisites$|crossListings$|tags$|termsOffered$|courseStatus$|effectiveStartDate$|effectiveEndDate$|sections$).*$": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "raw": {
+      "type": "object",
+      "description": "Top-level raw source fields, preserving original data if needed."
+    }
+  },
+  "required": [
+    "courseId",
+    "courseCode",
+    "title",
+    "credits"
+  ]
+}

@@ -1,0 +1,1118 @@
+[
+  {
+    "name": "Accounting",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/accounting/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/accounting-acct/#requirementstext"
+  },
+  {
+    "name": "Agriculture",
+    "degree": "Bachelor of Science in Agriculture",
+    "types": [
+      "Minor"
+    ],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/agriculture-agr/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/agriculture-agr/"
+  },
+  {
+    "name": "Animal Biology",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/animal-biology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/animal-biology-abio/#requirementstext"
+  },
+  {
+    "name": "Animal Science",
+    "degree": "Bachelor of Science in Agriculture",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/animal-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/animal-science-ansc/#requirementstext"
+  },
+  {
+    "name": "Anthropology",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/anthropology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/anthropology-anth/#requirementstext"
+  },
+  {
+    "name": "Applied Geomatics",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/applied-geomatics-ag/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/applied-geomatics-ag/"
+  },
+  {
+    "name": "Applied Human Nutrition",
+    "degree": "Bachelor of Applied Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/applied-human-nutrition/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/applied-human-nutrition-ahn/#requirementstext"
+  },
+  {
+    "name": "Art History",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/art-history/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/art-history-arth/#requirementstext"
+  },
+  {
+    "name": "Bachelor of Applied Science",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-applied-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-applied-science-basc/"
+  },
+  {
+    "name": "Bachelor of Arts",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-arts/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-arts-ba/"
+  },
+  {
+    "name": "Bachelor of Arts and Sciences",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-arts-and-sciences/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-arts-sciences-bas/"
+  },
+  {
+    "name": "Bachelor of Arts, General",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-arts-general-fully-online/",
+    "calendar_url": "https://uoguelph.ca/programs/bachelor-of-arts-general-fully-online/"
+  },
+  {
+    "name": "Bachelor of Bio-Resource Management",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-bio-resource-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-bio-resource-management-degree-bbrm/"
+  },
+  {
+    "name": "Bachelor of Commerce",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-commerce/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-commerce-bcomm/"
+  },
+  {
+    "name": "Bachelor of Computing",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-computing/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-computing-bcomp/"
+  },
+  {
+    "name": "Bachelor of Creative Arts, Health and Wellness",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-creative-arts-health-and-wellness/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-creative-arts-health-and-wellness/"
+  },
+  {
+    "name": "Bachelor of Engineering",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-engineering/",
+    "calendar_url": "https://uoguelph.ca/programs/bachelor-of-engineering/"
+  },
+  {
+    "name": "Bachelor of Indigenous Environmental Science and Practice",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-indigenous-environmental-science-and-practice/",
+    "calendar_url": "https://uoguelph.ca/programs/bachelor-of-indigenous-environmental-science-and-practice/"
+  },
+  {
+    "name": "Bachelor of Landscape Architecture",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-landscape-architecture/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-landscape-architecture-bla/"
+  },
+  {
+    "name": "Bachelor of Mathematics",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-mathematics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematical-science-msci/#majorbmtext"
+  },
+  {
+    "name": "Bachelor of One Health",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-one-health/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-of-one-health-boh/"
+  },
+  {
+    "name": "Bachelor of Science",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-science-bsc/"
+  },
+  {
+    "name": "Bachelor of Science in Agriculture",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-science-in-agriculture/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-science-agriculture-bsc-agr/"
+  },
+  {
+    "name": "Bachelor of Science in Environmental Sciences",
+    "degree": "Bachelor",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/bachelor-of-science-in-environmental-sciences/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-science-environmental-sciences-bsc-env/"
+  },
+  {
+    "name": "Bio-Medical Science",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biomedical-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/bio-medical-science-biom/#requirementstext"
+  },
+  {
+    "name": "Biochemistry",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biochemistry/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biochemistry-bioc"
+  },
+  {
+    "name": "Biological and Medical Physics",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biological-and-medical-physics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-medical-physics-bmph/#requirementstext"
+  },
+  {
+    "name": "Biological and Pharmaceutical Chemistry",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biological-and-pharmaceutical-chemistry/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-pharmaceutical-chemistry-bpch/#requirementstext"
+  },
+  {
+    "name": "Biological Engineering",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biological-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "Biological Science",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biological-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-science-bios/#requirementstext"
+  },
+  {
+    "name": "Biology",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biology-biol/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biology-biol/"
+  },
+  {
+    "name": "Biomedical Engineering",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biomedical-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "Biomedical Toxicology",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/biomedical-toxicology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biomedical-toxicology-btox/#requirementstext"
+  },
+  {
+    "name": "Biotechnology",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biotechnology-biot/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biotechnology-biot/"
+  },
+  {
+    "name": "Black Canadian Studies",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/black-canadian-studies-blck/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/black-canadian-studies-blck/"
+  },
+  {
+    "name": "Business",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-bus/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-bus/"
+  },
+  {
+    "name": "Business Data Analytics",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-data-analytics-bda/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-data-analytics-bda/"
+  },
+  {
+    "name": "Business Economics",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-economics-becn/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-economics-becn/"
+  },
+  {
+    "name": "Chemical Physics",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/chemical-physics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/chemical-physics-chpy/#requirementstext"
+  },
+  {
+    "name": "Chemistry",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/chemistry/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/chemistry-chem/#requirementstext"
+  },
+  {
+    "name": "Child Studies",
+    "degree": "Bachelor of Applied Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/child-studies/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/child-studies-cstu/#requirementstext"
+  },
+  {
+    "name": "Classical and Modern Cultures",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/classical-and-modern-cultures/",
+    "calendar_url": "https://www.uoguelph.ca/programs/classical-and-modern-cultures/"
+  },
+  {
+    "name": "Computer Engineering",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/computer-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "Computer Science",
+    "degree": "Bachelor of Computing",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/computer-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/computer-science-cs/#requirementstext"
+  },
+  {
+    "name": "Creative Writing",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/creative-writing/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/creative-writing-cw/#requirementstext"
+  },
+  {
+    "name": "Criminal Justice and Public Policy",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/criminal-justice-and-public-policy/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/criminal-justice-public-policy-cjpp/#requirementstext"
+  },
+  {
+    "name": "Crop Science",
+    "degree": "Bachelor of Science in Agriculture",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/crop-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/crop-science-crsc/#requirementstext"
+  },
+  {
+    "name": "Culture and Technology Studies",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/culture-and-technology-studies/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/culture-and-technology-studies-cts/#requirementstext"
+  },
+  {
+    "name": "Doctor of Veterinary Medicine",
+    "degree": "Doctor of Veterinary Medicine Degree",
+    "types": [],
+    "page_url": "https://uoguelph.ca/programs/doctor-veterinary-medicine/",
+    "calendar_url": "https://uoguelph.ca/programs/doctor-veterinary-medicine/"
+  },
+  {
+    "name": "Earth Observation and Geographic Information Science",
+    "degree": "Bachelor of Science in Environmental Sciences",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/earth-geographic-info-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-science-environmental-sciences-bsc-env/"
+  },
+  {
+    "name": "Ecology",
+    "degree": "Bachelor of Science in Environmental Sciences",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/ecology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/ecology-ecol/#requirementstext"
+  },
+  {
+    "name": "Economics",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/economics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/economics-econ/#requirementstext"
+  },
+  {
+    "name": "Engineering Systems and Computing",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/engineering-systems-and-computing/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "English",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/english/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/english-engl/#requirementstext"
+  },
+  {
+    "name": "Entrepreneurship",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/entrepreneurship-ent/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/entrepreneurship-ent/"
+  },
+  {
+    "name": "Environment and Resource Management",
+    "degree": "Bachelor of Science in Environmental Sciences",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/environment-and-resource-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environment-resource-management-erm/#requirementstext"
+  },
+  {
+    "name": "Environmental Economics and Policy",
+    "degree": "Bachelor of Science in Environmental Sciences",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/environmental-economics-and-policy/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/equine-management-major-eqm/#requirementstext"
+  },
+  {
+    "name": "Environmental Engineering",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/environmental-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "Environmental Governance",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/environmental-governance/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-governance-egov/#requirementstext"
+  },
+  {
+    "name": "Environmental Management",
+    "degree": "Bachelor of Bio-Resource Management",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/environmental-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-management-major-em/#requirementstext"
+  },
+  {
+    "name": "Environmental Sciences",
+    "degree": "Bachelor of Science in Environmental Sciences",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/environmental-sciences/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-sciences-envs/#requirementstext"
+  },
+  {
+    "name": "Equine Management",
+    "degree": "Bachelor of Bio-Resource Management",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/equine-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/equine-management-major-eqm/#requirementstext"
+  },
+  {
+    "name": "European Culture and Civilization",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/european-culture-civilization-ecc/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/european-culture-civilization-ecc/"
+  },
+  {
+    "name": "Family and Child Studies",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/family-child-studies-fcs/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/family-child-studies-fcs/"
+  },
+  {
+    "name": "Family Studies and Human Development",
+    "degree": "Bachelor of Applied Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/family-studies-and-human-development/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/family-studies-human-development-fshd/#requirementstext"
+  },
+  {
+    "name": "Food and Agricultural Business",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/food-and-agricultural-business/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-agricultural-business-fab/#requirementstext"
+  },
+  {
+    "name": "Food Engineering",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-engineering-feng/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-engineering-feng/"
+  },
+  {
+    "name": "Food Science",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/food-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-science-food/#requirementstext"
+  },
+  {
+    "name": "Food, Agricultural and Resource Economics",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/food-agricultural-resource-economics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-agricultural-resource-economics-fare/#requirementstext"
+  },
+  {
+    "name": "French Studies",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/french-studies/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/french-studies-fren/#requirementstext"
+  },
+  {
+    "name": "Geography",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/geography/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/geography-geog/#requirementstext"
+  },
+  {
+    "name": "German",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/german-germ/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/german-germ/"
+  },
+  {
+    "name": "Government, Economics and Management",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/government-economics-and-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/government-economics-and-management-gem/#requirementstext"
+  },
+  {
+    "name": "History",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/history/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/history-hist/#requirementstext"
+  },
+  {
+    "name": "Honours Agriculture",
+    "degree": "Bachelor of Science in Agriculture",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/honours-agriculture/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/honours-agriculture-agrs/#majortext"
+  },
+  {
+    "name": "Horticulture",
+    "degree": "Bachelor of Science in Agriculture",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/horticulture/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/horticulture-hort/#requirementstext"
+  },
+  {
+    "name": "Hospitality and Tourism Management",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/hospitality-and-tourism-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/hospitality-tourism-management-htm/#requirementstext"
+  },
+  {
+    "name": "Human Kinetics",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/human-kinetics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-kinetics-hk/#requirementstext"
+  },
+  {
+    "name": "Human Resources",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-resources-hr/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-resources-hr/"
+  },
+  {
+    "name": "International Business",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/international-business-ib/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/international-business-ib/"
+  },
+  {
+    "name": "International Development Studies",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/international-development-studies/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/international-development-studies-ids/#requirementstext"
+  },
+  {
+    "name": "Italian",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/italian-ital/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/italian-ital/"
+  },
+  {
+    "name": "Justice and Legal Studies",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/justice-and-legal-studies/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/justice-and-legal-studies-jls/#requirementstext"
+  },
+  {
+    "name": "Linguistics",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/linguistics-ling/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/linguistics-ling/"
+  },
+  {
+    "name": "Management",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/management-mgmt/#requirementstext"
+  },
+  {
+    "name": "Management Economics and Finance",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/management-economics-and-finance/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/management-economics-finance-mef/#requirementstext"
+  },
+  {
+    "name": "Marine and Freshwater Biology",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/marine-and-freshwater-biology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marine-freshwater-biology-mfb/#requirementstext"
+  },
+  {
+    "name": "Marketing",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marketing-mktg/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marketing-mktg/"
+  },
+  {
+    "name": "Marketing Management",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/marketing-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marketing-management-mkmn/#requirementstext"
+  },
+  {
+    "name": "Mathematical Economics",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/mathematical-economics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematical-economics-maec/#requirementstext"
+  },
+  {
+    "name": "Mathematics",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematics-math/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematics-math/"
+  },
+  {
+    "name": "Mechanical Engineering",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/mechanical-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "Mechatronics Engineering",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/mechatronics-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "Media and Cinema Studies",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/media-cinema-studies-mcst/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/media-cinema-studies-mcst/"
+  },
+  {
+    "name": "Microbiology",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/microbiology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/microbiology-micr/#requirementstext"
+  },
+  {
+    "name": "Molecular Biology and Genetics",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/molecular-biology-and-genetics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/molecular-biology-genetics-mbg/#requirementstext"
+  },
+  {
+    "name": "Museum Studies",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/museum-studies-ms/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/museum-studies-ms/"
+  },
+  {
+    "name": "Music",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/music/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/music-musc/#requirementstext"
+  },
+  {
+    "name": "Neuroscience",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/neuroscience/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/neuroscience-neur/#requirementstext"
+  },
+  {
+    "name": "Nutritional and Nutraceutical Sciences",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/nutritional-and-nutraceutical-sciences/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/nutritional-nutraceutical-sciences-nans/#requirementstext"
+  },
+  {
+    "name": "Philosophy",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/philosophy/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/philosophy-phil/#requirementstext"
+  },
+  {
+    "name": "Physical Science",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/physical-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/physical-science-psci/#requirementstext"
+  },
+  {
+    "name": "Physics",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/physics/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/physics-phys/#requirementstext"
+  },
+  {
+    "name": "Plant Science",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/plant-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/plant-science-plsc/#requirementstext"
+  },
+  {
+    "name": "Political Science",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/political-science/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/political-science-pols/#requirementstext"
+  },
+  {
+    "name": "Project Management",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/project-management-pm/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/project-management-pm/"
+  },
+  {
+    "name": "Psychology",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/psychology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/psychology-psyc/#requirementstext"
+  },
+  {
+    "name": "Real Estate",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/real-estate/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/real-estate-re/#requirementstext"
+  },
+  {
+    "name": "Sexualities, Genders and Social Change",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/sexualities-genders-and-social-change/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sexualities-genders-and-social-change-sxgn/#requirementstext"
+  },
+  {
+    "name": "Sociology",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/sociology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sociology-soc/#requirementstext"
+  },
+  {
+    "name": "Software Engineering",
+    "degree": "Bachelor of Computing",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/software-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/software-engineering-seng/#requirementstext"
+  },
+  {
+    "name": "Spanish and Hispanic Studies",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/spanish-hispanic-studies-spah/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/spanish-hispanic-studies-spah/"
+  },
+  {
+    "name": "Sport and Event Management",
+    "degree": "Bachelor of Commerce",
+    "types": [
+      "Major",
+      "Co-op",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/sport-and-event-management/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sport-event-management-spmt/#requirementstext"
+  },
+  {
+    "name": "Statistics",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/statistics-stat/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/statistics-stat/"
+  },
+  {
+    "name": "Studio Art",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/studio-art/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/studio-art-sart/#requirementstext"
+  },
+  {
+    "name": "Sustainable Business",
+    "degree": "Minor",
+    "types": [],
+    "page_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sustainable-business-sb/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sustainable-business-sb/"
+  },
+  {
+    "name": "Theatre Studies",
+    "degree": "Bachelor of Arts",
+    "types": [
+      "Major",
+      "Minor",
+      "Area of Concentration"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/theatre-studies/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/theatre-studies-thst/#requirementstext"
+  },
+  {
+    "name": "Theoretical Physics",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/theoretical-physics/",
+    "calendar_url": "https://www.uoguelph.ca/programs/theoretical-physics/"
+  },
+  {
+    "name": "Water Resources Engineering",
+    "degree": "Bachelor of Engineering",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/water-resources-engineering/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/bachelor-engineering-beng/#programstext"
+  },
+  {
+    "name": "Wildlife Biology and Conservation",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Co-op"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/wildlife-biology-and-conservation/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/wildlife-biology-conservation-wbc/#requirementstext"
+  },
+  {
+    "name": "Zoology",
+    "degree": "Bachelor of Science",
+    "types": [
+      "Major",
+      "Minor"
+    ],
+    "page_url": "https://www.uoguelph.ca/programs/zoology/",
+    "calendar_url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/zoology-zoo/#requirementstext"
+  }
+]

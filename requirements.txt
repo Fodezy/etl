@@ -1,0 +1,13 @@
+psycopg2-binary    # for Postgres inserts/upserts
+jsonschema         # validate transform output
+pytest             # test framework
+black              # code formatting
+isort              # import sorting
+pydantic
+datamodel-code-generator
+playwright
+chromium
+pydantic[email]
+lark
+lark-parser
+pandas

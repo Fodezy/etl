@@ -1,0 +1,11 @@
+// # File: src/parser/requisite_parser/grammars/common.lark
+// # No changes in this file for Sprint 2, but shown for completeness.
+
+// # A course code, e.g., CIS*1910
+COURSE_CODE: /[A-Z]{2,6}\*\d{4}/
+
+// # A number, used for credits or "N of" lists
+NUMBER: /\d+(\.\d+)?/
+
+// # Whitespace (to be ignored between tokens)
+WS: /\s+/

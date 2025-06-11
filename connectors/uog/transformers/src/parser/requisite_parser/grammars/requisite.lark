@@ -1,0 +1,24 @@
+// File: src/parser/requisite_parser/grammars/requisite.lark
+
+%import .common.COURSE_CODE
+%import .common.WS
+
+%ignore WS
+
+// --- GRAMMAR HIERARCHY ---
+
+?start: logical_or
+
+// LEVEL 1 (Lowest Precedence): OR
+?logical_or: logical_and ("OR" logical_and)*
+
+// LEVEL 2: AND (comma)
+?logical_and: atomic_expression ("," atomic_expression)*
+
+// LEVEL 3 (Highest Precedence): Atomic units
+?atomic_expression: course_code
+                  | "(" logical_or ")" -> group  // <-- NEW: Handles (E)
+                  | "[" logical_or "]" -> group  // <-- NEW: Handles [E]
+
+// Base rule for a course code
+course_code: COURSE_CODE

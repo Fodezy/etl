@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/universal-program.draft-02.json",
+  "title": "Universal Program Schema",
+  "description": "Draft 02 of a canonical, school-agnostic schema for academic program definitions.",
+  "type": "object",
+  "version": "02",
+
+  "$defs": {
+    "ProgramType": {
+      "type": "string",
+      "enum": [
+        "Major",
+        "Minor",
+        "Cooperative",
+        "Concentration",
+        "Certificate",
+        "Diploma",
+        "Doctoral",
+        "Master’s"
+      ]
+    },
+
+    "CourseRef": {
+      "type": "object",
+      "properties": {
+        "courseId": { "type": "string" },
+        "code":     { "type": "string" },
+        "title":    { "type": "string" },
+        "credits":  { "type": "number" }
+      },
+      "required": ["courseId","code"]
+    },
+
+    "RequirementGroup": {
+      "type": "object",
+      "properties": {
+        "groupId":     { "type": "string" },
+        "name":        { "type": "string" },
+        "description": { "type": "string" },
+        "creditsMin":  { "type": "number" },
+        "creditsMax":  { "type": "number" },
+        "courses": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/CourseRef" }
+        }
+      },
+      "required": ["groupId","name"]
+    },
+
+    "PanelItem": {
+      "type": "object",
+      "properties": {
+        "title":      { "type": "string" },
+        "paragraphs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "bulletList": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["title"]
+    }
+  },
+
+  "properties": {
+    "programId":        { "type": "string" },
+    "code":             { "type": "string" },
+    "name":             { "type": "string" },
+    "description":      { "type": "string" },
+    "url":              { "type": "string", "format": "uri" },
+
+    "programTypes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ProgramType" }
+    },
+
+    "degreeType":      { "type": "string" },
+    "department":      { "type": "string" },
+    "totalCredits":    { "type": "number" },
+
+    "creditBreakdown": {
+      "type": "object",
+      "additionalProperties": { "type": "number" }
+    },
+
+    "overview": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "panels": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/PanelItem" }
+    },
+
+    "requirementGroups": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/RequirementGroup" }
+    },
+
+    "prerequisiteMap": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+
+    "corequisiteMap": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "extensions": { "type": "object" },
+    "raw":        { "type": "object" }
+  },
+
+  "required": [
+    "programId",
+    "code",
+    "name",
+    "programTypes",
+    "totalCredits"
+  ]
+}

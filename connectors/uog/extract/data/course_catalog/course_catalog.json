@@ -1,0 +1,806 @@
+[
+  {
+    "text": "Accounting",
+    "name": "Accounting",
+    "specialization": "",
+    "code": "ACCT"
+  },
+  {
+    "text": "Agriculture",
+    "name": "Agriculture",
+    "specialization": "",
+    "code": "AGR"
+  },
+  {
+    "text": "Agriculture (Diploma)",
+    "name": "Agriculture",
+    "specialization": "Diploma",
+    "code": "DAGR"
+  },
+  {
+    "text": "Animal Science",
+    "name": "Animal Science",
+    "specialization": "",
+    "code": "ANSC"
+  },
+  {
+    "text": "Anthropology",
+    "name": "Anthropology",
+    "specialization": "",
+    "code": "ANTH"
+  },
+  {
+    "text": "Arabic",
+    "name": "Arabic",
+    "specialization": "",
+    "code": "ARAB"
+  },
+  {
+    "text": "Art History",
+    "name": "Art History",
+    "specialization": "",
+    "code": "ARTH"
+  },
+  {
+    "text": "Art History and Visual Culture",
+    "name": "Art History and Visual Culture",
+    "specialization": "",
+    "code": "AVC"
+  },
+  {
+    "text": "Arts and Sciences",
+    "name": "Arts and Sciences",
+    "specialization": "",
+    "code": "ASCI"
+  },
+  {
+    "text": "Arts, Humanities, Social Science",
+    "name": "Arts, Humanities, Social Science",
+    "specialization": "",
+    "code": "AHSS"
+  },
+  {
+    "text": "Biochemistry",
+    "name": "Biochemistry",
+    "specialization": "",
+    "code": "BIOC"
+  },
+  {
+    "text": "Bioinformatics",
+    "name": "Bioinformatics",
+    "specialization": "",
+    "code": "BINF"
+  },
+  {
+    "text": "Biology",
+    "name": "Biology",
+    "specialization": "",
+    "code": "BIOL"
+  },
+  {
+    "text": "Biomedical Science",
+    "name": "Biomedical Science",
+    "specialization": "",
+    "code": "BIOM"
+  },
+  {
+    "text": "Biophysics",
+    "name": "Biophysics",
+    "specialization": "",
+    "code": "BIOP"
+  },
+  {
+    "text": "Biotechnology",
+    "name": "Biotechnology",
+    "specialization": "",
+    "code": "BIOT"
+  },
+  {
+    "text": "Black Canadian Studies",
+    "name": "Black Canadian Studies",
+    "specialization": "",
+    "code": "BLCK"
+  },
+  {
+    "text": "Botany",
+    "name": "Botany",
+    "specialization": "",
+    "code": "BOT"
+  },
+  {
+    "text": "Business",
+    "name": "Business",
+    "specialization": "",
+    "code": "BUS"
+  },
+  {
+    "text": "Business Administration",
+    "name": "Business Administration",
+    "specialization": "",
+    "code": "BADM"
+  },
+  {
+    "text": "Capacity Development and Extension",
+    "name": "Capacity Development and Extension",
+    "specialization": "",
+    "code": "CDE"
+  },
+  {
+    "text": "Chemistry",
+    "name": "Chemistry",
+    "specialization": "",
+    "code": "CHEM"
+  },
+  {
+    "text": "Chinese",
+    "name": "Chinese",
+    "specialization": "",
+    "code": "CHIN"
+  },
+  {
+    "text": "Classical Studies",
+    "name": "Classical Studies",
+    "specialization": "",
+    "code": "CLAS"
+  },
+  {
+    "text": "Clinical Studies",
+    "name": "Clinical Studies",
+    "specialization": "",
+    "code": "CLIN"
+  },
+  {
+    "text": "Community Social Services",
+    "name": "Community Social Services",
+    "specialization": "",
+    "code": "CSS"
+  },
+  {
+    "text": "Computing and Information Science",
+    "name": "Computing and Information Science",
+    "specialization": "",
+    "code": "CIS"
+  },
+  {
+    "text": "Conservation Leadership",
+    "name": "Conservation Leadership",
+    "specialization": "",
+    "code": "CONS"
+  },
+  {
+    "text": "Co-operative Education",
+    "name": "Co-operative Education",
+    "specialization": "",
+    "code": "COOP"
+  },
+  {
+    "text": "Creative Arts, Health & Wellness",
+    "name": "Creative Arts, Health & Wellness",
+    "specialization": "",
+    "code": "CREA"
+  },
+  {
+    "text": "Creative Writing",
+    "name": "Creative Writing",
+    "specialization": "",
+    "code": "CRWR"
+  },
+  {
+    "text": "Criminal Justice and Public Policy",
+    "name": "Criminal Justice and Public Policy",
+    "specialization": "",
+    "code": "CJPP"
+  },
+  {
+    "text": "Criminology and Criminal Justice Policy",
+    "name": "Criminology and Criminal Justice Policy",
+    "specialization": "",
+    "code": "CCJP"
+  },
+  {
+    "text": "Critical Studies in Improvisation",
+    "name": "Critical Studies in Improvisation",
+    "specialization": "",
+    "code": "IMPR"
+  },
+  {
+    "text": "Crop Science",
+    "name": "Crop Science",
+    "specialization": "",
+    "code": "CROP"
+  },
+  {
+    "text": "Culture and Technology Studies",
+    "name": "Culture and Technology Studies",
+    "specialization": "",
+    "code": "CTS"
+  },
+  {
+    "text": "Data Science",
+    "name": "Data Science",
+    "specialization": "",
+    "code": "DATA"
+  },
+  {
+    "text": "Early Childhood Studies",
+    "name": "Early Childhood Studies",
+    "specialization": "",
+    "code": "ECS"
+  },
+  {
+    "text": "Economics",
+    "name": "Economics",
+    "specialization": "",
+    "code": "ECON"
+  },
+  {
+    "text": "Engineering",
+    "name": "Engineering",
+    "specialization": "",
+    "code": "ENGG"
+  },
+  {
+    "text": "English",
+    "name": "English",
+    "specialization": "",
+    "code": "ENGL"
+  },
+  {
+    "text": "Environmental Design and Rural Development",
+    "name": "Environmental Design and Rural Development",
+    "specialization": "",
+    "code": "EDRD"
+  },
+  {
+    "text": "Environmental Management",
+    "name": "Environmental Management",
+    "specialization": "",
+    "code": "ENVM"
+  },
+  {
+    "text": "Environmental Management (Diploma)",
+    "name": "Environmental Management",
+    "specialization": "Diploma",
+    "code": "DENM"
+  },
+  {
+    "text": "Environmental Sciences",
+    "name": "Environmental Sciences",
+    "specialization": "",
+    "code": "ENVS"
+  },
+  {
+    "text": "Equine",
+    "name": "Equine",
+    "specialization": "",
+    "code": "EQN"
+  },
+  {
+    "text": "Equine Care and Management (Diploma)",
+    "name": "Equine Care and Management",
+    "specialization": "Diploma",
+    "code": "DEQN"
+  },
+  {
+    "text": "European Studies",
+    "name": "European Studies",
+    "specialization": "",
+    "code": "EURO"
+  },
+  {
+    "text": "Family and Community Social Services",
+    "name": "Family and Community Social Services",
+    "specialization": "",
+    "code": "FCSS"
+  },
+  {
+    "text": "Family Relations and Human Development",
+    "name": "Family Relations and Human Development",
+    "specialization": "",
+    "code": "FRHD"
+  },
+  {
+    "text": "Family Rel's/Applied Nutrition",
+    "name": "Family Rel's/Applied Nutrition",
+    "specialization": "",
+    "code": "FRAN"
+  },
+  {
+    "text": "Finance",
+    "name": "Finance",
+    "specialization": "",
+    "code": "FIN"
+  },
+  {
+    "text": "Fine Art",
+    "name": "Fine Art",
+    "specialization": "",
+    "code": "FINA"
+  },
+  {
+    "text": "Food Safety and Quality Assurance",
+    "name": "Food Safety and Quality Assurance",
+    "specialization": "",
+    "code": "FSQA"
+  },
+  {
+    "text": "Food Science",
+    "name": "Food Science",
+    "specialization": "",
+    "code": "FOOD"
+  },
+  {
+    "text": "Food, Agricultural and Resource Economics",
+    "name": "Food, Agricultural and Resource Economics",
+    "specialization": "",
+    "code": "FARE"
+  },
+  {
+    "text": "French Studies",
+    "name": "French Studies",
+    "specialization": "",
+    "code": "FREN"
+  },
+  {
+    "text": "Geography",
+    "name": "Geography",
+    "specialization": "",
+    "code": "GEOG"
+  },
+  {
+    "text": "German Studies",
+    "name": "German Studies",
+    "specialization": "",
+    "code": "GERM"
+  },
+  {
+    "text": "Greek Studies",
+    "name": "Greek Studies",
+    "specialization": "",
+    "code": "GREK"
+  },
+  {
+    "text": "Hispanic Studies",
+    "name": "Hispanic Studies",
+    "specialization": "",
+    "code": "HISP"
+  },
+  {
+    "text": "History",
+    "name": "History",
+    "specialization": "",
+    "code": "HIST"
+  },
+  {
+    "text": "Horticultural Science",
+    "name": "Horticultural Science",
+    "specialization": "",
+    "code": "HORT"
+  },
+  {
+    "text": "Horticulture (Diploma)",
+    "name": "Horticulture",
+    "specialization": "Diploma",
+    "code": "DHRT"
+  },
+  {
+    "text": "Hospitality and Tourism Management",
+    "name": "Hospitality and Tourism Management",
+    "specialization": "",
+    "code": "HTM"
+  },
+  {
+    "text": "Human Health and Nutritional Sciences",
+    "name": "Human Health and Nutritional Sciences",
+    "specialization": "",
+    "code": "HHNS"
+  },
+  {
+    "text": "Human Kinetics",
+    "name": "Human Kinetics",
+    "specialization": "",
+    "code": "HK"
+  },
+  {
+    "text": "Human Resources and Organizational Behaviour",
+    "name": "Human Resources and Organizational Behaviour",
+    "specialization": "",
+    "code": "HROB"
+  },
+  {
+    "text": "Humanities",
+    "name": "Humanities",
+    "specialization": "",
+    "code": "HUMN"
+  },
+  {
+    "text": "Indigenous Environmental Science",
+    "name": "Indigenous Environmental Science",
+    "specialization": "",
+    "code": "IES"
+  },
+  {
+    "text": "Indigenous Studies",
+    "name": "Indigenous Studies",
+    "specialization": "",
+    "code": "INDG"
+  },
+  {
+    "text": "Integrative Biology",
+    "name": "Integrative Biology",
+    "specialization": "",
+    "code": "IBIO"
+  },
+  {
+    "text": "Interdisciplinary Agriculture, Environment and Food",
+    "name": "Interdisciplinary Agriculture, Environment and Food",
+    "specialization": "",
+    "code": "IAEF"
+  },
+  {
+    "text": "Interdisciplinary Physical Science",
+    "name": "Interdisciplinary Physical Science",
+    "specialization": "",
+    "code": "IPS"
+  },
+  {
+    "text": "Interdisciplinary Social Science",
+    "name": "Interdisciplinary Social Science",
+    "specialization": "",
+    "code": "ISS"
+  },
+  {
+    "text": "Interdisciplinary University",
+    "name": "Interdisciplinary University",
+    "specialization": "",
+    "code": "UNIV"
+  },
+  {
+    "text": "International Development Studies",
+    "name": "International Development Studies",
+    "specialization": "",
+    "code": "IDEV"
+  },
+  {
+    "text": "Italian Studies",
+    "name": "Italian Studies",
+    "specialization": "",
+    "code": "ITAL"
+  },
+  {
+    "text": "Justice and Legal Studies",
+    "name": "Justice and Legal Studies",
+    "specialization": "",
+    "code": "JLS"
+  },
+  {
+    "text": "Justice Studies",
+    "name": "Justice Studies",
+    "specialization": "",
+    "code": "JUST"
+  },
+  {
+    "text": "Kinesiology",
+    "name": "Kinesiology",
+    "specialization": "",
+    "code": "KIN"
+  },
+  {
+    "text": "Landscape Architecture",
+    "name": "Landscape Architecture",
+    "specialization": "",
+    "code": "LARC"
+  },
+  {
+    "text": "Latin",
+    "name": "Latin",
+    "specialization": "",
+    "code": "LAT"
+  },
+  {
+    "text": "Latin American and Caribbean Studies",
+    "name": "Latin American and Caribbean Studies",
+    "specialization": "",
+    "code": "LACS"
+  },
+  {
+    "text": "Leadership",
+    "name": "Leadership",
+    "specialization": "",
+    "code": "LEAD"
+  },
+  {
+    "text": "Linguistics",
+    "name": "Linguistics",
+    "specialization": "",
+    "code": "LING"
+  },
+  {
+    "text": "Literary Studies and Theatre Studies in English",
+    "name": "Literary Studies and Theatre Studies in English",
+    "specialization": "",
+    "code": "LTS"
+  },
+  {
+    "text": "Management",
+    "name": "Management",
+    "specialization": "",
+    "code": "MGMT"
+  },
+  {
+    "text": "Marketing and Consumer Studies",
+    "name": "Marketing and Consumer Studies",
+    "specialization": "",
+    "code": "MCS"
+  },
+  {
+    "text": "Mathematics",
+    "name": "Mathematics",
+    "specialization": "",
+    "code": "MATH"
+  },
+  {
+    "text": "Media Studies",
+    "name": "Media Studies",
+    "specialization": "",
+    "code": "MDST"
+  },
+  {
+    "text": "Microbiology",
+    "name": "Microbiology",
+    "specialization": "",
+    "code": "MICR"
+  },
+  {
+    "text": "Molecular and Cellular Biology",
+    "name": "Molecular and Cellular Biology",
+    "specialization": "",
+    "code": "MCB"
+  },
+  {
+    "text": "Molecular Biology and Genetics",
+    "name": "Molecular Biology and Genetics",
+    "specialization": "",
+    "code": "MBG"
+  },
+  {
+    "text": "Music",
+    "name": "Music",
+    "specialization": "",
+    "code": "MUSC"
+  },
+  {
+    "text": "Nanoscience",
+    "name": "Nanoscience",
+    "specialization": "",
+    "code": "NANO"
+  },
+  {
+    "text": "Neuroscience",
+    "name": "Neuroscience",
+    "specialization": "",
+    "code": "NEUR"
+  },
+  {
+    "text": "Nutrition",
+    "name": "Nutrition",
+    "specialization": "",
+    "code": "NUTR"
+  },
+  {
+    "text": "One Health",
+    "name": "One Health",
+    "specialization": "",
+    "code": "ONEH"
+  },
+  {
+    "text": "Organic Agriculture",
+    "name": "Organic Agriculture",
+    "specialization": "",
+    "code": "OAGR"
+  },
+  {
+    "text": "Pathobiology",
+    "name": "Pathobiology",
+    "specialization": "",
+    "code": "PABI"
+  },
+  {
+    "text": "Pathology",
+    "name": "Pathology",
+    "specialization": "",
+    "code": "PATH"
+  },
+  {
+    "text": "Performance Horse Handler (Certificate)",
+    "name": "Performance Horse Handler",
+    "specialization": "Certificate",
+    "code": "CPHH"
+  },
+  {
+    "text": "Philosophy",
+    "name": "Philosophy",
+    "specialization": "",
+    "code": "PHIL"
+  },
+  {
+    "text": "Physics",
+    "name": "Physics",
+    "specialization": "",
+    "code": "PHYS"
+  },
+  {
+    "text": "Plant Agriculture",
+    "name": "Plant Agriculture",
+    "specialization": "",
+    "code": "PLNT"
+  },
+  {
+    "text": "Plant Biology",
+    "name": "Plant Biology",
+    "specialization": "",
+    "code": "PBIO"
+  },
+  {
+    "text": "Political Science",
+    "name": "Political Science",
+    "specialization": "",
+    "code": "POLS"
+  },
+  {
+    "text": "Population Medicine",
+    "name": "Population Medicine",
+    "specialization": "",
+    "code": "POPM"
+  },
+  {
+    "text": "Portuguese",
+    "name": "Portuguese",
+    "specialization": "",
+    "code": "PORT"
+  },
+  {
+    "text": "Psychology",
+    "name": "Psychology",
+    "specialization": "",
+    "code": "PSYC"
+  },
+  {
+    "text": "Real Estate and Housing",
+    "name": "Real Estate and Housing",
+    "specialization": "",
+    "code": "REAL"
+  },
+  {
+    "text": "Royal Military College",
+    "name": "Royal Military College",
+    "specialization": "",
+    "code": "ROY"
+  },
+  {
+    "text": "Rural Planning and Development",
+    "name": "Rural Planning and Development",
+    "specialization": "",
+    "code": "RPD"
+  },
+  {
+    "text": "Rural Studies",
+    "name": "Rural Studies",
+    "specialization": "",
+    "code": "RST"
+  },
+  {
+    "text": "Science and Math",
+    "name": "Science and Math",
+    "specialization": "",
+    "code": "SCMA"
+  },
+  {
+    "text": "Seneca College",
+    "name": "Seneca College",
+    "specialization": "",
+    "code": "XSEN"
+  },
+  {
+    "text": "Sexualities and Genders",
+    "name": "Sexualities and Genders",
+    "specialization": "",
+    "code": "SXGN"
+  },
+  {
+    "text": "Social Practice",
+    "name": "Social Practice",
+    "specialization": "",
+    "code": "SOPR"
+  },
+  {
+    "text": "Sociology",
+    "name": "Sociology",
+    "specialization": "",
+    "code": "SOC"
+  },
+  {
+    "text": "Sociology and Anthropology",
+    "name": "Sociology and Anthropology",
+    "specialization": "",
+    "code": "SOAN"
+  },
+  {
+    "text": "Spanish",
+    "name": "Spanish",
+    "specialization": "",
+    "code": "SPAN"
+  },
+  {
+    "text": "Sport and Event Management",
+    "name": "Sport and Event Management",
+    "specialization": "",
+    "code": "SPMT"
+  },
+  {
+    "text": "Statistics",
+    "name": "Statistics",
+    "specialization": "",
+    "code": "STAT"
+  },
+  {
+    "text": "Studio Art",
+    "name": "Studio Art",
+    "specialization": "",
+    "code": "SART"
+  },
+  {
+    "text": "Theatre Studies",
+    "name": "Theatre Studies",
+    "specialization": "",
+    "code": "THST"
+  },
+  {
+    "text": "Tourism and Hospitality",
+    "name": "Tourism and Hospitality",
+    "specialization": "",
+    "code": "TRMH"
+  },
+  {
+    "text": "Toxicology",
+    "name": "Toxicology",
+    "specialization": "",
+    "code": "TOX"
+  },
+  {
+    "text": "Turfgrass Management (Diploma)",
+    "name": "Turfgrass Management",
+    "specialization": "Diploma",
+    "code": "DTM"
+  },
+  {
+    "text": "Veterinary Medicine",
+    "name": "Veterinary Medicine",
+    "specialization": "",
+    "code": "VETM"
+  },
+  {
+    "text": "Veterinary Office Administration (Certificate)",
+    "name": "Veterinary Office Administration",
+    "specialization": "Certificate",
+    "code": "CVOA"
+  },
+  {
+    "text": "Veterinary Technology (Diploma)",
+    "name": "Veterinary Technology",
+    "specialization": "Diploma",
+    "code": "DVT"
+  },
+  {
+    "text": "Women's Studies",
+    "name": "Women's Studies",
+    "specialization": "",
+    "code": "WMST"
+  },
+  {
+    "text": "Zoology",
+    "name": "Zoology",
+    "specialization": "",
+    "code": "ZOO"
+  }
+]
