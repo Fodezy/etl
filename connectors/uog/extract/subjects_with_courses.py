@@ -21,18 +21,23 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-async def main():
+
+async def extract_and_parse_subjects(write_json: bool = True) -> dict:
+    """
+    Scrape subjects with courses, dump raw & cleaned JSON (if write_json=True),
+    and return the cleaned data as a dict.
+    """
     # 1) Load the subject catalog
     base_dir = Path(__file__).resolve().parent
     catalog_file = base_dir / 'data' / 'course_catalog' / 'course_catalog.json'
     if not catalog_file.exists():
         logger.error(f"Subject catalog not found at {catalog_file}")
-        return
+        return {}
 
     logger.info(f"Stage 2: Loading subject catalog from {catalog_file}")
     subjects = json.loads(catalog_file.read_text(encoding='utf-8'))
 
-    # 2) Scrape courses concurrently using run_in_executor
+    # 2) Scrape courses concurrently
     logger.info(f"Stage 2: Scraping {len(subjects)} subjects with {MAX_WORKERS} workers…")
     loop = asyncio.get_running_loop()
     executor = ThreadPoolExecutor(max_workers=MAX_WORKERS)
@@ -48,34 +53,37 @@ async def main():
 
     tasks = [fetch_subj(s['code'], s['text']) for s in subjects]
     pairs = await asyncio.gather(*tasks)
-    # shutdown executor without waiting for all threads
     executor.shutdown(wait=False)
-
     results = {code: courses for code, courses in pairs}
 
     # 3) Write raw intermediate output
-    raw_dir = base_dir / 'data' / 'course_catalog'
-    raw_dir.mkdir(parents=True, exist_ok=True)
-    raw_file = raw_dir / 'subjects_with_courses_raw.json'
-    raw_file.write_text(
-        json.dumps(results, ensure_ascii=False, indent=2),
-        encoding='utf-8'
-    )
-    logger.info(f"Stage 2: Saved raw courses to {raw_file}")
+    if write_json:
+        raw_dir = base_dir / 'data' / 'course_catalog'
+        raw_dir.mkdir(parents=True, exist_ok=True)
+        raw_file = raw_dir / 'subjects_with_courses_raw.json'
+        raw_file.write_text(
+            json.dumps(results, ensure_ascii=False, indent=2),
+            encoding='utf-8'
+        )
+        logger.info(f"Stage 2: Saved raw courses to {raw_file}")
 
     # 4) Clean & normalize
     logger.info("Stage 2: Cleaning and normalizing course data…")
     cleaned = parse_subjects_with_courses(results)
 
     # 5) Write cleaned output only to connectors/uog/raw
-    cleaned_dir = base_dir.parent / 'raw'
-    cleaned_dir.mkdir(parents=True, exist_ok=True)
-    clean_file = cleaned_dir / 'subjects_with_courses.json'
-    clean_file.write_text(
-        json.dumps(cleaned, ensure_ascii=False, indent=2),
-        encoding='utf-8'
-    )
-    logger.info(f"Stage 2: Saved cleaned courses to {clean_file}")
+    if write_json:
+        cleaned_dir = base_dir.parent / 'raw'
+        cleaned_dir.mkdir(parents=True, exist_ok=True)
+        clean_file = cleaned_dir / 'subjects_with_courses.json'
+        clean_file.write_text(
+            json.dumps(cleaned, ensure_ascii=False, indent=2),
+            encoding='utf-8'
+        )
+        logger.info(f"Stage 2: Saved cleaned courses to {clean_file}")
+
+    return cleaned
+
 
 if __name__ == '__main__':
-    asyncio.run(main())
+    asyncio.run(extract_and_parse_subjects(write_json=True))

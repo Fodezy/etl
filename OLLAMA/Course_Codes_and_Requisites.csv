@@ -1,0 +1,2396 @@
+course_code,requisites
+ACCT*1220,None
+ACCT*1240,ACCT*1220 or ACCT*2220 - Must be completed prior to taking this course.
+ACCT*2230,ACCT*1220 - Must be completed prior to taking this course.
+ACCT*2290,4.00 credits including (ACCT*1240 or ACCT*2230) - Must be completed prior to taking this course.
+ACCT*3230,ACCT*2230 - Must be completed prior to taking this course.
+ACCT*3280,ACCT*3330 - Must be completed prior to taking this course.
+ACCT*3330,ACCT*1220 or ACCT*2220 - Must be completed prior to taking this course.
+ACCT*3340,ACCT*3330 - Must be completed prior to taking this course.
+ACCT*3350,ACCT*3330 - Must be completed prior to taking this course.
+ACCT*3400,9.00 credits - Must be completed prior to taking this course.
+ACCT*4020,"ACCT*2230, MGMT*3020 - Must be completed prior to taking this course."
+ACCT*4220,"(ACCT*3330 or BUS*3330), (ACCT*3340 or BUS*3340) - Must be completed prior to taking this course."
+ACCT*4230,ACCT*3230 or BUS*3230 - Must be completed prior to taking this course.
+ACCT*4270,ACCT*3280 or BUS*3280 - Must be completed prior to taking this course.
+ACCT*4290,ACCT*3280 or BUS*4280 - Must be completed prior to taking this course.
+ACCT*4340,15.00 credits including ACCT*3340 - Must be completed prior to taking this course.
+ACCT*4350,ACCT*3350 or BUS*3350 - Must be completed prior to taking this course.
+ACCT*4440,"15.00 credits including ACCT*3280, ACCT*3340, ACCT*3350 - Must be completed prior to taking this course."
+ACCT*6100,None
+ACCT*6200,None
+ACCT*6300,None
+ACCT*6400,None
+ACCT*6500,None
+ACCT*6600,None
+ACCT*6700,"ACCT*6100, ACCT*6200 - Must be completed prior to taking this course."
+AGR*1110,None
+AGR*1350,"1 of BIOL*1050, BIOL*1070, BIOL*1080 BIOL*1090 - Must be completed prior to taking this course."
+AGR*2050,"(AGR*1110 or AGR*2150), (BIOL*1050 or BIOL*1070) - Must be completed prior to taking this course."
+AGR*2150,4.00 credits - Must be completed prior to taking this course.
+AGR*2320,2.50 credits - Must be completed prior to taking this course.
+AGR*2350,"(2 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090) - Must be completed prior to taking this course."
+AGR*2470,BIOL*1050 or BIOL*1070 - Must be completed prior to taking this course.
+AGR*2500,(AGR*1110 or AGR*1250) or registration in International Development - Must be completed prior to taking this course.
+AGR*3010,10.00 credits - Must be completed prior to taking this course.
+AGR*3200,9.50 credits - Must be completed prior to taking this course.
+AGR*3450,"Completion of 7.50 credits including (1 of GEOG*2460, STAT*2040 , STAT*2060, STAT*2080) - Must be completed prior to taking this course."
+AGR*4010,15.00 credits - Must be completed prior to taking this course.
+AGR*4020,"AGR*2470, STAT*2040, (BIOL*1050 or BIOL*1070) - Must be completed prior to taking this course."
+AGR*4450,10.00 credits - Must be completed prior to taking this course.
+AGR*4460,AGR*4450 - Must be completed prior to taking this course.
+AGR*4600,12.50 credits - Must be completed prior to taking this course.
+AGR*6010,AGR*6020 - Must be taken either prior to or at the same time as this course.
+AGR*6020,AGR*6010 - Must be taken either prior to or at the same time as this course.
+DAGR*1000,None
+DAGR*1070,None
+DAGR*1090,None
+DAGR*1200,None
+DAGR*1300,None
+DAGR*1350,None
+DAGR*1600,None
+DAGR*2000,DAGR*1000 - Must be completed prior to taking this course.
+DAGR*2020,DAGR*1070 - Must be completed prior to taking this course.
+DAGR*2090,None
+DAGR*2150,None
+DAGR*2170,None
+DAGR*2180,2.50 credits - Must be completed prior to taking this course.
+DAGR*2200,"DAGR*1200, DAGR*1300 - Must be completed prior to taking this course."
+DAGR*2210,DAGR*1200 - Must be completed prior to taking this course.
+DAGR*2220,None
+DAGR*2360,None
+DAGR*3000,DAGR*2000 - Must be completed prior to taking this course.
+DAGR*3040,DAGR*2000 - Must be completed prior to taking this course.
+DAGR*3070,DAGR*1070 - Must be completed prior to taking this course.
+DAGR*3080,DAGR*1070 - Must be completed prior to taking this course.
+DAGR*3130,None
+DAGR*3170,5.00 credits including DAGR*2170 - Must be completed prior to taking this course.
+DAGR*3180,5.00 credits including DAGR*2000 - Must be completed prior to taking this course.
+DAGR*3200,"DAGR*1200, DAGR*1300 - Must be completed prior to taking this course."
+DAGR*3210,DAGR*1200 - Must be completed prior to taking this course.
+DAGR*3250,"DAGR*1200, (1 of DAGR*1300, DHRT*2230, DHRT*3230) - Must be completed prior to taking this course."
+DAGR*3260,"DAGR*1200, (1 of DAGR*1300, DHRT*2230, DHRT*3230) - Must be completed prior to taking this course."
+DAGR*3370,"DAGR*1000, DAGR*2000 - Must be completed prior to taking this course."
+DAGR*3510,"4.00 credits, registration in the Diploma Program in Agriculture - Must be completed prior to taking this course."
+ANSC*2210,"1 of AGR*1350, AGR*2350, EQN*1010 - Must be completed prior to taking this course."
+ANSC*2340,"2 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090 - Must be completed prior to taking this course."
+ANSC*3040,ANSC*3080 - Must be completed prior to taking this course.
+ANSC*3050,AGR*2350 or ZOO*2090 - Must be completed prior to taking this course.
+ANSC*3080,"1 of BIOC*2580, EQN*2040, EQN*2050 - Must be completed prior to taking this course."
+ANSC*3090,ANSC*1210 or ANSC*2210 - Must be completed prior to taking this course.
+ANSC*3120,NUTR*3210 - Must be taken either prior to or at the same time as this course.
+ANSC*3170,NUTR*3210 - Must be completed prior to taking this course.
+ANSC*3180,NUTR*3210 - Must be completed prior to taking this course.
+ANSC*3270,ANSC*3080 - Must be completed prior to taking this course.
+ANSC*4010,"15.00 credits including ANSC*3080, (ANSC*1210 or ANSC*2210) - Must be completed prior to taking this course."
+ANSC*4040,"ANSC*3120, STAT*2040 - Must be completed prior to taking this course."
+ANSC*4050,MBG*2040 or MBG*2400 - Must be completed prior to taking this course.
+ANSC*4060,"NUTR*3210, 0.50 credits in Statistics - Must be completed prior to taking this course."
+ANSC*4090,"ANSC*3080, ANSC*3090 - Must be completed prior to taking this course."
+ANSC*4100,ANSC*3080 - Must be completed prior to taking this course.
+ANSC*4230,"ANSC*3080, ANSC*3120, MBG*3060 - Must be completed prior to taking this course."
+ANSC*4260,ANSC*3120 - Must be completed prior to taking this course.
+ANSC*4270,ANSC*3120 - Must be completed prior to taking this course.
+ANSC*4280,ANSC*3120 - Must be completed prior to taking this course.
+ANSC*4290,ANSC*3120 - Must be completed prior to taking this course.
+ANSC*4350,14.00 credits including ANSC*3080 - Must be completed prior to taking this course.
+ANSC*4470,NUTR*3210 - Must be completed prior to taking this course.
+ANSC*4490,ANSC*3080 - Must be completed prior to taking this course.
+ANSC*4560,NUTR*3210 - Must be completed prior to taking this course.
+ANSC*4610,15.00 credits including 2.00 in ANSC or EQN - Must be completed prior to taking this course.
+ANSC*4650,ANSC*3080 - Must be completed prior to taking this course.
+ANSC*4700,14.00 credits - Must be completed prior to taking this course.
+ANSC*4710,ANSC*4700 - Must be completed prior to taking this course.
+ANSC*6010,None
+ANTH*1120,None
+ANTH*1150,None
+ANTH*2180,"1 of ANTH*1150, IDEV*1000, SOC*1100 - Must be completed prior to taking this course."
+ANTH*2230,ANTH*1150 - Must be completed prior to taking this course.
+ANTH*2660,"1 of ANTH*1150, IDEV*1000, IES*1010, SOC*1100 - Must be completed prior to taking this course."
+ANTH*3550,"SOAN*2120, (1 of ANTH*2160, ANTH*2180, ANTH*2230, ANTH*2660) - Must be completed prior to taking this course."
+ANTH*3650,"(1 of ANTH*2160, ANTH*2180, IDEV*2200, IES*2010), (1 of ANTH*2230, ANTH*2660, HIST*2090, IDEV*2000, IDEV*2400) - Must be completed prior to taking this course."
+ANTH*3690,"ANTH*2230, (ANTH*2160 or ANTH*2180), SOAN*2120 - Must be completed prior to taking this course."
+ANTH*3770,"ANTH*2230, (ANTH*2160 or ANTH*2180), SOAN*2120 - Must be completed prior to taking this course."
+ANTH*3840,"10.00 credits including (ANTH*2160, ANTH*2180), SOAN*2120 - Must be completed prior to taking this course."
+ANTH*3850,"10.00 credits including (ANTH*2160, ANTH*2180), SOAN*2120 - Must be completed prior to taking this course."
+ANTH*3950,10.00 credits - Must be completed prior to taking this course.
+ANTH*4300,"12.50 credits including ANTH*3690, SOAN*3070 - Must be completed prior to taking this course."
+ANTH*4440,"12.50 credits including (1 of ANTH*3690, IDEV*2000, IDEV*2300, ONEH*3000), (1 of GEOG*2260, POLS*2650, IDEV*2100, SOAN*2120) - Must be completed prior to taking this course."
+ANTH*4540,"12.50 credits including (ANTH*3690 or SOC*3310), SOAN*3070 - Must be completed prior to taking this course."
+ANTH*4550,"12.50 credits including (1 of ANTH*3690, IDEV*2000, IDEV*2300, ONEH*3000), (1 of GEOG*2260, POLS*2650, IDEV*2100, SOAN*2120, SOAN*3070) - Must be completed prior to taking this course."
+ANTH*4640,"12.50 credits including (ANTH*3690 or SOC*3310), SOAN*3070 - Must be completed prior to taking this course."
+ANTH*4700,"12.50 credits including ANTH*3690, SOAN*3070 - Must be completed prior to taking this course."
+ANTH*4740,"12.50 credits including (ANTH*3690 or SOC*3310), SOAN*3070 - Must be completed prior to taking this course."
+ANTH*4840,"12.50 credits including (ANTH*3690 or SOC*3310), SOAN*3070 - Must be completed prior to taking this course."
+ANTH*4880,12.50 credits - Must be completed prior to taking this course.
+ANTH*4890,12.50 credits - Must be completed prior to taking this course.
+ANTH*4900,"15.00 credits including ANTH*3690, (SOAN*3070 or SOAN*3120) - Must be completed prior to taking this course."
+ANTH*4910,ANTH*4900 - Must be completed prior to taking this course.
+ANTH*6000,None
+ANTH*6080,None
+ANTH*6140,None
+ANTH*6270,None
+ANTH*6420,None
+ANTH*6460,None
+ARAB*1100,None
+ARAB*1110,ARAB*1100 - Must be completed prior to taking this course.
+ARTH*1510,None
+ARTH*1520,None
+ARTH*2010,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2060,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2070,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2120,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2150,2.00 credits or (ARTH*1510 or ARTH*1520) - Must be completed prior to taking this course.
+ARTH*2300,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2480,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2540,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2550,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*2610,"1 of (2.00 credits, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+ARTH*3040,7.50 credits or 1.50 credits in Art History - Must be completed prior to taking this course.
+ARTH*3150,None
+ARTH*3230,7.50 credits or 1.50 credits in Art History. - Must be completed prior to taking this course.
+ARTH*3360,7.50 credits or 1.50 credits in Art History - Must be completed prior to taking this course.
+ARTH*3610,7.50 credits or 1.50 credits in Art History - Must be completed prior to taking this course.
+ARTH*3720,7.50 credits or 1.50 credits in Art History - Must be completed prior to taking this course.
+ARTH*4000,10.00 credits including 1.00 credits in Art History at the 3000 level - Must be completed prior to taking this course.
+ARTH*4600,"14.00 credits, including 6.00 credits in Art History. - Must be completed prior to taking this course."
+ARTH*4800,A minimum of 14.00 credits including 2.50 credits in Art History. - Must be completed prior to taking this course.
+AVC*6100,None
+AVC*6200,AVC*6100 - Must be completed prior to taking this course.
+AVC*6300,None
+AVC*6310,None
+AVC*6320,None
+AVC*6330,None
+AVC*6340,None
+AVC*6350,None
+AVC*6400,None
+AVC*6500,None
+AVC*6800,None
+ASCI*1110,None
+ASCI*1120,None
+ASCI*2050,ASCI*1120 - Must be completed prior to taking this course.
+ASCI*3000,ASCI*2050 - Must be completed prior to taking this course.
+ASCI*3100,ASCI*2050 - Must be completed prior to taking this course.
+ASCI*3200,ASCI*2050 - Must be completed prior to taking this course.
+ASCI*3700,A minimum of 9.00 credits. - Must be completed prior to taking this course.
+ASCI*4010,"12.00 credits, including (1 of ASCI*3000, ASCI*3100, ASCI*3200, ASCI*3700); cumulative average of 75% - Must be completed prior to taking this course."
+ASCI*4020,12.00 credits including 0.50 of ASCI at the 3000 level - Must be completed prior to taking this course.
+ASCI*4030,12.00 credits including 0.50 of ASCI at the 3000 level - Must be completed prior to taking this course.
+ASCI*4040,12.00 credits including 0.50 of ASCI at the 3000 level - Must be completed prior to taking this course.
+ASCI*4050,12.00 credits including 0.50 of ASCI at the 3000 level - Must be completed prior to taking this course.
+ASCI*4700,A minimum of 14.00 credits. - Must be completed prior to taking this course.
+ASCI*4710,ASCI*4700 - Must be completed prior to taking this course.
+AHSS*1000,None
+AHSS*1010,AHSS*1000 - Must be completed prior to taking this course.
+AHSS*1020,None
+AHSS*1030,None
+AHSS*1040,None
+AHSS*1050,None
+AHSS*1070,None
+AHSS*1080,None
+AHSS*1100,None
+AHSS*1110,None
+AHSS*1120,None
+AHSS*1130,None
+AHSS*1140,None
+AHSS*1150,None
+AHSS*1160,None
+AHSS*1170,None
+AHSS*1200,6.00 credits - Must be completed prior to taking this course.
+AHSS*1210,None
+AHSS*1220,None
+AHSS*1230,None
+AHSS*1240,None
+AHSS*1250,None
+AHSS*1260,None
+AHSS*1270,None
+AHSS*1280,None
+AHSS*1290,None
+AHSS*1300,None
+AHSS*1310,None
+AHSS*1320,None
+AHSS*1330,None
+BIOC*2580,CHEM*1050 - Must be completed prior to taking this course.
+BIOC*3560,BIOC*2580 - Must be completed prior to taking this course.
+BIOC*3570,"BIOC*2580, (CHEM*2400 or CHEM*2480) - Must be completed prior to taking this course."
+BIOC*4050,BIOC*3560 - Must be completed prior to taking this course.
+BIOC*4520,BIOC*3560 or BIOC*3570 - Must be completed prior to taking this course.
+BIOC*4540,"BIOC*3560 (may be taken concurrently), BIOC*3570 - Must be completed prior to taking this course."
+BIOC*4580,BIOC*3560 or BIOC*3570 - Must be completed prior to taking this course.
+BINF*6110,None
+BINF*6210,None
+BINF*6410,None
+BINF*6420,None
+BINF*6500,None
+BINF*6890,None
+BINF*6970,None
+BINF*6999,"BINF*6110, BINF*6210 - Must be completed prior to taking this course."
+BIOL*1020,None
+BIOL*1050,None
+BIOL*1070,None
+BIOL*1080,None
+BIOL*1090,None
+BIOL*1500,None
+BIOL*2060,4.00 credits including BIOL*1070 - Must be completed prior to taking this course.
+BIOL*2300,BIOL*1070 - Must be completed prior to taking this course.
+BIOL*2400,"BIOL*1090, (BIOL*1050 or BIOL*1070) - Must be completed prior to taking this course."
+BIOL*3010,"BIOL*2060, (STAT*2040 or STAT*2230) - Must be completed prior to taking this course."
+BIOL*3020,MBG*2040 - Must be completed prior to taking this course.
+BIOL*3040,BIOL*2400 - Must be completed prior to taking this course.
+BIOL*3060,"10.00 credits including BIOL*2060, (1 of GEOG*2460, STAT*2040, STAT*2060, STAT*2230) - Must be completed prior to taking this course."
+BIOL*3130,BIOL*2060 - Must be completed prior to taking this course.
+BIOL*3300,"MBG*2040, (1 of STAT*2040, STAT*2120, STAT*2230) - Must be completed prior to taking this course."
+BIOL*3450,"BIOL*2060, CHEM*1050 - Must be completed prior to taking this course."
+BIOL*3650,"9.00 credits including (2 of BIOL*1070, BIOL*1080, BIOL*1090) - Must be completed prior to taking this course."
+BIOL*3660,"7.50 credits, minimum cumulative average of 60% - Must be completed prior to taking this course."
+BIOL*3670,"1 of ANSC*2340, BIOL*2060, BIOL*2400, ZOO*2090 - Must be completed prior to taking this course."
+BIOL*3680,BIOL*3670 - Must be completed prior to taking this course.
+BIOL*4010,ZOO*3210 or ZOO*3620 - Must be taken either prior to or at the same time as this course.
+BIOL*4020,14.00 credits - Must be completed prior to taking this course.
+BIOL*4110,"BIOL*3010, BIOL*3060, (STAT*2040 or STAT*2230) - Must be completed prior to taking this course."
+BIOL*4120,"BIOL*2060, BIOL*2400 - Must be completed prior to taking this course."
+BIOL*4150,BIOL*3060 or BIOL*3130 - Must be completed prior to taking this course.
+BIOL*4350,BIOL*3450 - Must be completed prior to taking this course.
+BIOL*4410,0.50 credits in Ecology - Must be completed prior to taking this course.
+BIOL*4500,15.00 credits including BIOL*4150 - Must be completed prior to taking this course.
+BIOL*4610,BIOL*2060 - Must be completed prior to taking this course.
+BIOL*4700,BIOL*2060 - Must be completed prior to taking this course.
+BIOM*2000,None
+BIOM*3000,"1 of BIOM*3200, HK*3810, HK*3940, NEUR*2000, PHYS*2030, PSYC*2410, ZOO*3200, ZOO*3600 - Must be completed prior to taking this course."
+BIOM*3010,"1 of BIOL*1070, BIOL*1080, BIOL*1090 - Must be completed prior to taking this course."
+BIOM*3040,"(BIOL*1070, BIOL*1090), (1 of BIOL*1080, BIOM*3200, HK*3810, HK*3940), (1of BIOM*3010, HK*3401, HK*3501, ZOO*2090) - Must be completed prior to taking this course."
+BIOM*3090,"BIOC*2580, (1 of ANSC*3080, BIOM*3200, HK*3810, ZOO*3200, ZOO*3600) - Must be completed prior to taking this course."
+BIOM*3200,BIOC*2580 - Must be completed prior to taking this course.
+BIOM*3210,"7.50 credits including (1 of BIOL*1070, BIOL*1080, BIOL*1090) - Must be completed prior to taking this course."
+BIOM*4030,"BIOC*2580, [1 of BIOM*3200, HK*3810, HK*3940, (ZOO*3200, ZOO*3210), ZOO*3600] - Must be completed prior to taking this course."
+BIOM*4050,"1 of BIOM*3200, HK*3810, HK*3940 - Must be completed prior to taking this course."
+BIOM*4070,"(MCB*2050 or MCB*2210), (1of ANSC*3080, BIOM*3200, HK*3810, HK*3940) - Must be completed prior to taking this course."
+BIOM*4090,BIOM*3090 - Must be completed prior to taking this course.
+BIOM*4110,"(1 of BIOM*3010, HK*3401, HK*3501, ZOO*2090), (1 of BIOM*3200, HK*3810, ZOO*3210, ZOO*3620) - Must be completed prior to taking this course."
+BIOM*4150,"MBG*2040, MCB*2050, (1 of BIOM*3040, BIOM*4070, ZOO*3000) - Must be completed prior to taking this course."
+BIOM*4180,"(1of BIOM*3200, HK*3810, HK*3940), (1 of BIOM*3010, HK*3401, HK*3501, ZOO*2090) - Must be completed prior to taking this course."
+BIOM*4300,"14.00 credits including BIOL*1080, STAT*2040 - Must be completed prior to taking this course."
+BIOM*4500,12.00 credits - Must be completed prior to taking this course.
+BIOM*4510,14.00 credits - Must be completed prior to taking this course.
+BIOM*4521,14.00 credits - Must be completed prior to taking this course.
+BIOM*4522,BIOM*4521 - Must be completed prior to taking this course.
+BIOM*6070,None
+BIOM*6100,None
+BIOM*6110,None
+BIOM*6130,None
+BIOM*6160,None
+BIOM*6300,None
+BIOM*6310,None
+BIOM*6400,None
+BIOM*6490,None
+BIOM*6570,None
+BIOM*6601,None
+BIOP*6000,None
+BIOP*6010,None
+BIOP*6950,None
+BIOT*6500,None
+BIOT*6550,None
+BIOT*6600,None
+BIOT*6610,BIOT*6600 - Must be completed prior to taking this course.
+BIOT*6700,None
+BIOT*6800,None
+BLCK*1000,None
+BLCK*2000,2.00 credits - Must be completed prior to taking this course.
+BLCK*2020,BLCK*1000 or BLCK*2000 - Must be completed prior to taking this course.
+BLCK*3000,BLCK*2020 - Must be completed prior to taking this course.
+BLCK*3010,BLCK*2020 - Must be completed prior to taking this course.
+BOT*1200,None
+BOT*2000,BIOL*1050 or BIOL*1070 - Must be completed prior to taking this course.
+BOT*2100,"2 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090 - Must be completed prior to taking this course."
+BOT*3050,7.50 credits including BIOL*1070 - Must be completed prior to taking this course.
+BOT*3310,"BIOL*1090, (BIOL*1070 or BIOL*1080) - Must be completed prior to taking this course."
+BOT*3410,"2 of BIOL*1070, BIOL*1080, BIOL*1090 - Must be completed prior to taking this course."
+BOT*3710,7.50 credits including BIOL*1070 - Must be completed prior to taking this course.
+BOT*4380,"BIOL*1090, BIOC*2580 - Must be completed prior to taking this course."
+BUS*4550,10.00 credits - Must be completed prior to taking this course.
+BUS*4560,BUS*4550 - Must be completed prior to taking this course.
+BUS*6050,None
+BUS*6060,None
+BUS*6070,None
+BUS*6100,None
+BUS*6110,None
+BUS*6120,None
+BUS*6140,None
+BUS*6150,None
+BUS*6180,None
+BUS*6190,None
+BUS*6200,None
+BUS*6220,None
+BUS*6230,None
+BUS*6300,None
+BUS*6320,None
+BUS*6400,None
+BUS*6440,None
+BUS*6450,None
+BUS*6500,None
+BUS*6510,BUS*6320 Minimum grade 065; - Must be completed prior to taking this course.
+BUS*6520,None
+BUS*6550,None
+BUS*6590,None
+BUS*6600,None
+BUS*6700,None
+BUS*6790,None
+BUS*6800,None
+BUS*6810,BUS*6800 - Must be taken either prior to or at the same time as this course.
+BADM*1010,None
+BADM*1020,None
+BADM*1040,None
+BADM*1050,None
+BADM*1070,None
+BADM*1100,None
+BADM*2000,2.00 credits - Must be completed prior to taking this course.
+BADM*2010,BADM*1050 or BADM*1060 - Must be completed prior to taking this course.
+BADM*2020,BADM*1040 or MDST*1200 - Must be completed prior to taking this course.
+BADM*2030,"5.00 credits, BADM*1040 or MDST*1200 - Must be completed prior to taking this course."
+BADM*2040,"5.00 credits, BADM*1040 - Must be completed prior to taking this course."
+BADM*2050,"5.00 credits, including BADM*1100 - Must be completed prior to taking this course."
+BADM*2060,"5.00 credits, SCMA*1000 - Must be completed prior to taking this course."
+BADM*3000,"5.00 credits, [BADM*1050 or (BADM*1030, BADM*1060)] - Must be completed prior to taking this course."
+BADM*3030,"BADM*1040, BADM*2020 - Must be completed prior to taking this course."
+BADM*3040,"10.00 credits including: AHSS*1000, AHSS*1010, BADM*3160 - Must be completed prior to taking this course."
+BADM*3060,7.50 credits including: BADM*1010 - Must be completed prior to taking this course.
+BADM*3080,"BADM*1010, BADM*1040 - Must be completed prior to taking this course."
+BADM*3090,"BADM*1010, BADM*3000 - Must be completed prior to taking this course."
+BADM*3100,"10.00 credits including (BADM*1100, BADM*3210) - Must be completed prior to taking this course."
+BADM*3110,7.50 credits - Must be completed prior to taking this course.
+BADM*3120,"BADM*2010, (BADM*1050 or BADM*1060) - Must be completed prior to taking this course."
+BADM*3130,BADM*3120 - Must be completed prior to taking this course.
+BADM*3140,"10.00 credits including: AHSS*1000, AHSS*1010, BADM*3000 - Must be completed prior to taking this course."
+BADM*3150,"BADM*2010, SCMA*1000 - Must be completed prior to taking this course."
+BADM*3160,"SCMA*1000, BADM*3000 - Must be completed prior to taking this course."
+BADM*3200,7.50 credits including: AHSS*1010 - Must be completed prior to taking this course.
+BADM*3210,"10.00 credits, including BADM*1100 - Must be completed prior to taking this course."
+BADM*3240,"BADM*2020, BADM*2030 - Must be completed prior to taking this course."
+BADM*3270,BADM*3000 - Must be completed prior to taking this course.
+CDE*6000,None
+CDE*6010,None
+CDE*6020,None
+CDE*6030,None
+CDE*6070,None
+CDE*6100,None
+CDE*6260,None
+CDE*6290,None
+CDE*6311,None
+CDE*6340,None
+CDE*6410,None
+CDE*6420,None
+CDE*6690,None
+CDE*6900,None
+CHEM*1040,4U Chemistry (or equivalent) or CHEM*1060 - Must be completed prior to taking this course.
+CHEM*1050,CHEM*1040 - Must be completed prior to taking this course.
+CHEM*1060,None
+CHEM*1140,4U Chemistry (or equivalent) or CHEM*1060 - Must be completed prior to taking this course.
+CHEM*1150,CHEM*1040 or CHEM*1140 - Must be completed prior to taking this course.
+CHEM*2060,"CHEM*1050, [IPS*1500 or (MATH*1080 or MATH*1200), (1 of PHYS*1010, PHYS*1070, PHYS*1300)] - Must be completed prior to taking this course."
+CHEM*2070,CHEM*2060 - Must be completed prior to taking this course.
+CHEM*2400,CHEM*1050 - Must be completed prior to taking this course.
+CHEM*2480,CHEM*1050 - Must be completed prior to taking this course.
+CHEM*2700,CHEM*1050 - Must be completed prior to taking this course.
+CHEM*2720,CHEM*1050 - Must be completed prior to taking this course.
+CHEM*2820,"CHEM*1050, (1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080) - Must be completed prior to taking this course."
+CHEM*2880,"CHEM*1050, (1 of IPS*1500, MATH*1080, MATH*1200) - Must be completed prior to taking this course."
+CHEM*3360,CHEM*1050 - Must be completed prior to taking this course.
+CHEM*3430,(CHEM*2400 or CHEM*2480) - Must be completed prior to taking this course.
+CHEM*3440,CHEM*3430 - Must be completed prior to taking this course.
+CHEM*3640,CHEM*2060 - Must be completed prior to taking this course.
+CHEM*3650,CHEM*3640 - Must be completed prior to taking this course.
+CHEM*3750,CHEM*2700 - Must be completed prior to taking this course.
+CHEM*3860,"CHEM*2060, (MATH*2170 or MATH*2270) - Must be completed prior to taking this course."
+CHEM*4010,CHEM*2700 or CHEM*2720 - Must be completed prior to taking this course.
+CHEM*4020,"CHEM*3430, CHEM*3750 - Must be completed prior to taking this course."
+CHEM*4400,CHEM*3430 - Must be completed prior to taking this course.
+CHEM*4620,CHEM*2060 - Must be completed prior to taking this course.
+CHEM*4630,"BIOC*2580, CHEM*3640 - Must be completed prior to taking this course."
+CHEM*4720,CHEM*3750 - Must be completed prior to taking this course.
+CHEM*4730,CHEM*3750 - Must be completed prior to taking this course.
+CHEM*4740,"BIOC*2580, CHEM*3750 - Must be completed prior to taking this course."
+CHEM*4880,"CHEM*3860, (CHEM*2820 or PHYS*3240) - Must be completed prior to taking this course."
+CHEM*4900,"5.00 credits in chemistry including 3 of CHEM*3430, CHEM*3640, CHEM*3650, CHEM*3750, CHEM*3760, CHEM*3860, CHEM*3870, CHEM*4020, NANO*3800 - Must be completed prior to taking this course."
+CHIN*1200,None
+CHIN*1210,CHIN*1200 - Must be completed prior to taking this course.
+CHIN*1280,None
+CHIN*1290,CHIN*1280 - Must be completed prior to taking this course.
+CHIN*2200,CHIN*1210 - Must be completed prior to taking this course.
+CHIN*2210,CHIN*2200 - Must be completed prior to taking this course.
+CLAS*1000,None
+CLAS*2000,None
+CLAS*2150,None
+CLAS*2220,2.00 credits - Must be completed prior to taking this course.
+CLAS*2350,CLAS*1000 or CLAS*2000 - Must be completed prior to taking this course.
+CLAS*2360,LAT*2000 - Must be completed prior to taking this course.
+CLAS*3020,"1 of CLAS*1000, CLAS*2000, HIST*2850 - Must be completed prior to taking this course."
+CLAS*3030,CLAS*1000 or CLAS*2000 - Must be completed prior to taking this course.
+CLAS*3040,CLAS*1000 or CLAS*2000 - Must be completed prior to taking this course.
+CLAS*3050,GREK*2020 - Must be completed prior to taking this course.
+CLAS*3060,LAT*2000 - Must be completed prior to taking this course.
+CLAS*3070,GREK*2020 - Must be completed prior to taking this course.
+CLAS*3080,GREK*2020 - Must be completed prior to taking this course.
+CLAS*3090,GREK*2020 - Must be completed prior to taking this course.
+CLAS*3120,LAT*2000 - Must be completed prior to taking this course.
+CLAS*3150,None
+CLAS*3300,"[LAT*2000, (1 of CLAS*2350, CLAS*3010, CLAS*3100, CLAS*4000)], or [GREK*2020, (1 of CLAS*3000, CLAS*3020, CLAS*3030, CLAS*3040)] - Must be completed prior to taking this course."
+CLAS*3500,"1 of CLAS*1000, CLAS*2000, HIST*2850 - Must be completed prior to taking this course."
+CLAS*3700,10.00 credits including 1.50 credits in Classics. - Must be completed prior to taking this course.
+CLAS*3900,"One of CLAS*1000, CLAS*2000, SXGN*1000 - Must be completed prior to taking this course."
+CLAS*4000,CLAS*3030 or CLAS*3040 - Must be completed prior to taking this course.
+CLAS*4010,LAT*2000 - Must be completed prior to taking this course.
+CLAS*4150,1.50 credits in Classical Studies courses at the 3000 level - Must be completed prior to taking this course.
+CLAS*4400,1.50 credits in Classical Studies at the 3000 level - Must be completed prior to taking this course.
+CLAS*4990,1.50 credits in Classical Studies at the 3000 level - Must be completed prior to taking this course.
+CLIN*6010,None
+CLIN*6030,None
+CLIN*6031,None
+CLIN*6170,None
+CLIN*6180,None
+CLIN*6181,None
+CLIN*6190,None
+CLIN*6200,None
+CLIN*6270,None
+CLIN*6310,None
+CLIN*6330,None
+CLIN*6350,None
+CLIN*6370,None
+CLIN*6380,None
+CLIN*6420,None
+CLIN*6440,CLIN*6420 - Must be completed prior to taking this course.
+CLIN*6460,CLIN*6420 and CLIN*6440 - Must be completed prior to taking this course.
+CLIN*6550,None
+CLIN*6560,None
+CLIN*6570,None
+CLIN*6580,None
+CLIN*6590,None
+CLIN*6600,None
+CLIN*6610,None
+CLIN*6620,None
+CLIN*6661,None
+CLIN*6670,None
+CLIN*6680,None
+CLIN*6690,None
+CLIN*6700,None
+CSS*1000,None
+CSS*1010,None
+CSS*1020,None
+CSS*1030,AHSS*1190 or CSS*1190 - Must be completed prior to taking this course.
+CSS*1040,None
+CSS*1120,None
+CSS*1190,None
+CSS*1210,None
+CSS*2010,3.00 credits including (CSS*1010 or FCSS*1010) - Must be completed prior to taking this course.
+CSS*2020,3.00 credits including: (CSS*1020 or FCSS*1020) - Must be completed prior to taking this course.
+CSS*2030,"3.00 credits, CSS*1000 or FCSS*1000 - Must be completed prior to taking this course."
+CSS*2040,"1 of CSS*2000, CSS*2020, CSS*2070, FCSS*2000, FCSS*2020, FCSS*2070 - Must be completed prior to taking this course."
+CSS*2050,"1 of CSS*2020, CSS*2070, FCSS*2020, FCSS*2070 - Must be completed prior to taking this course."
+CSS*2060,"1 of CSS*2000, CSS*2070, FCSS*2000, FCSS*2070 - Must be completed prior to taking this course."
+CSS*2070,3.00 credits including (CSS*1020 or FCSS*1020) - Must be completed prior to taking this course.
+CSS*2080,3.00 credits - Must be completed prior to taking this course.
+CSS*2090,5.00 credits - Must be completed prior to taking this course.
+CSS*3010,5.00 credits - Must be completed prior to taking this course.
+CSS*3020,7.50 credits - Must be completed prior to taking this course.
+CSS*3030,AHSS*2080 or CSS*2050 - Must be completed prior to taking this course.
+CSS*3040,"(CSS*2060 or FCSS*2060), (1 of CSS*2000, CSS*2070, FCSS*2000 or FCSS*2070) - Must be completed prior to taking this course."
+CSS*3060,7.50 credits - Must be completed prior to taking this course.
+CSS*3100,7.50 credits - Must be completed prior to taking this course.
+CSS*3120,"(AHSS*2080 or CSS*2050), (CSS*2040 or FCSS*2040) - Must be completed prior to taking this course."
+CSS*3130,(CSS*3120 or FCSS*3120) - Must be completed prior to taking this course.
+CSS*4000,12.50 credits including: (AHSS*2090 or CSS*2090) - Must be completed prior to taking this course.
+CSS*4010,12.50 credits - Must be completed prior to taking this course.
+CSS*4030,12.50 credits - Must be completed prior to taking this course.
+CSS*4040,12.50 credits - Must be completed prior to taking this course.
+CSS*4050,"15.00 credits including CSS*1020, CSS*1030, CSS*2060 - Must be completed prior to taking this course."
+CIS*1050,None
+CIS*1200,None
+CIS*1250,None
+CIS*1300,None
+CIS*1500,None
+CIS*1910,None
+CIS*2030,"CIS*1910, CIS*2500 - Must be completed prior to taking this course."
+CIS*2170,"1 of CIS*1200, CIS*1300, CIS*1500 - Must be completed prior to taking this course."
+CIS*2250,"CIS*1250, CIS*1300 - Must be completed prior to taking this course."
+CIS*2430,CIS*2500 - Must be completed prior to taking this course.
+CIS*2500,CIS*1300 - Must be completed prior to taking this course.
+CIS*2520,"(CIS*2500 or ENGG*1420), (1 of CIS*1910, ENGG*1500, MATH*2000) - Must be completed prior to taking this course."
+CIS*2750,"CIS*2520, (CIS*2430 or ENGG*1420) - Must be completed prior to taking this course."
+CIS*2910,"(CIS*1300 or ENGG*1410), (CIS*1910 or ENGG*1500) - Must be completed prior to taking this course."
+CIS*3050,CIS*3110 - Must be completed prior to taking this course.
+CIS*3090,"(CIS*2030 or ENGG*3640), CIS*3110 - Must be completed prior to taking this course."
+CIS*3110,"CIS*2520, (CIS*2030 or ENGG*2410). - Must be completed prior to taking this course."
+CIS*3120,"CIS*1910, CIS*2500 - Must be completed prior to taking this course."
+CIS*3130,"CIS*2500, STAT*2040 - Must be completed prior to taking this course."
+CIS*3150,"CIS*2750, CIS*3490 - Must be completed prior to taking this course."
+CIS*3190,CIS*2500 or work experience in a related field. - Must be completed prior to taking this course.
+CIS*3210,CIS*3110 - Must be completed prior to taking this course.
+CIS*3250,"CIS*2250, CIS*2500 - Must be completed prior to taking this course."
+CIS*3260,"CIS*2750, CIS*3250, CIS*3760 - Must be completed prior to taking this course."
+CIS*3490,"[CIS*1910 or (CIS*2910 and ENGG*1500)], CIS*2520 - Must be completed prior to taking this course."
+CIS*3530,CIS*2520 - Must be completed prior to taking this course.
+CIS*3700,"(CIS*3750 or CIS*3760), (CIS*2460 or STAT*2040) - Must be completed prior to taking this course."
+CIS*3750,"9.00 credits including CIS*2520, (CIS*2430 or ENGG*1420) - Must be completed prior to taking this course."
+CIS*3760,"CIS*2750, CIS*3750 - Must be completed prior to taking this course."
+CIS*4010,CIS*3110 - Must be completed prior to taking this course.
+CONS*6000,None
+CONS*6010,None
+CONS*6020,None
+CONS*6030,None
+CONS*6040,None
+CONS*6050,None
+CONS*6100,None
+CONS*6300,None
+COOP*1000,COOP*1100 - Must be completed prior to taking this course.
+COOP*1010,COOP*1110 - Must be completed prior to taking this course.
+COOP*1020,None
+COOP*1100,2.00 credits - Must be completed prior to taking this course.
+COOP*1110,2.00 credits - Must be completed prior to taking this course.
+COOP*1120,None
+COOP*2000,Completion of previous co-op work requirements in COOP*1000 - Must be completed prior to taking this course.
+COOP*2020,Completion of previous co-op work requirements in COOP*1010 - Must be completed prior to taking this course.
+COOP*3000,Completion of previous co-op work requirements in COOP*2000 - Must be completed prior to taking this course.
+COOP*3030,Completion of previous co-op work requirements in COOP*2020 - Must be completed prior to taking this course.
+COOP*4000,Completion of previous co-op work requirements in COOP*3000 - Must be completed prior to taking this course.
+COOP*4040,Completion of previous co-op work requirements in COOP*3030 - Must be completed prior to taking this course.
+COOP*5000,Completion of previous co-op work requirements in COOP*4000 - Must be completed prior to taking this course.
+COOP*G1,None
+COOP*G2,COOP*G1 - Must be completed prior to taking this course.
+COOP*G3,None
+CREA*1000,None
+CREA*1010,None
+CREA*2000,CREA*1000 or CREA*1010 - Must be completed prior to taking this course.
+CREA*2010,CREA*1000 or CREA*1010 - Must be completed prior to taking this course.
+CREA*3000,CREA*2010 - Must be completed prior to taking this course.
+CREA*3010,CREA*3000 - Must be completed prior to taking this course.
+CREA*4000,CREA*3010 - Must be completed prior to taking this course.
+CREA*4010,CREA*4000 - Must be completed prior to taking this course.
+CRWR*1000,None
+CRWR*2000,2.00 credits - Must be completed prior to taking this course.
+CRWR*2100,CRWR*1000 or ENGL*2920 - Must be completed prior to taking this course.
+CRWR*2150,CRWR*1000 or ENGL*2920 - Must be completed prior to taking this course.
+CRWR*2200,CRWR*1000 or ENGL*2920 - Must be completed prior to taking this course.
+CRWR*2300,CRWR*1000 or ENGL*2920 - Must be completed prior to taking this course.
+CRWR*2400,CRWR*1000 or ENGL*2920 - Must be completed prior to taking this course.
+CRWR*3100,"1 of CRWR*2100, CRWR*2150, (ENGL*1080, ENGL*2920) - Must be completed prior to taking this course."
+CRWR*3200,"CRWR*2200 or (ENGL*1080, ENGL*2920) - Must be completed prior to taking this course."
+CRWR*3300,CRWR*2300 - Must be completed prior to taking this course.
+CRWR*3400,CRWR*2400 - Must be completed prior to taking this course.
+CRWR*3500,CRWR*2400 or THST*2120 - Must be completed prior to taking this course.
+CRWR*4100,CRWR*3100 - Must be completed prior to taking this course.
+CRWR*4300,CRWR*3300 - Must be completed prior to taking this course.
+CRWR*4400,CRWR*3400 or CRWR*3500 - Must be completed prior to taking this course.
+CRWR*4700,0.50 credits in CRWR at the 3000 level - Must be completed prior to taking this course.
+CRWR*6000,None
+CRWR*6010,None
+CRWR*6100,None
+CRWR*6120,None
+CRWR*6200,None
+CRWR*6220,None
+CRWR*6240,None
+CRWR*6300,None
+CRWR*6320,None
+CRWR*6400,None
+CRWR*6500,None
+CRWR*6600,None
+CJPP*1000,None
+CJPP*6100,None
+CJPP*6200,None
+CJPP*6300,None
+CJPP*6350,None
+CJPP*6400,None
+CJPP*6650,None
+CJPP*6800,None
+CCJP*6660,None
+IMPR*6010,None
+IMPR*6020,None
+IMPR*6030,None
+IMPR*6040,None
+IMPR*6410,None
+IMPR*6500,None
+IMPR*6510,IMPR*6500 - Must be completed prior to taking this course.
+CROP*3300,AGR*2050 or AGR*2470 - Must be completed prior to taking this course.
+CROP*3310,AGR*2050 or AGR*2470 - Must be completed prior to taking this course.
+CROP*3340,"1 of AGR*2050, AGR*2320, AGR*2470, ENVS*2060 - Must be completed prior to taking this course."
+CROP*4220,"(1 of CROP*3300, CROP*3310, CROP*3340), (1 of AGR*2320, ENVS*3080, ENVS*4090, ENVS*4160) - Must be completed prior to taking this course."
+CROP*4240,AGR*2470 - Must be completed prior to taking this course.
+CROP*4260,12.50 credits including AGR*2470 - Must be completed prior to taking this course.
+CTS*1000,None
+CTS*2000,None
+CTS*2010,2.00 credits or CTS*1000 - Must be completed prior to taking this course.
+CTS*3000,"CTS*1000, (CTS*2000 or CTS*2010) - Must be completed prior to taking this course."
+CTS*3010,"CTS*1000, (CTS*2000 or CTS*2010) - Must be completed prior to taking this course."
+CTS*3020,None
+CTS*3030,"CTS*2000, CTS*2010 - Must be completed prior to taking this course."
+CTS*4000,10.00 credits or 1.50 credits in CTS - Must be completed prior to taking this course.
+CTS*4010,"CTS*2000, CTS*2010, and CTS*3000 - Must be completed prior to taking this course."
+CTS*4020,Take CTS*4010 - Must be completed prior to taking this course.
+CTS*4030,"10.00 credits including CTS*2000, CTS*2010 - Must be completed prior to taking this course."
+DATA*6100,None
+DATA*6200,None
+DATA*6300,None
+DATA*6400,None
+DATA*6500,None
+DATA*6600,DATA*6200 and DATA*6300 - Must be completed prior to taking this course.
+DATA*6700,None
+ECS*1000,None
+ECS*1010,None
+ECS*1030,ECS*1000 - Must be completed prior to taking this course.
+ECS*1050,None
+ECS*1060,None
+ECS*1070,ECS*1010 - Must be completed prior to taking this course.
+ECS*1080,ECS*1000 - Must be completed prior to taking this course.
+ECS*2000,"ECS*1010, (AHSS*2040 or ECS*1050) - Must be completed prior to taking this course."
+ECS*2010,"ECS*1010, ECS*1030, (AHSS*2040 or ECS*1050) - Must be completed prior to taking this course."
+ECS*2030,AHSS*2040 or ECS*1050 - Must be completed prior to taking this course.
+ECS*2040,"ECS*1030, ECS*2050, (AHSS*2040 or ECS*1050) - Must be completed prior to taking this course."
+ECS*2050,"ECS*1010, ECS*1070, (AHSS*2040 or ECS*1050) - Must be completed prior to taking this course."
+ECS*2060,ECS*2050 - Must be completed prior to taking this course.
+ECS*2070,ECS*1070 or ECS*2020 - Must be completed prior to taking this course.
+ECS*2080,2.00 credits - Must be completed prior to taking this course.
+ECS*2100,"ECS*1010, (AHSS*2040 or ECS*1050) - Must be completed prior to taking this course."
+ECS*2110,4.00 credits - Must be completed prior to taking this course.
+ECS*3020,ECS*2040 - Must be completed prior to taking this course.
+ECS*3030,"ECS*2040, (ECS*2070 orECS* 3010) - Must be completed prior to taking this course."
+ECS*3050,10.00 credits - Must be completed prior to taking this course.
+ECS*3060,ECS*3030 - Must be completed prior to taking this course.
+ECS*3070,2.00 credits - Must be completed prior to taking this course.
+ECS*3080,10.00 credits - Must be completed prior to taking this course.
+ECS*3090,ECS*2000 or ECS*2100 - Must be completed prior to taking this course.
+ECS*3100,ECS*2070 or ECS*3010 - Must be completed prior to taking this course.
+ECS*3110,7.50 credits - Must be completed prior to taking this course.
+ECS*3120,10.00 credits - Must be completed prior to taking this course.
+ECS*3150,10.00 credits - Must be completed prior to taking this course.
+ECS*3160,10.00 credits - Must be completed prior to taking this course.
+ECS*3170,10.00 credits - Must be completed prior to taking this course.
+ECON*1050,None
+ECON*1100,None
+ECON*2100,ECON*1050 or FARE*1040 - Must be completed prior to taking this course.
+ECON*2310,"(ECON*1050 or FARE*1040), (1 of IPS*1500, MATH*1030, MATH*1080, MATH*1200) - Must be completed prior to taking this course."
+ECON*2410,"ECON*1100, (1 of IPS*1500, MATH*1030, MATH*1080, MATH*1200) - Must be completed prior to taking this course."
+ECON*2650,ECON*1100 (ECON*1050 or FARE*1040) - Must be completed prior to taking this course.
+ECON*2740,"ECON*1100, (ECON*1050, or FARE*1040), (1 of MATH*1000, MATH*1030, MATH*1050, MATH*1080, MATH*1200) - Must be completed prior to taking this course."
+ECON*2770,"ECON*1100, (ECON*1050, or FARE*1040), (1 of MATH*1030, MATH*1080, MATH*1200) - Must be completed prior to taking this course."
+ECON*2900,8.00 credits. - Must be completed prior to taking this course.
+ECON*3100,"ECON*2310, ECON*2410, (ECON*2770 or MATH*1210) - Must be completed prior to taking this course."
+ECON*3300,"ECON*2310, (1 of ECON*2740, PSYC*2010, STAT*2040, STAT*2050, STAT*2060, STAT*2080, STAT*2090, STAT*2100, STAT*2120) - Must be completed prior to taking this course."
+ECON*3400,ECON*2310 or ECON*2200 - Must be completed prior to taking this course.
+ECON*3500,ECON*2310 - Must be completed prior to taking this course.
+ECON*3520,"ECON*2310, (1 of ECON*2740, PSYC*2010, STAT*2040, STAT*2050, STAT*2060, STAT*2080, STAT*2090, STAT*2100, STAT*2120) - Must be completed prior to taking this course."
+ECON*3530,"ECON*2310, (ECON*2770 or MATH*1210) - Must be completed prior to taking this course."
+ECON*3580,ECON*2310 - Must be completed prior to taking this course.
+ECON*3610,ECON*2310 - Must be completed prior to taking this course.
+ECON*3620,ECON*2310 - Must be completed prior to taking this course.
+ECON*3710,"ECON*2310, (ECON*2770 or MATH*1210). A grade average of 70% or more in these courses is recommended. - Must be completed prior to taking this course."
+ECON*3730,"9.00 credits including ECON*1050, ECON*1100 - Must be completed prior to taking this course."
+ECON*3740,"ECON*1100, (ECON*1050 or FARE*1040), (1 of ECON*2740, STAT*2040, STAT*2060, STAT*2080), (ECON*2770 or MATH*1210) - Must be completed prior to taking this course."
+ECON*3810,"ECON*2410, (ECON*2740 or STAT*2040), (ECON*2770 or MATH*1210) - Must be completed prior to taking this course."
+ECON*3900,"ECON*2310, ECON*2410, ECON*2740, ECON*2770 - Must be completed prior to taking this course."
+ECON*4400,ECON*2310 Students must have completed a minimum of 12 credits. - Must be completed prior to taking this course.
+ECON*4500,"ECON*3740, (ECON*3710 or ECON*3500) - Must be completed prior to taking this course."
+ECON*4640,ECON*3740 - Must be completed prior to taking this course.
+ECON*4700,"ECON*3710, ECON*3740 - Must be completed prior to taking this course."
+ECON*4710,ECON*3710 - Must be completed prior to taking this course.
+ECON*4720,"12.50 credits including (1 of ECON*2310, ECON*2720, ECON*3720, ECON*3730) - Must be completed prior to taking this course."
+ECON*4750,ECON*3710 - Must be completed prior to taking this course.
+ENGG*1070,None
+ENGG*1100,None
+ENGG*1210,"MATH*1200, PHYS*1130 - Must be completed prior to taking this course."
+ENGG*1410,None
+ENGG*1420,ENGG*1410 - Must be completed prior to taking this course.
+ENGG*1500,None
+ENGG*2010,"CHEM*1040, (MATH*1090 or MATH*1210) - Must be completed prior to taking this course."
+ENGG*2100,Completion of 4.00 credits including ENGG*1100 - Must be completed prior to taking this course.
+ENGG*2120,"PHYS*1130, (CHEM*1040 or CHEM*1140) - Must be completed prior to taking this course."
+ENGG*2130,4.00 credits - Must be completed prior to taking this course.
+ENGG*2160,"ENGG*1210, ENGG*1500, 0.50 credits in calculus - Must be completed prior to taking this course."
+ENGG*2180,ENGG*2160 - Must be completed prior to taking this course.
+ENGG*2230,"ENGG*1210, MATH*1210 - Must be completed prior to taking this course."
+ENGG*2340,ENGG*1210 - Must be completed prior to taking this course.
+ENGG*2400,"ENGG*1210, ENGG*1500, MATH*1200, MATH*1210, PHYS*1010 - Must be completed prior to taking this course."
+ENGG*2410,"PHYS*1130, (1 of CIS*1300, CIS*1500, ENGG*1410) - Must be completed prior to taking this course."
+ENGG*2450,PHYS*1010 - Must be completed prior to taking this course.
+ENGG*2540,5.00 credits - Must be completed prior to taking this course.
+ENGG*2560,"CHEM*1050, MATH*2270 - Must be completed prior to taking this course."
+ENGG*2910,"ENGG*1410, ENGG*1500, MATH*1210 - Must be completed prior to taking this course."
+ENGG*3000,11.00 credits - Must be completed prior to taking this course.
+ENGG*3010,"BIOC*2580, CHEM*1050, ENGG*2010 - Must be completed prior to taking this course."
+ENGG*3020,ENGG*2010 - Must be completed prior to taking this course.
+ENGG*3040,"ENGG*2340, ENGG*2450, ENGG*3410 - Must be completed prior to taking this course."
+ENGG*3050,"ENGG*2410, ENGG*3380 - Must be completed prior to taking this course."
+ENGG*3060,"ENGG*2120, ENGG*2160, ENGG*2340, ENGG*2450 - Must be completed prior to taking this course."
+ENGG*3070,ENGG*2120 - Must be completed prior to taking this course.
+ENGG*3080,ENGG*3260 - Must be taken either prior to or at the same time as this course.
+ENGG*3090,"ENGG*1410, ENGG*2450 - Must be completed prior to taking this course."
+ENGG*3100,Completion of 6.00 credits of ENGG courses including ENGG*2100 - Must be completed prior to taking this course.
+ENGL*1030,None
+ENGL*1080,None
+ENGL*1200,None
+ENGL*1410,None
+ENGL*1500,None
+ENGL*2040,2.00 credits - Must be completed prior to taking this course.
+ENGL*2080,ENGL*1080 - Must be completed prior to taking this course.
+ENGL*2090,2.00 credits - Must be completed prior to taking this course.
+ENGL*2120,ENGL*1080 - Must be completed prior to taking this course.
+ENGL*2130,ENGL*1080 - Must be completed prior to taking this course.
+ENGL*2190,2.00 credits - Must be completed prior to taking this course.
+ENGL*2200,2.00 credits - Must be completed prior to taking this course.
+ENGL*2260,2.00 credits - Must be completed prior to taking this course.
+ENGL*2270,2.00 credits - Must be completed prior to taking this course.
+ENGL*2280,2.00 credits - Must be completed prior to taking this course.
+ENGL*2290,2.00 credits - Must be completed prior to taking this course.
+ENGL*2310,2.00 credits - Must be completed prior to taking this course.
+ENGL*2330,2.00 credits - Must be completed prior to taking this course.
+ENGL*2360,2.00 credits - Must be completed prior to taking this course.
+ENGL*2370,2.00 credits - Must be completed prior to taking this course.
+ENGL*2380,4.00 credits - Must be completed prior to taking this course.
+ENGL*2550,2.00 credits - Must be completed prior to taking this course.
+ENGL*2640,2.00 credits - Must be completed prior to taking this course.
+ENGL*2740,2.00 credits - Must be completed prior to taking this course.
+ENGL*2880,2.00 credits - Must be completed prior to taking this course.
+ENGL*3000,"ENGL*1080, (1 of ENGL*2120, ENGL*2130, ENGL*2920) - Must be completed prior to taking this course."
+ENGL*3100,7.50 credits including 0.50 credits in English (excluding ENGL*1030). - Must be completed prior to taking this course.
+ENGL*3200,7.50 credits including 0.50 credits in English (excluding ENGL*1030) - Must be completed prior to taking this course.
+ENGL*3220,7.50 credits including 0.50 credits in English (excluding ENGL*1030) - Must be completed prior to taking this course.
+ENGL*3240,7.50 credits including 0.50 credits in English (excluding ENGL*1030) - Must be completed prior to taking this course.
+EDRD*1400,None
+EDRD*3140,5.00 credits - Must be completed prior to taking this course.
+EDRD*4120,14.00 credits - Must be completed prior to taking this course.
+EDRD*6050,None
+EDRD*6100,None
+EDRD*6630,None
+EDRD*6690,None
+ENVM*4500,ENVS*2230 - Must be completed prior to taking this course.
+DENM*1000,None
+DENM*1120,None
+DENM*1200,None
+DENM*1300,None
+DENM*2000,None
+DENM*2020,DENM*1120 - Must be completed prior to taking this course.
+DENM*2100,None
+DENM*2150,None
+DENM*2200,None
+DENM*3000,None
+DENM*3100,None
+DENM*3120,None
+DENM*3150,"1 of DAGR*1300, DEQN*2040, DHRT*2230, DHRT*3230 - Must be completed prior to taking this course."
+DENM*3200,"DENM*2150, DENM*3100 - Must be completed prior to taking this course."
+DENM*3210,"DENM*2150, DENM*3100 - Must be completed prior to taking this course."
+DENM*3230,"DHRT*2160, (DENM*3200 or DENM*3210) - Must be completed prior to taking this course."
+DENM*3300,None
+DENM*3400,DENM*2000 - Must be completed prior to taking this course.
+DENM*3910,5.00 credits - Must be completed prior to taking this course.
+DENM*4050,8.00 credits - Must be completed prior to taking this course.
+DENM*4080,DENM*3200 - Must be completed prior to taking this course.
+DENM*4100,None
+DENM*4120,DENM*3120 - Must be completed prior to taking this course.
+DENM*4210,Minimum of 8.0 credits - Must be completed prior to taking this course.
+DENM*4250,None
+DENM*4400,9.00 credits - Must be completed prior to taking this course.
+ENVS*1030,None
+ENVS*1040,None
+ENVS*1060,None
+ENVS*1100,None
+ENVS*2030,"1 of IPS*1500, MATH*1080, MATH*1200, PHYS*1070, PHYS*1080, PHYS*1130, PHYS*1300 - Must be completed prior to taking this course."
+ENVS*2040,"BIOL*1040 or (2 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090) - Must be completed prior to taking this course."
+ENVS*2060,None
+ENVS*2070,None
+ENVS*2080,"BIOL*1070, BIOL*1090 - Must be completed prior to taking this course."
+ENVS*2090,"BIOL*1070, BIOL*1090, CHEM*1050, MATH*1080 - Must be completed prior to taking this course."
+ENVS*2120,None
+ENVS*2130,4.00 credits - Must be completed prior to taking this course.
+ENVS*2210,None
+ENVS*2230,"1 of ENVM*1000, ENVM*1200, ENVS*1030 - Must be completed prior to taking this course."
+ENVS*2240,ENVS*1040 or GEOG*1300 - Must be completed prior to taking this course.
+ENVS*2250,"1 of ENVS*1050, ENVS*1060, GEOL*1050, GEOL*1100, GEOG*1300, GEOG*1350 - Must be completed prior to taking this course."
+ENVS*2270,Minimum of 4.00 credits - Must be completed prior to taking this course.
+ENVS*2310,"BIOL*1070, CHEM*1040 - Must be completed prior to taking this course."
+ENVS*2330,"1 of BIOL*1050, BIOL*1070, ENVM*1000, ENVM*1200, ENVS*1030 - Must be completed prior to taking this course."
+ENVS*2700,4.00 credits - Must be completed prior to taking this course.
+ENVS*2710,4.00 credits - Must be completed prior to taking this course.
+ENVS*3000,BIOL*2060 - Must be completed prior to taking this course.
+ENVS*3010,BIOL*2060 - Must be completed prior to taking this course.
+ENVS*3020,"[BIOL*1040 or (2 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090)], CHEM*1040 - Must be completed prior to taking this course."
+ENVS*3040,"BIOL*1040 or (2 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090) - Must be completed prior to taking this course."
+ENVS*3050,ENVS*2030 - Must be completed prior to taking this course.
+ENVS*3060,AGR*2320 or ENVS*2060 - Must be completed prior to taking this course.
+ENVS*3080,"1 of AGR*2320, ENVS*2060, SOIL*2010 - Must be completed prior to taking this course."
+ENVS*3090,"BIOL*1040 or (2 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090) - Must be completed prior to taking this course."
+ENVS*3140,HORT*2450 - Must be completed prior to taking this course.
+EQN*1010,None
+EQN*2000,4.00 credits - Must be completed prior to taking this course.
+EQN*2080,EQN*1010 - Must be completed prior to taking this course.
+EQN*2200,EQN*1010 - Must be completed prior to taking this course.
+EQN*2500,EQN*2150 - Must be completed prior to taking this course.
+EQN*3020,EQN*3250 or NUTR*3210 - Must be completed prior to taking this course.
+EQN*3070,EQN*1010 - Must be completed prior to taking this course.
+EQN*3100,"ACCT*2230, EQN*2050, EQN*3070, CROP*3340 - Must be completed prior to taking this course."
+EQN*3250,ANSC*3080 - Must be taken either prior to or at the same time as this course.
+EQN*4400,12.50 credits including EQN*2200 - Must be completed prior to taking this course.
+EQN*4500,15.00 credits - Must be completed prior to taking this course.
+DEQN*1020,None
+DEQN*1030,None
+DEQN*1050,None
+DEQN*1150,None
+DEQN*1200,None
+DEQN*2030,DEQN*1020 - Must be completed prior to taking this course.
+DEQN*2040,None
+DEQN*2050,None
+DEQN*2100,None
+DEQN*2150,DEQN*1150 - Must be completed prior to taking this course.
+DEQN*3050,DEQN*2040 - Must be completed prior to taking this course.
+DEQN*3070,None
+DEQN*3150,None
+DEQN*3210,DEQN*1020 - Must be completed prior to taking this course.
+DEQN*4120,None
+DEQN*4170,None
+DEQN*4190,DEQN*3150 - Must be completed prior to taking this course.
+DEQN*4320,"8.00 credits, including DAGR*1070 - Must be completed prior to taking this course."
+DEQN*4500,9.00 credits - Must be completed prior to taking this course.
+EURO*1100,None
+EURO*2200,2.00 credits - Must be completed prior to taking this course.
+EURO*3100,7.50 credits - Must be completed prior to taking this course.
+EURO*3300,7.50 credits - Must be completed prior to taking this course.
+EURO*3400,7.50 credits including CLAS*2000 - Must be completed prior to taking this course.
+EURO*3700,10.00 credits including 1.50 credits in European Studies. - Must be completed prior to taking this course.
+EURO*4050,10.00 credits - Must be completed prior to taking this course.
+EURO*4060,10.00 credits - Must be completed prior to taking this course.
+EURO*4220,14.00 credits - Must be completed prior to taking this course.
+EURO*4600,"10.00 credits, (2 of ARTH*1520, EURO*1050, EURO*1100, EURO*1200, EURO*2200, EURO*2300, EURO*3000, EURO*3300, HIST*2510, HIST*3090, MUSC*1060, POLS*3450) - Must be completed prior to taking this course."
+EURO*4740,"10.00 credits including, (EURO*1100 or EURO*1200), EURO*2200, EURO*3000, EURO*3300 - Must be completed prior to taking this course."
+EURO*6000,None
+EURO*6010,None
+EURO*6020,None
+EURO*6030,None
+EURO*6040,None
+EURO*6060,None
+EURO*6070,None
+EURO*6072,None
+EURO*6080,None
+EURO*6100,None
+EURO*6110,None
+EURO*6200,None
+EURO*6300,None
+FCSS*1000,None
+FCSS*1010,None
+FCSS*1020,None
+FCSS*1210,None
+FCSS*2000,4.00 credits or FCSS*1020 - Must be completed prior to taking this course.
+FCSS*2010,3.00 credits including FCSS*1010 - Must be completed prior to taking this course.
+FCSS*2020,3.00 credits from FCSS or CSS including FCSS*1020 - Must be completed prior to taking this course.
+FCSS*2030,1.00 credits - Must be completed prior to taking this course.
+FCSS*2040,"(FCSS*2000 or FCSS*2070), FCSS*2020 - Must be completed prior to taking this course."
+FCSS*3020,7.50 credits - Must be completed prior to taking this course.
+FCSS*3060,7.50 credits - Must be completed prior to taking this course.
+FCSS*4010,12.50 credits - Must be completed prior to taking this course.
+FRHD*1010,None
+FRHD*1020,None
+FRHD*1100,None
+FRHD*2040,FRHD*2270 or PSYC*2450 - Must be completed prior to taking this course.
+FRHD*2060,"1 of ANTH*1150, FRHD*1010, FRHD*1100, PSYC*1000, PSYC*1100, PSYC*1200, SOC*1100 - Must be completed prior to taking this course."
+FRHD*2100,4.00 credits - Must be completed prior to taking this course.
+FRHD*2110,4.00 credits - Must be completed prior to taking this course.
+FRHD*2270,"1 of ANTH*1150, FRHD*1010, FRHD*1100, PSYC*1000, PSYC*1100, PSYC*1200, SOC*1100 - Must be completed prior to taking this course."
+FRHD*2280,"1 of ANTH*1150, FRHD*1010, FRHD*1100, PSYC*1000, SOC*1100 - Must be completed prior to taking this course."
+FRHD*2400,"4.00 credits including (1 of FRHD*1010, FRHD*2060, FRHD*2270, FRHD*2280, PSYC*2450) - Must be completed prior to taking this course."
+FRHD*3040,"8.00 credits including (1 of FRHD*1020, FRHD*2060, FRHD*2260, FRHD*2270, FRHD*2280, PSYC*2450) - Must be completed prior to taking this course."
+FRHD*3060,"8.00 credits including (1 of ANTH*1150, FRHD*1010, FRHD*1020, FRHD*1100, PSYC*1000, SOC*1100) - Must be completed prior to taking this course."
+FRHD*3070,4.00 credits - Must be completed prior to taking this course.
+FRHD*3090,"8.00 credits including (1 of FRHD*1010, FRHD*2060, FRHD*2260, FRHD*2270, FRHD*2280, PSYC*2450) - Must be completed prior to taking this course."
+FRHD*3180,"1 of FRHD*2040, FRHD*2300, FRHD*2400 - Must be completed prior to taking this course."
+FRHD*3190,"8.00 credits including (1 of FRHD*1010, FRHD*2260, FRHD*2270, PSYC*2450) - Must be completed prior to taking this course."
+FRHD*3200,FRHD*2040 - Must be completed prior to taking this course.
+FRHD*3290,FRHD*2350 or FRHD*2400 - Must be completed prior to taking this course.
+FRHD*3400,"4.00 credits including (1 OF ANTH*1150, FRHD*1010, FRHD*1020, FRHD*1100, PSYC*1000, SOC*1100) - Must be completed prior to taking this course."
+FRHD*3500,"FRHD*3070, STAT*2090 - Must be completed prior to taking this course."
+FRHD*4020,12.00 credits including FRHD*1020 - Must be completed prior to taking this course.
+FRHD*4070,None
+FRHD*4080,None
+FRHD*4140,14.00 credits - Must be completed prior to taking this course.
+FRHD*4190,12.00 credits - Must be completed prior to taking this course.
+FRHD*4200,13.00 credits including FRHD*2100 - Must be completed prior to taking this course.
+FRHD*4210,FRHD*3200 - Must be completed prior to taking this course.
+FRHD*4250,"13.00 credits including (1 of BIOM*2000, BIOM*3200, FRHD*2060) - Must be completed prior to taking this course."
+FRHD*4290,FRHD*3290 - Must be completed prior to taking this course.
+FRHD*4320,"13.00 credits including (1 of FRHD*2040, FRHD*2300, FRHD*2350, FRHD*2400, POLS*2230) - Must be completed prior to taking this course."
+FRAN*6000,None
+FRAN*6010,None
+FRAN*6020,None
+FRAN*6180,None
+FRAN*6200,None
+FRAN*6210,None
+FRAN*6221,None
+FRAN*6260,None
+FRAN*6270,None
+FRAN*6280,None
+FRAN*6320,None
+FRAN*6330,None
+FRAN*6340,None
+FRAN*6350,None
+FRAN*6440,"FRAN*6000, FRAN*6010 - Must be completed prior to taking this course."
+FRAN*6460,None
+FRAN*6510,None
+FRAN*6550,None
+FRAN*6560,None
+FRAN*6610,None
+FRAN*6710,None
+FRAN*6720,FRAN*6710 - Minimum grade 065. - Must be completed prior to taking this course.
+FRAN*6730,FRAN*6720 - Must be completed prior to taking this course.
+FRAN*6740,None
+FRAN*6750,None
+FRAN*6800,None
+FRAN*6810,FRAN*6800 - Must be taken either prior to or at the same time as this course.
+FRAN*6820,FRAN*6810 - Must be completed prior to taking this course.
+FRAN*6830,FRAN*6820 - Must be completed prior to taking this course.
+FRAN*6840,FRAN*6830 - Must be completed prior to taking this course.
+FIN*2000,"ECON*1050, (1 of IPS*1500, MATH*1030, MATH*1080, MATH*1200), (1 of ECON*2740, PSYC*1010, PSYC*2010, SOAN*2120, STAT*2040, STAT*2060, STAT*2080, STAT*2120) - Must be completed prior to taking this course."
+FIN*2900,8.00 credits - Must be completed prior to taking this course.
+FIN*3000,"ECON*2310, (ECON*2560 or FIN*2000) - Must be completed prior to taking this course."
+FIN*3100,ECON*2560 or FIN*2000 - Must be completed prior to taking this course.
+FIN*3200,"ECON*2310, (ECON*2560 or FIN*2000) - Must be completed prior to taking this course."
+FIN*3300,"ECON*2310, ECON*2410, (ECON*2560 or FIN*2000) - Must be completed prior to taking this course."
+FIN*3400,"ECON*2410, (ECON*2560 or FIN*2000) - Must be completed prior to taking this course."
+FIN*3500,"ECON*2410, (ECON*2560 or FIN*2000) - Must be completed prior to taking this course."
+FIN*3900,"ECON*2310, ECON*2410, ECON*2770, FIN*2000 - Must be completed prior to taking this course."
+FIN*4000,"ECON*3710, ECON*3740, (1 of ECON*3100, ECON*3810, ECON*4700), (2 of ECON*3360, ECON*3660, ECON*3760, ECON*3860, ECON*3960, FARE*4240, FIN*3000, FIN*3100, FIN*3200, FIN*3300, FIN*3400, FIN*3500) - Must be completed prior to taking this course."
+FIN*4100,ECON*3740 - Must be completed prior to taking this course.
+FIN*4200,"FIN*3100, (ECON*3660 or FIN*3000), (ECON*3760 or FIN*3200) - Must be completed prior to taking this course."
+FIN*4900,"ECON*3740,FIN*3100, (ECON*3660 or FIN*3000) - Must be completed prior to taking this course."
+FIN*6000,None
+FIN*6100,None
+FIN*6200,ECON*6140 - Must be completed prior to taking this course.
+FIN*6300,None
+FIN*6400,None
+FIN*6800,None
+FINA*6510,None
+FINA*6515,FINA*6510 - Must be completed prior to taking this course.
+FINA*6530,None
+FINA*6531,FINA*6530 - Must be completed prior to taking this course.
+FINA*6540,None
+FINA*6545,FINA*6540 - Must be completed prior to taking this course.
+FINA*6550,None
+FINA*6551,None
+FINA*6610,FINA*6515 - Must be completed prior to taking this course.
+FINA*6615,FINA*6610 - Must be completed prior to taking this course.
+FINA*6640,FINA*6545 - Must be completed prior to taking this course.
+FINA*6641,FINA*6640 - Must be completed prior to taking this course.
+FINA*6651,None
+FINA*6652,None
+FSQA*6000,None
+FSQA*6100,None
+FSQA*6150,None
+FSQA*6200,None
+FSQA*6300,None
+FSQA*6400,None
+FSQA*6500,None
+FSQA*6600,None
+FOOD*2010,None
+FOOD*2100,None
+FOOD*2150,"BIOL*1080, CHEM*1040 - Must be completed prior to taking this course."
+FOOD*2400,CHEM*1040 - Must be completed prior to taking this course.
+FOOD*2410,"CHEM*1040, (1 of BIOL*1070, BIOL*1080, MICR*2420) - Must be completed prior to taking this course."
+FOOD*2420,BIOL*1070 or MICR*2420 - Must be completed prior to taking this course.
+FOOD*2620,"(BIOC*2580 or CHEM*2880), (1 of MATH*1030, MATH*1080, MATH*1200) - Must be completed prior to taking this course."
+FOOD*3030,BIOC*2580 - Must be completed prior to taking this course.
+FOOD*3040,FOOD*3030 - Must be completed prior to taking this course.
+FOOD*3050,BIOC*2580 - Must be completed prior to taking this course.
+FOOD*3060,FOOD*3030 or FOOD*3050 - Must be completed prior to taking this course.
+FOOD*3090,"AGR*1110, CHEM*1040 (1 of BIOL*1050, BIOL*1070, BIOL*1080) - Must be completed prior to taking this course."
+FOOD*3140,"ENGG*2660 or (FOOD*2620, MICR*2420) - Must be completed prior to taking this course."
+FOOD*3160,"ENGG*2660 or (FOOD*2620, MICR*2420) - Must be completed prior to taking this course."
+FOOD*3170,FOOD*3140 or FOOD*3160 - Must be completed prior to taking this course.
+FOOD*3230,MICR*2420 - Must be completed prior to taking this course.
+FOOD*3240,MICR*2420 - Must be completed prior to taking this course.
+FOOD*3260,MICR*2420 - Must be completed prior to taking this course.
+FOOD*3270,MICR*2420 - Must be completed prior to taking this course.
+FOOD*3430,FOOD*2400 - Must be completed prior to taking this course.
+FOOD*3700,"(FOOD*2150 or HTM*2700), (1 of STAT*2040, STAT*2060, STAT*2080) - Must be completed prior to taking this course."
+FOOD*4020,"FARE*3310, FOOD*3170 - Must be completed prior to taking this course."
+FOOD*4070,7.00 credits in science or engineering - Must be completed prior to taking this course.
+FOOD*4090,NUTR*3210 - Must be completed prior to taking this course.
+FOOD*4110,"1 of ANSC*2340, FOOD*3090, FOOD*3140, FOOD*3160 - Must be completed prior to taking this course."
+FOOD*4190,"1 of CHEM*2400, CHEM*2480, FOOD*3030, FOOD*3050 - Must be taken either prior to or at the same time as this course."
+FOOD*4220,14.00 credits including 1.50 credits at the 3000 level or higher in Food Science. - Must be completed prior to taking this course.
+FOOD*4230,FOOD*4220 - Must be completed prior to taking this course.
+FOOD*4260,"FOOD*2100, FOOD*3700, (FOOD*3030 or FOOD*3050), (FOOD*3140 or FOOD*3160), (FOOD*3230 or FOOD*3240) - Must be completed prior to taking this course."
+FOOD*4270,FOOD*4260 - Must be completed prior to taking this course.
+FARE*1040,None
+FARE*1300,None
+FARE*1400,None
+FARE*2410,FARE*1040 or FARE*1400 - Must be completed prior to taking this course.
+FARE*2700,"1 of ECON*1050, FARE*1040, FARE*1400 - Must be completed prior to taking this course."
+FARE*3000,"9.50 credits including (1 of ECON*1050, FARE*1040, FARE*1400), (1 of ECON*2740, STAT*2040, STAT*2060) - Must be completed prior to taking this course."
+FARE*3030,"ECON*2310, ECON*2770, ECON*3740 - Must be completed prior to taking this course."
+FARE*3170,"1 of ECON*2100, ECON*2310, ECON*2650, FARE*2700 - Must be completed prior to taking this course."
+FARE*3250,"1 of ECON*1050, FARE*1040, FARE*1300, IDEV*2200 - Must be completed prior to taking this course."
+FARE*3310,"(ACCT*1220 or ACCT*2220), (1 of ECON*2740, PSYC*1010, STAT*2040, STAT*2060, STAT*2080, STAT*2120) - Must be completed prior to taking this course."
+FARE*3320,FARE*3310 - Must be completed prior to taking this course.
+FARE*4000,15.00 credits including ECON*2310 - Must be completed prior to taking this course.
+FARE*4220,"1 of FARE*2410, BUS*3320, ECON*2770, MGMT*3320 - Must be completed prior to taking this course."
+FARE*4240,"10.00 credits including [1 of (ECON*2560 or FIN*2000), ECON*3560, FARE*2410, MGMT*3320] - Must be completed prior to taking this course."
+FARE*4290,"(FARE*2700, or ECON*2310) 0.50 credits at the 3000 or 4000 level in FARE or ECON - Must be completed prior to taking this course."
+FARE*4310,"(1 of FARE*2700, ECON*2310, ECON*2100), 0.50 credits at the 3000 or 4000 level in FARE or ECON - Must be completed prior to taking this course."
+FARE*4330,FARE*3310 - Must be completed prior to taking this course.
+FARE*4360,"1 of ECON*2740, PSYC*1010, STAT*2040, STAT*2050, STAT*2060, STAT*2080 - Must be completed prior to taking this course."
+FARE*4370,10.00 credits including (ACCT*2230 or MCS*2600) - Must be completed prior to taking this course.
+FARE*4380,"FARE*3310, FARE*4370 - Must be completed prior to taking this course."
+FARE*4500,ECON*2770 - Must be completed prior to taking this course.
+FARE*4550,10.00 credits including (FARE*2410 or FARE*2700) - Must be completed prior to taking this course.
+FARE*4560,10.00 credits including (FARE*2410 or FARE*2700) - Must be completed prior to taking this course.
+FARE*6100,None
+FARE*6110,None
+FARE*6120,None
+FARE*6130,None
+FARE*6140,None
+FARE*6150,None
+FARE*6160,None
+FREN*1010,None
+FREN*1100,None
+FREN*1200,"1 of FREN*1100, FREN*1150, Grade 12U French or permission of the School of Languages and Literatures - Must be completed prior to taking this course."
+FREN*1300,"FREN*1200 or equivalent, such as grade 12 French Immersion - Must be completed prior to taking this course."
+FREN*2020,FREN*1300 or FREN*2030 - Must be completed prior to taking this course.
+FREN*2060,FREN*1300 or FREN*2030 - Must be completed prior to taking this course.
+FREN*2500,FREN*1300 or FREN*2030 - Must be completed prior to taking this course.
+FREN*2520,FREN*1300 or FREN*2030 - Must be completed prior to taking this course.
+FREN*2550,FREN*1300 - Must be completed prior to taking this course.
+FREN*3030,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3090,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3110,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3130,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3140,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3160,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3170,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3260,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3500,FREN*2500 - Must be completed prior to taking this course.
+FREN*3520,"FREN*2020, FREN*2060, FREN*2520 - Must be completed prior to taking this course."
+FREN*3700,10.00 credits including 1.50 credits in French Studies. - Must be completed prior to taking this course.
+FREN*4010,1.00 credits at the 3000-level in French. - Must be completed prior to taking this course.
+FREN*4020,1.00 credits at the 3000-level in French. - Must be completed prior to taking this course.
+FREN*4290,1.00 credits at the 3000-level in French. - Must be completed prior to taking this course.
+FREN*4600,1.00 credits at the 3000-level in French. - Must be completed prior to taking this course.
+FREN*4660,1.00 credits at the 3000-level in French. - Must be completed prior to taking this course.
+FREN*4740,1.00 credits at the 3000-level in French. - Must be completed prior to taking this course.
+FREN*4770,FREN*4740 - Must be completed prior to taking this course.
+FREN*6000,None
+FREN*6020,None
+FREN*6021,None
+GEOG*1200,None
+GEOG*1220,None
+GEOG*1300,None
+GEOG*1350,None
+GEOG*2000,"1 of ENGG*1100, ENVS*1050, ENVS*1060, GEOG*1300, GEOG*1350, GEOL*1050, GEOL*1100 - Must be completed prior to taking this course."
+GEOG*2030,"4.00 credits, GEOG*1220 is recommended - Must be completed prior to taking this course."
+GEOG*2110,GEOG*1300 or GEOG*1350 - Must be completed prior to taking this course.
+GEOG*2210,GEOG*1220 is recommended - Must be completed prior to taking this course.
+GEOG*2230,GEOG*1200 or GEOG*1220 - Must be completed prior to taking this course.
+GEOG*2260,"1 of GEOG*1200, IDEV*1000, (ANTH*1150, GEOG*1220) - Must be completed prior to taking this course."
+GEOG*2420,0.50 credits in Geography - Must be completed prior to taking this course.
+GEOG*2460,0.50 credits at the 1000 or 2000 level in Geography - Must be completed prior to taking this course.
+GEOG*2480,5.00 credits - Must be completed prior to taking this course.
+GEOG*2510,None
+GEOG*3000,"GEOG*2000, (1 of GEOG*2460, STAT*2040, STAT*2120, STAT*2230) - Must be completed prior to taking this course."
+GEOG*3020,7.50 credits - Must be completed prior to taking this course.
+GEOG*3030,GEOG*2030 - Must be completed prior to taking this course.
+GEOG*3050,7.50 credits - Must be completed prior to taking this course.
+GEOG*3090,7.50 credits - Must be completed prior to taking this course.
+GEOG*3110,"(1 of GEOG*2460, STAT*2040, STAT*2230), (1 of BIOL*2060, ENVS*2030, GEOG*2110) - Must be completed prior to taking this course."
+GEOG*3210,"1 of GEOG*2030, GEOG*2210, SOC*2280 - Must be completed prior to taking this course."
+GEOG*3320,7.50 credits - Must be completed prior to taking this course.
+GEOG*3420,10.00 credits including GEOG*2420 - Must be completed prior to taking this course.
+GEOG*3430,GEOG*2420 or GEOG*2480 - Must be completed prior to taking this course.
+GEOG*3440,GEOG*2480 - Must be completed prior to taking this course.
+GEOG*3480,"10.00 credits, including GEOG*2480 - Must be completed prior to taking this course."
+GEOG*3490,7.50 credits - Must be completed prior to taking this course.
+GEOG*3600,7.50 credits - Must be completed prior to taking this course.
+GEOG*3610,"7.50 credits, including (GEOG*2000 or GEOG*2110), (1 of GEOG*2460, STAT*2040, STAT*2230) - Must be completed prior to taking this course."
+GEOG*4110,GEOG*3110 or GEOG*3610 - Must be completed prior to taking this course.
+GERM*1100,None
+GERM*1110,GERM*1100 - Must be completed prior to taking this course.
+GERM*2010,GERM*2490 - Must be taken either prior to or at the same time as this course.
+GERM*2490,12U German or GERM*1110 - Must be completed prior to taking this course.
+GERM*3000,GERM*2010 or 2.50 credits in German - Must be completed prior to taking this course.
+GERM*3020,GERM*2010 or 2.50 credits in German - Must be completed prior to taking this course.
+GERM*3150,GERM*2010 or 2.50 credits in GERM - Must be completed prior to taking this course.
+GERM*3470,GERM*2010 or 2.50 credits in GERM - Must be completed prior to taking this course.
+GERM*3600,None
+GERM*3700,10.00 credits including 1.50 credits in German. - Must be completed prior to taking this course.
+GERM*4940,None
+GREK*1100,None
+GREK*1110,GREK*1100 or 4U Greek - Must be completed prior to taking this course.
+GREK*2020,GREK*1110 - Must be completed prior to taking this course.
+HIST*1010,None
+HIST*1050,None
+HIST*1150,None
+HIST*1250,None
+HIST*2000,2.00 credits - Must be completed prior to taking this course.
+HIST*2020,2.00 credits - Must be completed prior to taking this course.
+HIST*2040,2.00 credits - Must be completed prior to taking this course.
+HIST*2070,2.00 credits - Must be completed prior to taking this course.
+HIST*2090,2.00 credits - Must be completed prior to taking this course.
+HIST*2100,2.00 credits - Must be completed prior to taking this course.
+HIST*2120,2.00 credits - Must be completed prior to taking this course.
+HIST*2130,2.00 credits - Must be completed prior to taking this course.
+HIST*2160,2.00 credits - Must be completed prior to taking this course.
+HIST*2180,2.00 credits - Must be completed prior to taking this course.
+HIST*2190,2.00 credits - Must be completed prior to taking this course.
+HIST*2200,2.00 credits - Must be completed prior to taking this course.
+HIST*2210,2.00 credits - Must be completed prior to taking this course.
+HIST*2220,2.00 credits - Must be completed prior to taking this course.
+HIST*2240,2.00 credits - Must be completed prior to taking this course.
+HIST*2250,2.00 credits - Must be completed prior to taking this course.
+HIST*2260,2.00 credits - Must be completed prior to taking this course.
+HIST*2280,2.00 credits - Must be completed prior to taking this course.
+HIST*2300,2.00 credits - Must be completed prior to taking this course.
+HIST*2340,2.00 credits - Must be completed prior to taking this course.
+HIST*2450,"2.00 credits, including 0.50 credits in History at the 1000 level - Must be completed prior to taking this course."
+HIST*2500,2.00 credits - Must be completed prior to taking this course.
+HIST*2510,2.00 credits - Must be completed prior to taking this course.
+HIST*2600,2.00 credits - Must be completed prior to taking this course.
+HIST*2820,2.00 credits - Must be completed prior to taking this course.
+HIST*2850,2.00 credits - Must be completed prior to taking this course.
+HORT*1120,None
+HORT*1130,None
+HORT*2450,"BIOL*1040 or [BIOL*1090, (1 of BIOL*1050, BIOL*1070, BIOL*1080)] - Must be completed prior to taking this course."
+HORT*3010,"1 of AGR*2470, LARC*2240, 0.50 credits in Botany (BOT) - Must be completed prior to taking this course."
+HORT*3050,HORT*2450 - Must be completed prior to taking this course.
+HORT*3150,AGR*2470 or BOT*2100 - Must be completed prior to taking this course.
+HORT*3270,"1 of BIOL*1050, BIOL*1070, BIOL*1080, BIOL*1090 - Must be completed prior to taking this course."
+HORT*3280,"1 of AGR*2050, AGR*2470, BOT*2100 - Must be completed prior to taking this course."
+HORT*3310,BIOC*2580 - Must be completed prior to taking this course.
+HORT*3430,AGR*2470 or BOT*2100 - Must be completed prior to taking this course.
+HORT*3510,AGR*2470 or BOT*2100 - Must be completed prior to taking this course.
+HORT*4300,AGR*2470 - Must be completed prior to taking this course.
+HORT*4380,"1 of AGR*2470, BOT*2100, (AGR*2050, AGR*2150) - Must be completed prior to taking this course."
+HORT*4420,"1 of AGR*2050, AGR*2470, BOT*2100 - Must be completed prior to taking this course."
+HORT*4450,AGR*2050 or AGR*2470 - Must be completed prior to taking this course.
+DHRT*1000,None
+DHRT*1050,None
+DHRT*2000,DHRT*2230 - Must be completed prior to taking this course.
+DHRT*2090,DHRT*2250 - Must be completed prior to taking this course.
+DHRT*2100,DHRT*1050 - Must be completed prior to taking this course.
+DHRT*2160,None
+DHRT*2200,DAGR*1200 - Must be completed prior to taking this course.
+DHRT*2230,None
+DHRT*2250,None
+DHRT*3050,DHRT*1050 - Must be completed prior to taking this course.
+DHRT*3120,DHRT*2090 - Must be completed prior to taking this course.
+DHRT*3150,DHRT*2200 - Must be completed prior to taking this course.
+DHRT*3170,None
+DHRT*3180,DHRT*2000 - Must be taken either prior to or at the same time as this course.
+DHRT*3270,5.00 credits - Must be completed prior to taking this course.
+DHRT*3300,"DHRT*2200, DHRT*4290 - Must be completed prior to taking this course."
+DHRT*3510,4.00 credits - Must be completed prior to taking this course.
+DHRT*3910,4.00 credits - Must be completed prior to taking this course.
+DHRT*4000,"DAGR*1200, DHRT*1050 - Must be completed prior to taking this course."
+DHRT*4050,DAGR*1600 - Must be completed prior to taking this course.
+DHRT*4150,"DHRT*2090, DHRT*3120 - Must be completed prior to taking this course."
+DHRT*4190,DHRT*4290 - Must be completed prior to taking this course.
+DHRT*4200,DHRT*3170 - Must be completed prior to taking this course.
+DHRT*4290,DHRT*3180 - Must be completed prior to taking this course.
+DHRT*4300,DHRT*1050 - Must be completed prior to taking this course.
+DHRT*4320,"DAGR*1200, (DAGR*1300 or DHRT*2230) - Must be completed prior to taking this course."
+HTM*1070,None
+HTM*1100,None
+HTM*1160,None
+HTM*1700,None
+HTM*2030,4.00 credits - Must be completed prior to taking this course.
+HTM*2070,"1 of HTM*1100, HTM*1160, HTM*1700, HTM*2020, SPMT*2020 - Must be completed prior to taking this course."
+HTM*2700,None
+HTM*2740,2.00 credits - Must be completed prior to taking this course.
+HTM*3030,9.00 credits - Must be completed prior to taking this course.
+HTM*3060,"9.00 credits including (HTM*2010 or MCS*2000), (HTM*1160 or HTM*2100) - Must be completed prior to taking this course."
+HTM*3080,"9.00 credits including MCS*1000, (HTM*2010 or MCS*2000) - Must be completed prior to taking this course."
+HTM*3090,"HTM*2030, HTM*2700 - Must be completed prior to taking this course."
+HTM*3120,"(ACCT*1220 or ACCT*2220), (1 of ECON*2740, PSYC*1010, STAT*2040, STAT*2060, STAT*2080) - Must be completed prior to taking this course."
+HTM*3160,"1 of HTM*1070, HTM*2020, HTM*2170 - Must be completed prior to taking this course."
+HTM*3180,"(1 of BUS*2090, HROB*2090, HROB*2100, ACCT*2230) - Must be completed prior to taking this course."
+HTM*3780,"1 of FOOD*2010, HTM*1700, HTM*2700 - Must be completed prior to taking this course."
+HTM*4050,9.00 credits - Must be completed prior to taking this course.
+HTM*4060,HTM*3060 - Must be completed prior to taking this course.
+HTM*4080,"14.00 credits and a minimum of 700 hours of verified work experience in the hospitality, sport and tourism industries. - Must be completed prior to taking this course."
+HTM*4090,"14.00 credits including (1 of HTM*1000, HTM*1160, HTM*2020) - Must be completed prior to taking this course."
+HTM*4110,HTM*3090 - Must be completed prior to taking this course.
+HTM*4130,None
+HTM*4140,None
+HTM*4150,None
+HTM*4170,14.00 credits including HTM*3160 - Must be completed prior to taking this course.
+HTM*4190,"14.00 credits including ACCT*2230, HTM*3080 - Must be completed prior to taking this course."
+HTM*4250,"1 of FARE*3310, HTM*2030, HTM*3120 - Must be completed prior to taking this course."
+HTM*4500,None
+HTM*6710,None
+HTM*6720,HTM*6710 - Must be completed prior to taking this course.
+HHNS*3000,"9.00 credits including (1 of BIOL*1080, CREA*1000, FRHD*1100, ONEH*1000) - Must be completed prior to taking this course."
+HHNS*4230,12.00 credits - Must be completed prior to taking this course.
+HHNS*4360,12.00 credits - Must be completed prior to taking this course.
+HHNS*4371,12.00 credits - Must be completed prior to taking this course.
+HHNS*4372,HHNS*4371 or HK*4371 - Must be completed prior to taking this course.
+HHNS*4510,10.00 credits including BIOL*1080 - Must be completed prior to taking this course.
+HHNS*4511,10.00 credits including BIOL*1080 - Must be completed prior to taking this course.
+HHNS*4512,HHNS*4511 or HK*4511 - Must be completed prior to taking this course.
+HHNS*6000,None
+HHNS*6010,None
+HHNS*6040,None
+HHNS*6130,None
+HHNS*6320,None
+HHNS*6400,None
+HHNS*6410,HHNS*6400 - Minimum grade 065. - Must be completed prior to taking this course.
+HHNS*6440,None
+HHNS*6500,None
+HHNS*6610,None
+HHNS*6700,None
+HHNS*6710,None
+HHNS*6800,None
+HHNS*6810,None
+HHNS*6820,HHNS*6810 - Must be completed prior to taking this course.
+HHNS*6910,None
+HHNS*6920,None
+HHNS*6930,HHNS*6910 or HHNS*6920 - Must be completed prior to taking this course.
+HK*2270,"4.00 credits including BIOL*1090, PHYS*1080 - Must be completed prior to taking this course."
+HK*2500,5.00 credits including BIOL*1080 - Must be completed prior to taking this course.
+HK*2810,"BIOC*2580, BIOL*1080 - Must be completed prior to taking this course."
+HK*3100,"1 of BIOM*3200, HK*3810, ZOO*3600 - Must be completed prior to taking this course."
+HK*3401,BIOM*3200 or HK*3810 - Must be taken either prior to or at the same time as this course.
+HK*3402,HK*3401 - Must be completed prior to taking this course.
+HK*3501,HK*3810 OR BIOM*3200 - Must be taken either prior to or at the same time as this course.
+HK*3502,HK*3501 - Must be completed prior to taking this course.
+HK*3600,HK*2270 - Must be completed prior to taking this course.
+HK*3810,HK*2810 - Must be completed prior to taking this course.
+HK*4070,"1 of ENGG*2660, ENGG*3150, (HK*2270, HK*3600) - Must be completed prior to taking this course."
+HK*4240,ENGG*1210 or HK*3600 - Must be completed prior to taking this course.
+HK*4340,NUTR*3360 - Must be completed prior to taking this course.
+HK*4441,"HK*3402, (HK*3810 or HK*3940) - Must be completed prior to taking this course."
+HK*4442,HK*4441 - Must be completed prior to taking this course.
+HK*4460,"(HK*3810 or HK*3940), NUTR*4210 - Must be completed prior to taking this course."
+HK*4550,HK*3810 or HK*3940 - Must be completed prior to taking this course.
+HK*4600,HK*3600 - Must be completed prior to taking this course.
+HK*4610,ENGG*3150 or HK*2270 - Must be completed prior to taking this course.
+HROB*2010,None
+HROB*2090,None
+HROB*2200,2.00 credits - Must be completed prior to taking this course.
+HROB*2290,"1 of BUS*2090, BUS*2220, HROB*2090 - Must be completed prior to taking this course."
+HROB*3010,"1 of BUS*3000, HROB*2100, HROB*2290, HROB*3000, PSYC*3070 - Must be completed prior to taking this course."
+HROB*3030,"9.00 credits including (1 of BUS*3000, HROB*2100, HROB*2290, HROB*3000, PSYC*3070) - Must be completed prior to taking this course."
+HROB*3070,"1 of BUS*3000, HROB*2100, HROB*2290, HROB*3000, PSYC*3070 - Must be completed prior to taking this course."
+HROB*3090,"1 of BUS*3000, HROB*2100, HROB*2290, HROB*3000, PSYC*3070 - Must be completed prior to taking this course."
+HROB*3100,"9.00 credits including HROB*2010, (HROB*2090 or HROB*2100) - Must be completed prior to taking this course."
+HROB*4010,"HROB*2010, (1 of PHIL*2120, PHIL*2600, POLS*3440), (2 of BUS*3000, EDRD*3140, EDRD*3160, EDRD*4120, HROB*2090, HROB*2290, HROB*3000, MGMT*2150, MGMT*2190, PHIL*2100, POLS*2250) plus 120 hours of leadership experience. - Must be completed prior to taking this course."
+HROB*4030,None
+HROB*4060,"15.00 credits including (1 of BUS*3000, HROB*2100, HROB*2290, HROB*3000, PSYC*3070) - Must be completed prior to taking this course."
+HUMN*1030,None
+HUMN*1040,None
+HUMN*2020,2.00 credits - Must be completed prior to taking this course.
+HUMN*3000,7.50 credits - Must be completed prior to taking this course.
+HUMN*3020,5.00 credits - Must be completed prior to taking this course.
+HUMN*3180,7.50 credits - Must be completed prior to taking this course.
+HUMN*3190,7.50 credits - Must be completed prior to taking this course.
+HUMN*3200,7.50 credits - Must be completed prior to taking this course.
+HUMN*3300,Admission to the Latin America semester - Must be completed prior to taking this course.
+HUMN*3400,5.0 credits - Must be completed prior to taking this course.
+HUMN*3470,5.00 credits - Must be completed prior to taking this course.
+HUMN*3600,None
+HUMN*3620,None
+HUMN*3800,10.00 credits - Must be completed prior to taking this course.
+HUMN*4190,10.00 credits - Must be completed prior to taking this course.
+IES*1010,None
+IES*1020,IES*1010 - Must be completed prior to taking this course.
+IES*2010,IES*1020 - Must be completed prior to taking this course.
+IES*3020,ANTH*2660 or HIST*2090 - Must be completed prior to taking this course.
+IES*4000,"IES*2010, 12.50 credits - Must be completed prior to taking this course."
+IES*4010,IES*4000 - Must be completed prior to taking this course.
+IES*4020,IES*4000 - Must be completed prior to taking this course.
+INDG*1000,None
+INDG*1100,None
+INDG*1110,INDG*1100 - Must be completed prior to taking this course.
+INDG*2200,2.00 credits - Must be completed prior to taking this course.
+INDG*4000,"GEOG*3210, INDG*1000, POLS*3340, SOC*2280 - Must be completed prior to taking this course."
+IBIO*3100,12.00 credits - Must be completed prior to taking this course.
+IBIO*4100,IBIO*3100 - Must be completed prior to taking this course.
+IBIO*4500,12.00 credits - Must be completed prior to taking this course.
+IBIO*4510,IBIO*4500 - Must be completed prior to taking this course.
+IBIO*4521,12.00 credits - Must be completed prior to taking this course.
+IBIO*4522,IBIO*4521 - Must be completed prior to taking this course.
+IBIO*4600,"BIOL*3450, (STAT*2040 or STAT*2230), (ZOO*3210 or ZOO*3610) - Must be completed prior to taking this course."
+IBIO*6000,None
+IBIO*6010,None
+IBIO*6020,None
+IBIO*6070,None
+IBIO*6080,None
+IBIO*6630,None
+IAEF*3500,5.00 credits - Must be completed prior to taking this course.
+IAEF*3510,9.00 credits - Must be completed prior to taking this course.
+IAEF*6000,None
+IAEF*6030,None
+IPS*1500,"1 of 4U Physics, PHYS*1020, PHYS*1300 - Must be completed prior to taking this course."
+IPS*1510,IPS*1500 - Must be completed prior to taking this course.
+IPS*3000,2.00 credits in PHYS at the 2000 level or higher - Must be completed prior to taking this course.
+ISS*3400,None
+ISS*3420,SOAN*2112 or POLS*2000 - Must be completed prior to taking this course.
+ISS*3500,None
+UNIV*1000,None
+UNIV*1200,None
+UNIV*1250,None
+UNIV*1260,UNIV*1250 - Must be completed prior to taking this course.
+UNIV*1300,None
+UNIV*2010,None
+UNIV*2020,2.00 credits - Must be completed prior to taking this course.
+UNIV*2100,4.00 credits - Must be completed prior to taking this course.
+UNIV*2200,4.50 credits - Must be completed prior to taking this course.
+UNIV*2250,"UNIV*1250, UNIV*1260 - Must be completed prior to taking this course."
+UNIV*2260,UNIV*2250 - Must be completed prior to taking this course.
+UNIV*2800,4.00 credits completed; minimum 60% cumulative average - Must be completed prior to taking this course.
+UNIV*3000,9.00 credits - Must be completed prior to taking this course.
+UNIV*3800,4.00 credits completed; minimum 60% cumulative average - Must be completed prior to taking this course.
+UNIV*4200,13.50 credits - Must be completed prior to taking this course.
+UNIV*4800,4.00 credits completed; minimum 60% cumulative average - Must be completed prior to taking this course.
+UNIV*6000,None
+UNIV*6010,None
+UNIV*6020,None
+UNIV*6030,None
+UNIV*6050,None
+UNIV*6060,None
+UNIV*6080,None
+UNIV*6090,UNIV*6080 - Must be completed prior to taking this course.
+UNIV*6120,None
+UNIV*6200,None
+UNIV*6300,None
+UNIV*6500,None
+UNIV*6600,None
+UNIV*6710,None
+IDEV*1000,None
+IDEV*1100,IDEV*1000 - Must be completed prior to taking this course.
+IDEV*2000,2.00 credits - Must be completed prior to taking this course.
+IDEV*2200,2.00 credits - Must be completed prior to taking this course.
+IDEV*3000,7.50 credits including 1.00 credit in IDEV courses at the 2000 level - Must be completed prior to taking this course.
+IDEV*3200,10.00 credits - Must be completed prior to taking this course.
+IDEV*3300,7.50 credits including 1.00 credit in IDEV courses at the 2000 level - Must be completed prior to taking this course.
+IDEV*3400,7.50 credits including (0.50 credits in IDEV at the 2000 level or ONEH*2000) - Must be completed prior to taking this course.
+IDEV*3500,7.50 credits - Must be completed prior to taking this course.
+IDEV*3600,7.50 credits - Must be completed prior to taking this course.
+IDEV*4000,"14.00 credits including IDEV*2400, IDEV*3000, IDEV*3100, IDEV*3300 - Must be completed prior to taking this course."
+IDEV*4100,"14.00 credits including IDEV*3000, IDEV*3100 - Must be completed prior to taking this course."
+IDEV*4150,IDEV*4100 - Must be completed prior to taking this course.
+IDEV*4200,14.00 credits - Must be completed prior to taking this course.
+IDEV*4300,14.00 credits including 1.00 IDEV credits at the 3000-level - Must be taken either prior to or at the same time as this course.
+IDEV*4600,14.00 credits including (1.00 credit in IDEV courses at the 3000 level or ONEH*3000) - Must be completed prior to taking this course.
+IDEV*6000,None
+IDEV*6200,None
+IDEV*6300,None
+IDEV*6500,None
+IDEV*6850,"IDEV*6800 - Recommended prior to taking this course, but is not required."
+ITAL*1000,None
+ITAL*1060,None
+ITAL*1070,ITAL*1060 - Must be completed prior to taking this course.
+ITAL*2090,ITAL*1070 - Must be completed prior to taking this course.
+ITAL*3060,ITAL*2090 - Must be completed prior to taking this course.
+ITAL*3400,ITAL*3060 - Must be completed prior to taking this course.
+ITAL*3700,10.00 credits including 1.50 credits in Italian. - Must be completed prior to taking this course.
+ITAL*3800,10.00 credits including 1.50 credits in ITAL - Must be completed prior to taking this course.
+ITAL*4900,"ITAL*3060, ITAL*3400 - Must be completed prior to taking this course."
+JLS*1000,None
+JLS*4000,"14.00 credits, including POLS*3130, POLS*3350 - Must be completed prior to taking this course."
+JLS*4800,"14.00 credits, including POLS*3130, POLS*3350 - Must be completed prior to taking this course."
+JLS*4900,JLS*4800 - Must be completed prior to taking this course.
+JUST*1000,None
+JUST*1010,AHSS*1150 - Must be completed prior to taking this course.
+JUST*1020,AHSS*1150 - Must be completed prior to taking this course.
+JUST*1030,None
+JUST*1040,JUST*1000 - Must be completed prior to taking this course.
+JUST*1050,None
+JUST*1210,None
+JUST*2000,None
+JUST*2010,None
+JUST*2020,"AHSS*1150, JUST*1010 - Must be completed prior to taking this course."
+JUST*2030,AHSS*1160 - Must be completed prior to taking this course.
+JUST*2040,None
+JUST*2050,JUST*1030 - Must be completed prior to taking this course.
+JUST*2060,JUST*1040 - Must be completed prior to taking this course.
+JUST*2070,JUST*2060 - Must be completed prior to taking this course.
+JUST*2080,AHSS*1160 - Must be completed prior to taking this course.
+JUST*2090,2.00 credits - Must be completed prior to taking this course.
+JUST*2100,2.00 credits - Must be completed prior to taking this course.
+JUST*2110,AHSS*1110 or PSYC*1110 - Must be completed prior to taking this course.
+JUST*2200,4.00 credits - Must be completed prior to taking this course.
+JUST*3010,5.00 credits including (AHSS*1110 or PSYC*1110) - Must be completed prior to taking this course.
+JUST*3030,"AHSS*1150, JUST*1010 - Must be completed prior to taking this course."
+JUST*3040,5.00 credits including AHSS*1160 - Must be completed prior to taking this course.
+JUST*3050,5.00 credits including JUST*2050 - Must be completed prior to taking this course.
+JUST*3060,5.00 credits including JUST*1020 - Must be completed prior to taking this course.
+JUST*3120,10.00 credits - Must be completed prior to taking this course.
+JUST*4000,10.00 credits including JUST*2000 - Must be completed prior to taking this course.
+JUST*4010,"AHSS*3060, SCMA*2040, SCMA*3040 - Must be completed prior to taking this course."
+JUST*4020,10.00 credits including: AHSS*1140 - Must be completed prior to taking this course.
+JUST*4060,"AHSS*3060, JUST*2080 - Must be completed prior to taking this course."
+KIN*1010,None
+KIN*1030,None
+KIN*1040,KIN*1030 - Must be completed prior to taking this course.
+KIN*1060,None
+KIN*1210,None
+KIN*1220,5.00 credits - Must be completed prior to taking this course.
+KIN*1230,AHSS*1310 - Must be completed prior to taking this course.
+KIN*1240,None
+KIN*1250,None
+KIN*1310,None
+KIN*1320,None
+KIN*1330,None
+KIN*1340,None
+KIN*1350,None
+KIN*1410,None
+KIN*1430,7.50 credits - Must be completed prior to taking this course.
+KIN*1440,7.50 credits - Must be completed prior to taking this course.
+KIN*1470,4.00 credits - Must be completed prior to taking this course.
+KIN*1480,4.00 credits - Must be completed prior to taking this course.
+KIN*1490,None
+KIN*1500,None
+KIN*1510,KIN*1010 - Must be completed prior to taking this course.
+KIN*2010,"AHSS*1310, KIN*1010 - Must be completed prior to taking this course."
+KIN*2020,"KIN*2060, KIN*2070 - Must be completed prior to taking this course."
+KIN*2060,KIN*1060 - Must be completed prior to taking this course.
+KIN*2070,KIN*1070 or SCMA*1080 - Must be completed prior to taking this course.
+KIN*2100,"KIN*1010, KIN*1040, KIN*1060 - Must be completed prior to taking this course."
+KIN*2200,"KIN*1040, KIN*1060 - Must be completed prior to taking this course."
+KIN*2210,"KIN*2060, KIN*2200 - Must be completed prior to taking this course."
+KIN*3010,KIN*2060 - Must be completed prior to taking this course.
+LARC*1100,None
+LARC*1950,None
+LARC*2020,LARC*1100 - Must be completed prior to taking this course.
+LARC*2100,LARC*2020 - Must be completed prior to taking this course.
+LARC*2230,LARC*1100 - Must be completed prior to taking this course.
+LARC*2240,LARC*2230 - Must be completed prior to taking this course.
+LARC*2410,"LARC*2020, LARC*2420 - Must be completed prior to taking this course."
+LARC*2420,LARC*1100 - Must be completed prior to taking this course.
+LARC*2820,None
+LARC*3040,LARC*2020 - Must be completed prior to taking this course.
+LARC*3050,LARC*3040 - Must be completed prior to taking this course.
+LARC*3060,LARC*3050 - Must be completed prior to taking this course.
+LARC*3070,LARC*3060 - Must be completed prior to taking this course.
+LARC*3320,"LARC*2100, LARC*2240 - Must be completed prior to taking this course."
+LARC*3430,LARC*2410 - Must be completed prior to taking this course.
+LARC*3440,LARC*3430 - Must be completed prior to taking this course.
+LARC*3500,LARC*3040 - Must be completed prior to taking this course.
+LARC*4090,LARC*3070 - Must be completed prior to taking this course.
+LARC*4510,LARC*3060 - Must be completed prior to taking this course.
+LARC*4610,LARC*3050 - Must be completed prior to taking this course.
+LARC*4620,"LARC*3060, LARC*3440, LARC*4610 - Must be completed prior to taking this course."
+LARC*4710,"LARC*3070, LARC*4510 - Must be completed prior to taking this course."
+LARC*4730,LARC*3040 - Must be completed prior to taking this course.
+LARC*4740,LARC*3040 - Must be completed prior to taking this course.
+LARC*6010,None
+LARC*6020,None
+LARC*6030,None
+LARC*6040,None
+LARC*6120,None
+LARC*6340,None
+LAT*1100,None
+LAT*1110,LAT*1100 or Grade 12 Latin - Must be completed prior to taking this course.
+LAT*2000,Grade 12 Latin or LAT*1110 - Must be completed prior to taking this course.
+LAT*4100,"1 of CLAS*3060, CLAS*3120, CLAS*3300 - Must be completed prior to taking this course."
+LAT*4150,CLAS*3060 or CLAS*3120 - Must be completed prior to taking this course.
+LACS*6000,None
+LACS*6010,None
+LACS*6020,None
+LACS*6030,None
+LACS*6040,None
+LACS*6070,None
+LACS*6100,None
+LACS*6200,None
+LACS*6300,None
+LEAD*6000,None
+LEAD*6100,None
+LEAD*6200,None
+LEAD*6220,None
+LEAD*6300,None
+LEAD*6350,None
+LEAD*6400,None
+LEAD*6500,None
+LEAD*6600,None
+LEAD*6720,None
+LEAD*6740,LEAD*6800 - Must be completed prior to taking this course.
+LEAD*6800,None
+LEAD*6900,LEAD*6400 - Must be completed prior to taking this course.
+LEAD*9610,None
+LING*1000,None
+LING*2400,LING*1000 - Must be completed prior to taking this course.
+LING*2500,LING*1000 - Must be completed prior to taking this course.
+LING*3010,LING*1000 - Must be completed prior to taking this course.
+LING*3020,LING*1000 - Must be completed prior to taking this course.
+MGMT*1000,None
+MGMT*1100,4.00 credits - Must be completed prior to taking this course.
+MGMT*1200,MGMT*1000 - Must be completed prior to taking this course.
+MGMT*1500,None
+MGMT*2150,None
+MGMT*2190,HROB*2090 - Must be completed prior to taking this course.
+MGMT*2260,MGMT*1000 or MGMT*2150 - Must be completed prior to taking this course.
+MGMT*2500,MGMT*1000 or MGMT*2150 - Must be completed prior to taking this course.
+MGMT*3020,9.00 credits - Must be completed prior to taking this course.
+MGMT*3030,12.50 credits. - Must be completed prior to taking this course.
+MGMT*3100,8.00 credits - Must be completed prior to taking this course.
+MGMT*3140,"9.00 credits including (1 of MATH*1030, MATH*1080, MATH*1200) (1 of ECON*2740, PSYC*1010, STAT*2040, STAT*2060) - Must be completed prior to taking this course."
+MGMT*3200,9.00 credits including MGMT*1000 or MGMT*2150 - Must be completed prior to taking this course.
+MGMT*3300,4.00 credits. - Must be completed prior to taking this course.
+MGMT*3320,ACCT*2230 or HTM*3070 - Must be completed prior to taking this course.
+MGMT*3400,None
+MGMT*3500,9.00 credits including (MGMT*1000 or MGMT*2150) - Must be completed prior to taking this course.
+MGMT*3900,8.00 credits - Must be completed prior to taking this course.
+MGMT*4000,"MGMT*3320, [1 of ( ECON*2560 or FIN*2000), ECON*3460, ECON*3560], (1 of FARE*3310, HTM*3120, REAL*3890) - Must be completed prior to taking this course."
+MGMT*4020,"14.00 credits, minimum 70% cumulative average - Must be completed prior to taking this course."
+MGMT*4030,"MGMT*4020, minimum 70% cumulative average - Must be completed prior to taking this course."
+MGMT*4040,12.00 credits including MGMT*1200 - Must be completed prior to taking this course.
+MGMT*4050,"10.00 credits including (1 of MCS*1000, MGMT*1000, MGMT*2150) - Must be completed prior to taking this course."
+MGMT*4060,"10.00 credits including (1 of MCS*1000, MGMT*1000, MGMT*2150) - Must be completed prior to taking this course."
+MGMT*4100,"MGMT*3140, MGMT*3200 - Must be completed prior to taking this course."
+MGMT*4120,MGMT*3020 - Must be completed prior to taking this course.
+MGMT*4140,"ECON*3740, MGMT*3140, (CIS*1300 or CIS*1500) - Must be completed prior to taking this course."
+MGMT*4200,"HROB*3100, MGMT*3200 - Must be completed prior to taking this course."
+MGMT*4260,14.50 credits including MGMT*2260 - Must be completed prior to taking this course.
+MGMT*4300,"HROB*2010, HROB*3100, MGMT*3300 - Must be completed prior to taking this course."
+MCS*1000,None
+MCS*2000,4.00 credits - Must be completed prior to taking this course.
+MCS*2010,2.00 credits - Must be completed prior to taking this course.
+MCS*2020,4.00 credits - Must be completed prior to taking this course.
+MCS*2030,"MCS*1000, (MGMT*1000 or MGMT*2150) - Must be completed prior to taking this course."
+MCS*2100,5.00 credits - Must be completed prior to taking this course.
+MCS*2600,"MCS*1000, (1 of BUS*2090, HROB*2090, HROB*2100, PSYC*1000, PSYC*1200). Although not required, it is recommended that students take PSYC*1000 prior to MCS*2600. - Must be completed prior to taking this course."
+MCS*3000,10.00 credits including MCS*1000 - Must be completed prior to taking this course.
+MCS*3010,"10.00 credits including ( 1 of ECON*2740, PSYC*1010, STAT*2040, STAT*2060, STAT*2080) - Must be completed prior to taking this course."
+MCS*3030,"1 of ECON*2740, MCS*2030, PSYC*1010, STAT*2060 - Must be completed prior to taking this course."
+MCS*3040,4.00 credits - Must be completed prior to taking this course.
+MCS*3500,"10.00 credits including ECON*1050, MCS*2020, (1 of ECON*2740, PSYC*1010, STAT*2060) - Must be completed prior to taking this course."
+MCS*3620,"10.00 credits including MCS*1000, MCS*2600 - Must be completed prior to taking this course."
+MCS*4010,"15.00 Credits including MCS*2600, MCS*3030 - Must be completed prior to taking this course."
+MCS*4020,15.00 credits including MCS*3030 - Must be completed prior to taking this course.
+MCS*4040,"10.00 credits including MCS*1000, MCS*2600 - Must be completed prior to taking this course."
+MCS*4060,14.00 credits - Must be completed prior to taking this course.
+MCS*4100,15.00 credits including MCS*3500 - Must be completed prior to taking this course.
+MCS*4150,15.00 credits including MCS*2020 - Must be completed prior to taking this course.
+MCS*4300,15.00 credits including MCS*2600 - Must be completed prior to taking this course.
+MCS*4370,"15.00 credits including MCS*3030, MCS*3500 - Must be completed prior to taking this course."
+MCS*4400,10.00 credits including (ECON*3740 or MCS*3030) - Must be completed prior to taking this course.
+MCS*4600,10.00 credits including MCS*3030 - Must be completed prior to taking this course.
+MCS*4880,10.00 credits. - Must be completed prior to taking this course.
+MCS*4910,None
+MCS*4920,15.00 credits including MCS*2600 - Must be completed prior to taking this course.
+MCS*4950,"15.00 credits including MCS*3030, MCS*3500, MCS*3620 - Must be completed prior to taking this course."
+MCS*6000,None
+MCS*6010,MCS*6000 - Must be completed prior to taking this course.
+MCS*6050,None
+MATH*1030,4U Advanced Functions - Must be completed prior to taking this course.
+MATH*1080,"1 of 4U Advanced Functions, 4U Advanced Functions and Calculus or equivalent - Must be completed prior to taking this course."
+MATH*1090,"1 of IPS*1500, MATH*1080, MATH*1200 - Must be completed prior to taking this course."
+MATH*1160,4U Calculus and Vectors or 4U Advanced Functions - Must be completed prior to taking this course.
+MATH*1200,"1 of 4U Calculus and Vectors, 4U Advanced Functions and Calculus or Grade 12 Calculus - Must be completed prior to taking this course."
+MATH*1210,MATH*1080 or MATH*1200 - Must be completed prior to taking this course.
+MATH*2000,"1 of IPS*1500, MATH*1080, MATH*1160, MATH*1200 - Must be completed prior to taking this course."
+MATH*2130,"(1 of CIS*1300, CIS*1500, ENGG*1410), (1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080) - Must be completed prior to taking this course."
+MATH*2200,"1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080 - Must be completed prior to taking this course."
+MATH*2210,MATH*2200 - Must be completed prior to taking this course.
+MATH*2270,"(ENGG*1500 or MATH*1160), (1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080) - Must be completed prior to taking this course."
+MATH*3100,"MATH*2270, (ENGG*1500 or MATH*1160) - Must be completed prior to taking this course."
+MATH*3130,"MATH*1160, MATH*2000 - Must be completed prior to taking this course."
+MATH*3160,"MATH*1160, 1.00 credits in MATH or STAT at the 2000 level or above - Must be completed prior to taking this course."
+MATH*3200,"MATH*2000, (MATH*1160 or MATH*2160) - Must be completed prior to taking this course."
+MATH*3240,"MATH*1160, 0.50 credits in statistics - Must be completed prior to taking this course."
+MATH*3260,MATH*2200 - Must be completed prior to taking this course.
+MATH*3510,"MATH*2270, (ENGG*1500 or MATH*1160) - Must be completed prior to taking this course."
+MATH*4050,MATH*3200 - Must be completed prior to taking this course.
+MATH*4060,MATH*3200 - Must be completed prior to taking this course.
+MATH*4150,MATH*3200 - Must be completed prior to taking this course.
+MATH*4200,MATH*3200 - Must be completed prior to taking this course.
+MATH*4240,0.50 credits in Mathematics at the 3000 level. - Must be completed prior to taking this course.
+MATH*4270,"MATH*2200, MATH*3100 - Must be completed prior to taking this course."
+MATH*4310,10.00 credits including MATH*2000 - Must be completed prior to taking this course.
+MATH*4440,At least 3.0 mathematics and/or statistics credits at the 3000 level or above. - Must be completed prior to taking this course.
+MATH*4600,1.00 credits in Mathematics at the 3000 level or above. - Must be completed prior to taking this course.
+MATH*6010,None
+MATH*6011,None
+MATH*6012,None
+MDST*1000,"MDST*1020, MDST*1100 - Must be completed prior to taking this course."
+MDST*1020,None
+MDST*1030,None
+MDST*1040,None
+MDST*1070,MDST*1300 - Must be completed prior to taking this course.
+MDST*1090,None
+MDST*1100,None
+MDST*1200,None
+MDST*1300,2.00 credits - Must be completed prior to taking this course.
+MDST*2000,"9.00 credits including (MDST*1050 or MDST*2080), (MDST*1080 or MDST*1100) - Must be completed prior to taking this course."
+MDST*2020,2.00 credits - Must be completed prior to taking this course.
+MDST*2030,"9.00 credits, including AHSS*1080, MDST*1030, MDST*2110 - Must be completed prior to taking this course."
+MDST*2040,"9.00 credits including MDST*1090, MDST*2090, MDST*2110 - Must be completed prior to taking this course."
+MDST*2050,"MDST*2000, MDST*2030 - Must be completed prior to taking this course."
+MDST*2070,None
+MDST*2080,"2.00 credits including (1 of MDST*1080, MDST*1100, MDST*1200), (AHSS*1210 or MDST*1040) - Must be completed prior to taking this course."
+MDST*2090,"AHSS*1080, MDST*1020 - Must be completed prior to taking this course."
+MDST*2110,"(AHSS*1210 or MDST*1040), (MDST*1050 or MDST*2080), [(MDST*1100, MDST*1200) or MDST*1080] - Must be completed prior to taking this course."
+MDST*2120,"AHSS*1080, MDST*1020, MDST*1100 - Must be completed prior to taking this course."
+MDST*2150,2.00 credits - Must be completed prior to taking this course.
+MDST*2180,None
+MDST*2210,9.00 credits including MDST*1070 - Must be completed prior to taking this course.
+MDST*2510,9.00 credits including MDST*1070 - Must be completed prior to taking this course.
+MDST*3000,"MDST*2000, MDST*2030, MDST*3330 - Must be completed prior to taking this course."
+MDST*3020,"MDST*2000, MDST*2030, MDST*3180 - Must be completed prior to taking this course."
+MDST*3030,"9.00 credits including (MDST*1080 or MDST*1200), (MDST*1050 or MDST*2080) - Must be completed prior to taking this course."
+MDST*3040,4.00 credits - Must be completed prior to taking this course.
+MDST*3060,"9.00 credits including MDST*1090, MDST*2020, MDST*2090, (MDST*1080 or MDST*1200) - Must be completed prior to taking this course."
+MDST*3080,"9.00 credits including MDST*2090, MDST*2110 - Must be completed prior to taking this course."
+MDST*3110,"MDST*2210, MDST*2510 - Must be completed prior to taking this course."
+MICR*2420,"4.00 credits including (1 of BIOL*1070, BIOL*1080, BIOL*1090, CHEM*1040) - Must be completed prior to taking this course."
+MICR*2430,MICR*2420 - Must be completed prior to taking this course.
+MICR*3090,BOT*2100 or MICR*2430 - Must be completed prior to taking this course.
+MICR*3220,"BIOL*1070, BIOL*1090 - Must be completed prior to taking this course."
+MICR*3230,"BIOL*1090, BIOC*2580 - Must be completed prior to taking this course."
+MICR*3240,"BIOC*3560, MBG*2040, MICR*2420 - Must be completed prior to taking this course."
+MICR*3330,MCB*2050 - Must be completed prior to taking this course.
+MICR*3420,"BIOC*3560, MBG*2040, MICR*2430 - Must be completed prior to taking this course."
+MICR*3430,"MICR*2430, (MBG*3080 or MICR*3240) - Must be completed prior to taking this course."
+MICR*4010,"MCB*2050, (MBG*3080 or MICR*3240) - Must be completed prior to taking this course."
+MICR*4250,"MICR*2420, MICR*3230 - Must be completed prior to taking this course."
+MICR*4330,"MICR*3330, (MICR*2430 is recommended) - Must be completed prior to taking this course."
+MICR*4430,MICR*3330 - Must be completed prior to taking this course.
+MICR*4540,"BIOC*3560, MBG*2040, MICR*2420 - Must be completed prior to taking this course."
+MCB*2050,"BIOC*2580, MBG*2040 - Must be completed prior to taking this course."
+MCB*3010,MCB*2050 - Must be completed prior to taking this course.
+MCB*4010,MCB*3010 - Must be completed prior to taking this course.
+MCB*4020,14.00 credits - Must be completed prior to taking this course.
+MCB*4500,"MBG*3350 or equivalent laboratory experience at the discretion of the student's faculty advisor. Normally, students must have completed 6 semesters in an appropriate program in the biological sciences - Must be completed prior to taking this course."
+MCB*4510,"MCB*4500. Normally, students must have completed 6 semesters in an appropriate program in the biological sciences. Minimum 70% cumulative average in science courses during the first 6 semesters of the relevant majors. - Must be completed prior to taking this course."
+MCB*4600,"MBG*3350 or equivalent laboratory experience at the discretion of the student's faculty advisor. Normally, students must have a minimum of 3.00 credits in 3000 or 4000 level BIOC, MBG, MCB OR MICR courses - Must be completed prior to taking this course."
+MCB*6310,None
+MCB*6370,None
+MCB*6500,None
+MCB*6700,None
+MCB*7500,None
+MBG*1000,None
+MBG*2040,4.00 credits including BIOL*1090 - Must be completed prior to taking this course.
+MBG*2400,"(BIOL*1050 or BIOL*1070), BIOL*1090 - Must be completed prior to taking this course."
+MBG*3040,MCB*2050 - Must be completed prior to taking this course.
+MBG*3050,MCB*2050 - Must be completed prior to taking this course.
+MBG*3060,"MBG*2400, 0.50 credits in statistics. - Must be completed prior to taking this course."
+MBG*3100,"(MBG*2040 or MBG*2400 ), STAT*2040 - Must be completed prior to taking this course."
+MBG*3350,"BIOC*2580, MCB*2050 - Must be completed prior to taking this course."
+MBG*3660,MCB*2050 - Must be completed prior to taking this course.
+MBG*4020,MBG*3060 - Must be completed prior to taking this course.
+MBG*4030,MBG*3060 - Must be completed prior to taking this course.
+MBG*4040,MBG*3040 - Must be completed prior to taking this course.
+MBG*4110,MBG*3040 - Must be completed prior to taking this course.
+MBG*4160,"(MBG*2040 or MBG*2400), STAT*2040 - Must be completed prior to taking this course."
+MBG*4240,MBG*3040 - Must be completed prior to taking this course.
+MBG*4300,MBG*2040 or MBG*2400 - Must be completed prior to taking this course.
+MUSC*1060,None
+MUSC*1090,None
+MUSC*1130,None
+MUSC*1150,None
+MUSC*1160,None
+MUSC*1170,MUSC*1160 or MUSC*1180 - Must be completed prior to taking this course.
+MUSC*1200,None
+MUSC*1340,None
+MUSC*1410,None
+MUSC*1420,MUSC*1410 - Must be completed prior to taking this course.
+MUSC*1710,None
+MUSC*1720,MUSC*1710 - Must be completed prior to taking this course.
+MUSC*1810,None
+MUSC*1820,MUSC*1810 - Must be completed prior to taking this course.
+MUSC*1910,None
+MUSC*1920,MUSC*1910 - Must be completed prior to taking this course.
+MUSC*2100,2.00 credits - Must be completed prior to taking this course.
+MUSC*2140,2.00 credits - Must be completed prior to taking this course.
+MUSC*2150,2.00 credits - Must be completed prior to taking this course.
+MUSC*2340,MUSC*1340 - Must be completed prior to taking this course.
+MUSC*2410,MUSC*1170 or MUSC*2180 - Must be completed prior to taking this course.
+MUSC*2420,A minimum grade of 70% in MUSC*2410. - Must be completed prior to taking this course.
+MUSC*2430,MUSC*1170 - Must be completed prior to taking this course.
+MUSC*2440,MUSC*2430 - Must be completed prior to taking this course.
+MUSC*2500,A minimum grade of 70% in MUSC*1420 - Must be completed prior to taking this course.
+MUSC*2510,A minimum grade of 70% in MUSC*2500 - Must be completed prior to taking this course.
+MUSC*2570,MUSC*2510 on piano. - Must be completed prior to taking this course.
+MUSC*2580,MUSC*2570 - Must be completed prior to taking this course.
+MUSC*2710,MUSC*1720 - Must be completed prior to taking this course.
+MUSC*2720,MUSC*2710 - Must be completed prior to taking this course.
+NANO*1000,4U Chemistry or 4U Physics - Must be completed prior to taking this course.
+NANO*2000,"CHEM*1050, [IPS*1510 or ( MATH*1210, PHYS*1010)] - Must be completed prior to taking this course."
+NANO*2100,NANO*2000 - Must be completed prior to taking this course.
+NANO*3200,NANO*2100 - Must be completed prior to taking this course.
+NANO*3300,"NANO*2100, (CHEM*3860 or PHYS*3230) - Must be completed prior to taking this course."
+NANO*3500,NANO*2100 - Must be completed prior to taking this course.
+NANO*3600,"(MATH*1160 or MATH*2160), (MATH*2170 or MATH*2270), (CHEM*3860 or PHYS*3230) - Must be completed prior to taking this course."
+NANO*3800,CHEM*2070 or PHYS*3230 - Must be completed prior to taking this course.
+NANO*4100,"MATH*2270, (CHEM*2820 or PHYS*2240) - Must be completed prior to taking this course."
+NANO*4200,"NANO*3300, NANO*3500, (CHEM*3860 or PHYS*3230) - Must be completed prior to taking this course."
+NANO*4700,"MATH*1160, (CHEM*3860 or PHYS*3230) - Must be completed prior to taking this course."
+NANO*4910,1.50 credits in NANO courses at the 3000 level. - Must be completed prior to taking this course.
+NANO*4920,NANO*4910 - Must be completed prior to taking this course.
+NEUR*2000,4.00 credits including BIOL*1090 - Must be completed prior to taking this course.
+NEUR*2100,NEUR*2000 - Must be completed prior to taking this course.
+NEUR*3100,"MCB*2050, (1 of MBG*3040, NEUR*2000, PSYC*2410) - Must be completed prior to taking this course."
+NEUR*3500,"MCB*2050, PSYC*3270, (1 of NEUR*2000, NEUR*2100, PSYC*2410), (1 of BIOM*3200, HK*2810, ZOO*3600) - Must be completed prior to taking this course."
+NEUR*4000,14.00 credits - Must be completed prior to taking this course.
+NEUR*4100,"BIOM*3090, (NEUR*2000 or PSYC*2410) - Must be completed prior to taking this course."
+NEUR*4401,14.00 credits - Must be completed prior to taking this course.
+NEUR*4402,NEUR*4401 - Must be completed prior to taking this course.
+NEUR*4421,14.00 credits - Must be completed prior to taking this course.
+NEUR*4422,NEUR*4421 - Must be completed prior to taking this course.
+NEUR*4450,14.00 credits - Must be completed prior to taking this course.
+NEUR*6000,None
+NEUR*6100,None
+NUTR*1010,None
+NUTR*1020,None
+NUTR*2050,NUTR*1010 - Must be completed prior to taking this course.
+NUTR*2150,"(BIOL*1040 or BIOL*1080), CHEM*1040 - Must be completed prior to taking this course."
+NUTR*2500,4.00 credits - Must be completed prior to taking this course.
+NUTR*3070,"FRHD*3070, NUTR*2050 - Must be completed prior to taking this course."
+NUTR*3090,"BIOM*3200, FRHD*3070, NUTR*2050, (NUTR*3190 or NUTR*3210), STAT*2080 - Must be completed prior to taking this course."
+NUTR*3110,9.50 credits including NUTR*2050 - Must be completed prior to taking this course.
+NUTR*3150,"1 of NUTR*1010, NUTR*2150, NUTR*3210 - Must be completed prior to taking this course."
+NUTR*3210,BIOC*2580 - Must be completed prior to taking this course.
+NUTR*3330,NUTR*3210 - Must be completed prior to taking this course.
+NUTR*3360,"BIOC*2580, BIOL*1080, MBG*2040 - Must be completed prior to taking this course."
+NUTR*3390,NUTR*3210 - Must be completed prior to taking this course.
+NUTR*3500,"FRHD*3070, STAT*2090 - Must be completed prior to taking this course."
+NUTR*4010,"14.50 credits including NUTR*2050, NUTR*3210 - Must be completed prior to taking this course."
+NUTR*4040,"14.50 credits including NUTR*3090, (BIOM*2000 or BIOM*3200) - Must be completed prior to taking this course."
+NUTR*4070,"FRHD*3400, NUTR*2050 - Must be completed prior to taking this course."
+NUTR*4090,NUTR*3210 - Must be completed prior to taking this course.
+NUTR*4120,"NUTR*4010, NUTR*4040 - Must be completed prior to taking this course."
+NUTR*4210,"NUTR*3210, (1 of BIOM*3200, HK*3810) - Must be completed prior to taking this course."
+NUTR*4320,"NUTR*3210, (1 of BIOM*3200, HK*3810, ZOO*3210, ZOO*3620) - Must be completed prior to taking this course."
+NUTR*4330,"NUTR*3330, NUTR*3390, HK*3810 - Must be completed prior to taking this course."
+NUTR*4360,"NUTR*3210, (BIOM*3200 or HK*3810) - Must be completed prior to taking this course."
+NUTR*4510,NUTR*3210 - Must be completed prior to taking this course.
+NUTR*4810,"FRHD*3070, NUTR*2050, NUTR*3090 - Must be completed prior to taking this course."
+NUTR*4850,"FRHD*3400, NUTR*3090, NUTR*4070 - Must be completed prior to taking this course."
+NUTR*4900,"FRHD*3070, NUTR*3090, NUTR*4010 - Must be completed prior to taking this course."
+NUTR*4910,NUTR*4810 - Must be completed prior to taking this course.
+ONEH*1000,None
+ONEH*2000,ONEH*1000 - Must be completed prior to taking this course.
+ONEH*3000,7.50 credits including ONEH*2000 - Must be completed prior to taking this course.
+ONEH*4000,14.00 credits including ONEH*3000 - Must be completed prior to taking this course.
+ONEH*6000,None
+ONEH*6100,ONEH*6000 - Must be completed prior to taking this course.
+ONEH*6200,ONEH*6000 - Must be completed prior to taking this course.
+OAGR*2070,5.00 credits - Must be completed prior to taking this course.
+OAGR*4050,OAGR*2070 - Must be completed prior to taking this course.
+PABI*6000,None
+PABI*6030,None
+PABI*6040,PABI*6030 - Must be completed prior to taking this course.
+PABI*6041,PABI*6030 and PABI*6040 - Must be completed prior to taking this course.
+PABI*6050,None
+PABI*6060,PABI*6050 - Must be completed prior to taking this course.
+PABI*6070,PABI*6050 and PABI*6060 - Must be completed prior to taking this course.
+PABI*6080,None
+PABI*6090,PABI*6080 - Must be completed prior to taking this course.
+PABI*6091,"PABI*6080, PABI*6090 - Must be completed prior to taking this course."
+PABI*6100,None
+PABI*6104,None
+PABI*6190,None
+PABI*6221,None
+PABI*6222,None
+PABI*6300,None
+PABI*6320,None
+PABI*6330,None
+PABI*6350,STAT*2040 - Must be completed prior to taking this course.
+PABI*6430,None
+PABI*6440,PABI*6430 - Must be completed prior to taking this course.
+PABI*6450,PABI*6430 - Must be completed prior to taking this course.
+PABI*6500,None
+PABI*6550,None
+PABI*6560,None
+PABI*6630,None
+PABI*6640,PABI*6630 - Must be completed prior to taking this course.
+PABI*6650,PABI*6630 and PABI*6640 - Must be completed prior to taking this course.
+PABI*6700,None
+PABI*6710,None
+PATH*3040,10.00 credits including at least 1.50 credits in biology. - Must be completed prior to taking this course.
+PATH*3610,1.50 credits in biology - Must be completed prior to taking this course.
+PATH*4100,PATH*3610 - Must be completed prior to taking this course.
+CPHH*1000,None
+CPHH*1010,None
+CPHH*1020,None
+CPHH*1030,None
+CPHH*1040,None
+CPHH*1050,None
+CPHH*1070,None
+CPHH*2000,CPHH*1000 - Must be completed prior to taking this course.
+CPHH*2010,CPHH*1010 - Must be completed prior to taking this course.
+CPHH*2020,None
+CPHH*2030,CPHH*1030 - Must be completed prior to taking this course.
+CPHH*2040,None
+CPHH*2050,None
+CPHH*2070,None
+PHIL*1000,None
+PHIL*1010,None
+PHIL*1030,None
+PHIL*1050,None
+PHIL*2030,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2070,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2080,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2100,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2110,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2120,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2140,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1030, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2160,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1030, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2170,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2180,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2240,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1030, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2280,0.50 credits in either Philosophy or Political Science - Must be completed prior to taking this course.
+PHIL*2370,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1030, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2600,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*2800,"2.00 credits or (1 of PHIL*1000, PHIL*1010, PHIL*1030, PHIL*1050) - Must be completed prior to taking this course."
+PHIL*3040,1.50 credits in Philosophy or 7.50 credits or PHIL*2120 - Must be completed prior to taking this course.
+PHIL*3050,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3060,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3100,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3160,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3170,"1 of (1.50 credits in Philosophy, 7.50 credits, PHIL*2180) - Must be completed prior to taking this course."
+PHIL*3180,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3190,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3200,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3210,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHIL*3230,1.50 credits in Philosophy or 7.50 credits - Must be completed prior to taking this course.
+PHYS*1010,"(1 of MATH*1080, MATH*1200), (4U Physics or equivalent ) - Must be completed prior to taking this course."
+PHYS*1020,None
+PHYS*1070,"(4U Physics or PHYS*1020), 4U Mathematics - Must be completed prior to taking this course."
+PHYS*1080,"(1 of 4U Physics, PHYS*1020, PHYS*1300 ), 4U Mathematics - Must be completed prior to taking this course."
+PHYS*1130,"(4U Calculus and Vectors or equivalent), (4U Physics or equivalent) - Must be completed prior to taking this course."
+PHYS*1300,None
+PHYS*1500,"(1 of 4U Physics, PHYS*1020, PHYS*1300), (4U Calculus and Vectors or Grade 12 Calculus) - Must be completed prior to taking this course."
+PHYS*1510,"4U Physics or equivalent, (MATH*1080 or MATH*1200) - Must be completed prior to taking this course."
+PHYS*1600,None
+PHYS*1810,None
+PHYS*2020,"1.00 credits in physics (excluding PHYS*1020, PHYS*1600, PHYS*1810), (1 of IPS*1510, MATH*1090, MATH*1210) - Must be completed prior to taking this course."
+PHYS*2030,"1.00 credits in physics (excluding PHYS*1020, PHYS*1600, PHYS*1810) - Must be completed prior to taking this course."
+PHYS*2180,PHYS*2020 or PHYS*2330 - Must be completed prior to taking this course.
+PHYS*2240,"(1 of IPS*1510, MATH*1210, MATH*2080), (IPS*1500 or PHYS*1080) - Must be completed prior to taking this course."
+PHYS*2310,"MATH*2270, (1 of IPS*1500, PHYS*1000, PHYS*1080) - Must be completed prior to taking this course."
+PHYS*2330,"IPS*1510 or [(MATH*1210 or MATH*2080), (1 of PHYS*1010, PHYS*1070, PHYS*1130)] - Must be completed prior to taking this course."
+PHYS*2340,PHYS*2330 - Must be completed prior to taking this course.
+PHYS*2600,"IPS*1500 or [(1 of PHYS*1010, PHYS*1070, PHYS*1080, PHYS*1130, PHYS*1300), (1 of MATH*1030, MATH*1080, MATH*1160, MATH*1200)] - Must be completed prior to taking this course."
+PHYS*3000,"PHYS*2340, PHYS*3130 - Must be completed prior to taking this course."
+PHYS*3080,"IPS*1500 or [ PHYS*1080, (1 of MATH*1000, MATH*1080, MATH*1200)], (1 of IPS*1510, PHYS*1010, PHYS*1070, PHYS*1130) - Must be completed prior to taking this course."
+PHYS*3130,"(1 of MATH*1160, MATH*2150, MATH*2160), MATH*2200, MATH*2270, PHYS*2310, PHYS*2340 - Must be completed prior to taking this course."
+PHYS*3170,"(1 of IPS*1510, MATH*1210, MATH*2080), (MATH*2170 or MATH*2270) - Must be completed prior to taking this course."
+PHYS*3230,"MATH*2270, PHYS*2330 - Must be completed prior to taking this course."
+PHYS*3400,"(MATH*2170 or MATH*2270), (PHYS*2310 or PHYS*2440) - Must be completed prior to taking this course."
+PHYS*3510,"PHYS*2180 or (NANO*2100, PHYS*2310) - Must be completed prior to taking this course."
+PHYS*4001,PHYS*3510 - Must be completed prior to taking this course.
+PHYS*4002,PHYS*4001 - Must be completed prior to taking this course.
+PHYS*4040,PHYS*3230 - Must be completed prior to taking this course.
+PHYS*4070,PHYS*3170 - Must be completed prior to taking this course.
+PHYS*4120,PHYS*4040 - Must be completed prior to taking this course.
+PLNT*6010,PBIO*3110 - Must be completed prior to taking this course.
+PLNT*6040,None
+PLNT*6080,ENVS*3210 or PBIO*4070 - Must be completed prior to taking this course.
+PLNT*6100,None
+PLNT*6140,None
+PLNT*6160,None
+PLNT*6210,None
+PLNT*6230,None
+PLNT*6240,None
+PLNT*6250,None
+PLNT*6260,None
+PLNT*6290,None
+PLNT*6320,BIOC*2580 - Must be completed prior to taking this course.
+PLNT*6340,None
+PLNT*6350,None
+PLNT*6400,None
+PLNT*6440,None
+PLNT*6450,None
+PLNT*6500,MBG*2040 and STAT*2040 or STAT*2230 - Must be completed prior to taking this course.
+PLNT*6510,None
+PLNT*6520,None
+PLNT*6530,UNIV*6020 or STAT*6950
+PLNT*6800,None
+PBIO*3110,"1 of BIOL*1050, BIOL*1070, BIOL*1090 - Must be completed prior to taking this course."
+PBIO*3120,BIOL*1050 or BOT*2100 - Must be completed prior to taking this course.
+PBIO*3750,AGR*2470 or BOT*2100 - Must be completed prior to taking this course.
+PBIO*4000,"1 of BOT*2100, MICR*2030, (BIOL*1070, BIOL*1090, MBG*2040) - Must be completed prior to taking this course."
+PBIO*4070,"1 of ENVB*3210, ENVS*3210, MICR*3090, MICR*3220 - Must be completed prior to taking this course."
+PBIO*4150,"(AGR*2470 or BOT*2100), (MBG*2040 or MBG*2400) - Must be completed prior to taking this course."
+PBIO*4290,"14.50 credits including CHEM*1040, (ENVS*2040 or ENVS*3210), (PBIO*3110 or PBIO*3120) - Must be completed prior to taking this course."
+PBIO*4530,"(1 of BIOL*2060, BOT*2100, ENVM*1200, ENVS*2040 , ENVS*2330, PBIO*3110), CHEM*1040 - Must be completed prior to taking this course."
+PBIO*4750,"(AGR*2470 or BOT*2100), (MBG*2040 or MBG*2400) - Must be completed prior to taking this course."
+POLS*1150,None
+POLS*1250,None
+POLS*1500,None
+POLS*2000,None
+POLS*2100,2.00 credits - Must be completed prior to taking this course.
+POLS*2150,None
+POLS*2200,None
+POLS*2230,2.00 credits - Must be completed prior to taking this course.
+POLS*2250,2.00 credits - Must be completed prior to taking this course.
+POLS*2300,2.00 credits - Must be completed prior to taking this course.
+POLS*2350,2.00 credits - Must be completed prior to taking this course.
+POLS*2650,"4.00 credits including (1 of IDEV*1000, JLS*1000, POLS*1150) - Must be completed prior to taking this course."
+POLS*3000,"1 of IDEV*2000, POLS*2080, POLS*2100 - Must be completed prior to taking this course."
+POLS*3020,"1 of IDEV*2400, POLS*2200, POLS*2350 - Must be completed prior to taking this course."
+POLS*3050,POLS*1400 or POLS*2300 - Must be completed prior to taking this course.
+POLS*3060,"1 of IDEV*2000, POLS*2080, POLS*2100 - Must be completed prior to taking this course."
+POLS*3080,"1 of IDEV*2000, POLS*2080, POLS*2100 - Must be completed prior to taking this course."
+POLS*3130,"1 of POLS*2250, POLS*2300, POLS*2350 - Must be completed prior to taking this course."
+POLS*3140,POLS*2300 or POLS*2350 - Must be completed prior to taking this course.
+POLS*3160,"1 of IDEV*2000, POLS*2080, POLS*2100 - Must be completed prior to taking this course."
+POLS*3210,HIST*2600 or POLS*2300 - Must be completed prior to taking this course.
+POLS*3230,POLS*2000 or PHIL*2280 - Must be completed prior to taking this course.
+POLS*3250,POLS*2230 or POLS*2250 - Must be completed prior to taking this course.
+POLS*3270,7.50 credits - Must be completed prior to taking this course.
+POLS*3300,"1 of POLS*2350, POLS*2250, POLS*2300 - Must be completed prior to taking this course."
+POLS*3320,"1 of IDEV*2000, IDEV*2400, POLS*2080 - Must be completed prior to taking this course."
+POLS*3340,"1 of ANTH*2660, HIST*2090, HIST*2600, INDG*1000, POLS*2230, POLS*2300 - Must be completed prior to taking this course."
+POLS*3350,"1 of IDEV*2400, POLS*2100, POLS*2350 - Must be completed prior to taking this course."
+POLS*3360,POLS*2100 or POLS*2200 - Must be completed prior to taking this course.
+POLS*3370,7.50 credits - Must be completed prior to taking this course.
+POPM*3240,"(BIOL*1080 or BIOL*1090), (1 of SOAN*2120, STAT*2040, STAT*2230) - Must be completed prior to taking this course."
+POPM*4040,"1 of FOOD*3230, POPM*3240 - Must be completed prior to taking this course."
+POPM*4230,"1 of ANSC*2340, ANSC*3080, (ONEH*2000, POPM*3240) - Must be completed prior to taking this course."
+POPM*6100,None
+POPM*6200,None
+POPM*6210,None
+POPM*6230,None
+POPM*6250,None
+POPM*6260,None
+POPM*6290,POPM*6210 - Must be completed prior to taking this course.
+POPM*6400,None
+POPM*6420,None
+POPM*6510,None
+POPM*6520,POPM*6200 - Must be taken either prior to or at the same time as this course.
+POPM*6530,None
+POPM*6540,None
+POPM*6550,None
+POPM*6560,"POPM*6200, POPM*6510, POPM*6520, POPM*6530, POPM*6540, and POPM*6550 - Must be completed prior to taking this course."
+POPM*6570,POPM*6560 - Must be completed prior to taking this course.
+POPM*6580,None
+POPM*6590,POPM*6560 - Must be completed prior to taking this course.
+POPM*6600,POPM*6560 - Must be completed prior to taking this course.
+POPM*6610,None
+POPM*6630,None
+POPM*6650,None
+POPM*6670,None
+POPM*6700,None
+POPM*6800,POPM*6200 - Must be completed prior to taking this course.
+POPM*6950,None
+POPM*6960,POPM*6200 and POPM*6520 - Must be completed prior to taking this course.
+PORT*1100,None
+PORT*1110,PORT*1100 - Must be completed prior to taking this course.
+PSYC*1000,None
+PSYC*1010,PSYC*1000 - Must be completed prior to taking this course.
+PSYC*1020,None
+PSYC*1110,None
+PSYC*1120,None
+PSYC*1130,AHSS*1110 or PSYC*1110 - Must be completed prior to taking this course.
+PSYC*1210,None
+PSYC*1250,None
+PSYC*1300,None
+PSYC*1400,None
+PSYC*1500,PSYC*1000 - Must be taken either prior to or at the same time as this course.
+PSYC*2020,PSYC*1000 - Must be completed prior to taking this course.
+PSYC*2030,3.00 credits - Must be completed prior to taking this course.
+PSYC*2070,4.00 credits including PSYC*1000 - Must be completed prior to taking this course.
+PSYC*2090,"PSYC*1110 or (AHSS*1110, AHSS*1120) - Must be completed prior to taking this course."
+PSYC*2120,"PSYC*1110 or (AHSS*1110, AHSS*1120) - Must be completed prior to taking this course."
+PSYC*2130,"PSYC*1110 or (AHSS*1110, AHSS*1120) - Must be completed prior to taking this course."
+PSYC*2150,"PSYC*1110 or (AHSS*1110, AHSS*1120) - Must be completed prior to taking this course."
+PSYC*2160,"PSYC*1110 or (AHSS*1110, AHSS*1120) - Must be completed prior to taking this course."
+PSYC*2180,4.00 credits - Must be completed prior to taking this course.
+PSYC*2190,PSYC*1130 - Must be completed prior to taking this course.
+PSYC*2200,"PSYC*1110 or (AHSS*1110, AHSS*1120) - Must be completed prior to taking this course."
+PSYC*2210,"PSYC*1110 or (AHSS*1110, AHSS*1120) - Must be completed prior to taking this course."
+PSYC*2220,PSYC*2200 - Must be completed prior to taking this course.
+PSYC*2310,PSYC*1000 - Must be completed prior to taking this course.
+PSYC*2330,PSYC*1000 - Must be completed prior to taking this course.
+PSYC*2360,"PSYC*1000, (1 of PSYC*1010, STAT*2040, STAT*2060, STAT*2080, STAT*2120, STAT*2230) - Must be completed prior to taking this course."
+PSYC*2390,PSYC*1000 - Must be completed prior to taking this course.
+PSYC*2410,PSYC*1000 - Must be completed prior to taking this course.
+PSYC*2450,PSYC*1000 - Must be completed prior to taking this course.
+REAL*1820,None
+REAL*2820,5.00 credits - Must be completed prior to taking this course.
+REAL*2850,4.00 credits - Must be completed prior to taking this course.
+REAL*3810,"REAL*1820, (ECON*2740 or STAT*2060) - Must be completed prior to taking this course."
+REAL*3870,10.00 credits including REAL*1820 - Must be completed prior to taking this course.
+REAL*3880,10.00 credits including REAL*1820 - Must be completed prior to taking this course.
+REAL*3890,"REAL*1820, (ACCT*2230 or REAL*2820) - Must be completed prior to taking this course."
+REAL*4820,"(1 of CIS*1200, CIS*1500, MCS*2020), (1 of ACCT*2230, ECON*2560, FIN*2000, REAL*2820) - Must be completed prior to taking this course."
+REAL*4830,"15.00 credits including REAL*3810, REAL*4820 - Must be completed prior to taking this course."
+REAL*4840,"9.00 credits including REAL*1820, REAL*2820 - Must be completed prior to taking this course."
+REAL*4870,14.00 credits - Must be completed prior to taking this course.
+REAL*6000,None
+REAL*6100,None
+REAL*6200,None
+REAL*6300,None
+REAL*6400,None
+REAL*6500,None
+REAL*6510,None
+REAL*6800,None
+ROY*MP583,None
+RPD*6030,None
+RPD*6050,None
+RPD*6070,None
+RPD*6080,None
+RPD*6170,None
+RPD*6220,None
+RPD*6240,None
+RPD*6250,None
+RPD*6260,None
+RPD*6280,RPD*6250 - Must be completed prior to taking this course.
+RPD*6290,None
+RPD*6291,None
+RPD*6310,None
+RPD*6320,None
+RPD*6360,None
+RPD*6370,None
+RPD*6380,None
+RPD*6390,None
+RPD*6410,None
+RPD*6450,None
+RST*6000,None
+RST*6010,RST*6000 - Must be completed prior to taking this course.
+RST*6100,None
+RST*6110,RST*6100 - Must be completed prior to taking this course.
+SCMA*1000,None
+SCMA*1040,None
+SCMA*1050,None
+SCMA*1080,None
+SCMA*1120,None
+SCMA*1290,None
+SCMA*1500,None
+SCMA*2020,None
+SCMA*2040,3.00 credits - Must be completed prior to taking this course.
+SCMA*2050,None
+SCMA*2060,SCMA*1000 - Must be completed prior to taking this course.
+SCMA*2080,SCMA*1500 - Must be completed prior to taking this course.
+SCMA*2110,0.50 credits - Must be completed prior to taking this course.
+SCMA*3010,"7.50 credits, SCMA*1000 - Must be completed prior to taking this course."
+SCMA*3040,SCMA*2040 - Must be completed prior to taking this course.
+SCMA*3080,"SCMA*1500, SCMA*2110 - Must be completed prior to taking this course."
+SCMA*3100,"KIN*1040, SCMA*2080 - Must be completed prior to taking this course."
+XSEN*3030,"BIOC*2580, CHEM*2400 - Must be completed prior to taking this course."
+XSEN*3040,CHEM*2700 - Must be completed prior to taking this course.
+XSEN*3060,"BIOC*2580, CHEM*2400 - Must be completed prior to taking this course."
+XSEN*3070,CHEM*3750 - Must be completed prior to taking this course.
+XSEN*3090,"BIOC*2580, CHEM*2700 - Must be completed prior to taking this course."
+XSEN*3200,CHEM*3750 - Must be completed prior to taking this course.
+XSEN*3210,CHEM*2700 - Must be completed prior to taking this course.
+SXGN*1000,None
+SXGN*1010,None
+SXGN*2000,SXGN*1000 or SXGN*1010 - Must be completed prior to taking this course.
+SXGN*2010,SXGN*1000 or SXGN*1010 - Must be completed prior to taking this course.
+SXGN*3000,"SXGN*2000, SXGN*2010 - Must be completed prior to taking this course."
+SXGN*3010,"SXGN*2000, SXGN*2010 - Must be completed prior to taking this course."
+SXGN*4000,"SXGN*3000, SXGN*3010 - Must be completed prior to taking this course."
+SXGN*6000,None
+SXGN*6100,None
+SOPR*6000,None
+SOPR*6100,SOPR*6000 - Must be completed prior to taking this course.
+SOPR*6200,None
+SOC*1000,None
+SOC*1100,None
+SOC*2010,SOC*1100 - Must be completed prior to taking this course.
+SOC*2070,SOC*1100 or SOC*1500 - Must be completed prior to taking this course.
+SOC*2080,"1 of ANTH*1150, IDEV*1000, GEOG*1220, SOC*1100 - Must be completed prior to taking this course."
+SOC*2280,"1 of ANTH*1150, GEOG*1220, IDEV*1000, INDG*1000, SOC*1100 - Must be completed prior to taking this course."
+SOC*2390,SOC*1100 - Must be completed prior to taking this course.
+SOC*2700,"1 of CJPP*1000, SOC*1000, SOC*1500 - Must be completed prior to taking this course."
+SOC*2760,"1 of ANTH*1150, FRHD*1010, PHIL*1010, POLS*1400, PSYC*1000, PSYC*1100, PSYC*1200, SOC*1100, SOC*1500 - Must be completed prior to taking this course."
+SOC*2900,4.00 credits - Must be completed prior to taking this course.
+SOC*3130,"SOAN*2112, SOAN*2120 - Must be completed prior to taking this course."
+SOC*3310,"SOAN*2112, SOAN*2120 - Must be completed prior to taking this course."
+SOC*3410,"SOAN*2112, SOAN*2120 - Must be completed prior to taking this course."
+SOC*3490,"(SOAN*2112 or SOC*2700), (POLS*2650 or SOAN*2120) - Must be completed prior to taking this course."
+SOC*3710,"(SOAN*2112 or SOC*2700), SOAN*2120 - Must be completed prior to taking this course."
+SOC*3730,"(SOAN*2112 or SOC*2700), SOAN*2120 - Must be completed prior to taking this course."
+SOC*3740,"(SOAN*2112 or SOC*2700), SOAN*2120 - Must be completed prior to taking this course."
+SOC*3750,"(SOAN*2112 or SOC*2700), SOAN*2120 - Must be completed prior to taking this course."
+SOC*3840,"10.00 credits including (1 of SOAN*2112, SOC*2080, SOC*2700), SOAN*2120 - Must be completed prior to taking this course."
+SOC*3850,"10.00 credits including (1 of SOAN*2112, SOC*2080, SOC*2700), SOAN*2120 - Must be completed prior to taking this course."
+SOC*3950,10.00 credits - Must be completed prior to taking this course.
+SOC*4010,"14.00 credits including (SOC*2700 or SOC*3310), (SOAN*3120 or POLS*3650 ) - Must be completed prior to taking this course."
+SOC*4030,"14.00 credits including (2 of SOC*3490, SOC*3710, SOC*3730, SOC*3740, SOC*3750), (1 of ANTH*3690, SOC*2700, SOC*3310), (SOAN*3120 or POLS*3650) - Must be completed prior to taking this course."
+SOC*4130,"14.00 credits including (POLS*3650 or SOAN*3120), (SOC*2700 or SOC*3310) - Must be completed prior to taking this course."
+SOC*4140,"14.00 credits including (POLS*3650 or SOAN*3120), (SOC*2700 or SOC*3310) - Must be completed prior to taking this course."
+SOC*4150,"14.00 credits including (POLS*3650 or SOAN*3120), (SOC*2700 or SOC*3310) - Must be completed prior to taking this course."
+SOC*4170,"14.00 credits including (POLS*3650 or SOAN*3120), (SOC*2700 or SOC*3310) - Must be completed prior to taking this course."
+SOC*4200,"14.00 credits including (2 of SOC*3490, SOC*3710, SOC*3730, SOC*3740, SOC*3750), (1 of ANTH*3690, SOC*2700, SOC*3310), (SOAN*3120 or POLS*3650) - Must be completed prior to taking this course."
+SOC*4300,"14.00 credits including SOAN*3070, SOAN*3120, SOC*3310 - Must be completed prior to taking this course."
+SOC*4320,"14.00 credits including (POLS*3650 or SOAN*3120), (1 of ANTH*3690, SOC*2700, SOC*3310), (2 of SOC*3490, SOC*3710, SOC*3730, SOC*3740, SOC*3750) - Must be completed prior to taking this course."
+SOAN*2111,"1 of ANTH*1150, SOC*1100, SOC*1500 - Must be completed prior to taking this course."
+SOAN*2112,SOAN*2111 - Must be completed prior to taking this course.
+SOAN*2120,"1 of ANTH*1150, CJPP*1000, IDEV*1000, SOC*1000, SOC*1100, SOC*1500 - Must be completed prior to taking this course."
+SOAN*2290,ANTH*1150 or SOC*1100 - Must be completed prior to taking this course.
+SOAN*2400,"1 of ANTH*1150, IDEV*1000, SOC*1100 - Must be completed prior to taking this course."
+SOAN*3040,"1 of ANTH*2160, ANTH*2180, SOAN*2112 - Must be completed prior to taking this course."
+SOAN*3070,ONEH*2000 or SOAN*2120 - Must be completed prior to taking this course.
+SOAN*3100,"(1 of ANTH*2160, ANTH*2180, SOAN*2112, SOAN*2400), (POLS*2650 or SOAN*2120) - Must be completed prior to taking this course."
+SOAN*3120,SOAN*2120 - Must be completed prior to taking this course.
+SOAN*3130,"1 of ANTH*2160, ANTH*2180, GEOG*2030, IDEV*2000, IDEV*2300, SOAN*2112 - Must be completed prior to taking this course."
+SOAN*3240,"1 of ANTH*2160, ANTH*2180, IDEV*2000, IDEV*2300, SOC*2080 - Must be completed prior to taking this course."
+SOAN*3250,"1 of ANTH*2160, ANTH*2180, IDEV*2000, SOC*2080 - Must be completed prior to taking this course."
+SOAN*3380,"1 of ANTH*2230, GEOG*2210, IDEV*2000, SOC*2280 - Must be completed prior to taking this course."
+SOAN*3680,"1 of ANTH*2160, ANTH*2180, IDEV*2000, IDEV*2300, SOC*2080 - Must be completed prior to taking this course."
+SOAN*4210,"12.50 credits including (1 of ANTH*2660, IDEV*2000, IDEV*2400, GEOG*2210, SOAN*2290), (1 of GEOG*2260, IDEV*2100, POLS*2650, IES*2010, SOAN*2120, SOAN*3070) - Must be completed prior to taking this course."
+SOAN*4220,"12.50 credits including (1 of ANTH*2160, ANTH*2180, IDEV*2000, IDEV*2300, SOC*2080), (1 of GEOG*2260, IDEV*2100, POLS*2650, SOAN*2120) - Must be completed prior to taking this course."
+SOAN*4230,"12.50 credits including SOAN*3240, (1 of GEOG*2260, GEOG*3090, IDEV*2100, POLS*2650, SOAN*2120) - Must be completed prior to taking this course."
+SOAN*4250,"12.50 credits including (1 of IDEV*2100, GEOG*2260, POLS*2650, SOAN*2120), (1 of ANTH*2160, ANTH*2180, IDEV*2000, IDEV*2300, SOAN*2112, SOC*2080) - Must be completed prior to taking this course."
+SOAN*4260,"12.50 credits including (1 of IDEV*2100, GEOG*2260, POLS*2650, SOAN*2120), (1 of ANTH*2160, ANTH*2180, IDEV*2000, IDEV*2300, SOAN*2112, SOC*2080) - Must be completed prior to taking this course."
+SOAN*4320,None
+SOAN*4500,"(1 of ANTH*2160, ANTH*2180, ONEH*2000, SOC*2080), (1 of GEOG*2210, SOAN*2120, SOAN*3070) - Must be completed prior to taking this course."
+SPAN*1100,None
+SPAN*1110,SPAN*1100 - Must be completed prior to taking this course.
+SPAN*1500,None
+SPAN*2000,None
+SPAN*2010,SPAN*2000 - Must be completed prior to taking this course.
+SPAN*2040,HISP*1110 or SPAN*1110 - Must be completed prior to taking this course.
+SPAN*2990,HISP*1110 or SPAN*1110 - Must be completed prior to taking this course.
+SPAN*3080,HISP*2000 or SPAN*2000 - Must be completed prior to taking this course.
+SPAN*3210,"1 of SPAN*2990, SPAN*3220, SPAN*3230 - Must be completed prior to taking this course."
+SPAN*3220,HISP*2990 or SPAN*2990 - Must be completed prior to taking this course.
+SPAN*3230,HISP*2990 or SPAN*2990 - Must be completed prior to taking this course.
+SPAN*3240,HISP*1110 or SPAN*1110 - Must be completed prior to taking this course.
+SPAN*3500,HISP*2010 or SPAN*2010 - Must be completed prior to taking this course.
+SPAN*3700,10.00 credits including 1.50 credits in Spanish. - Must be completed prior to taking this course.
+SPAN*3800,"1.00 credits from the following: (HISP*3220 or SPAN*3220), (HISP*3230 or SPAN*3230), SPAN*3080 - Must be completed prior to taking this course."
+SPAN*3810,"1.00 credits from the following: (HISP*3220 or SPAN*3220), (HISP*3230 or SPAN*3230), SPAN*3080 - Must be completed prior to taking this course."
+SPAN*4100,"(HISP*4410 or SPAN*4410), (HISP*4420 or SPAN*4420) - Must be completed prior to taking this course."
+SPAN*4410,HISP*2990 or SPAN*2990 - Must be completed prior to taking this course.
+SPAN*4420,HISP*2990 or SPAN*2990 - Must be completed prior to taking this course.
+SPAN*4500,HISP*3500 or SPAN*3500 - Must be completed prior to taking this course.
+SPAN*4840,"1 of SPAN*3210, SPAN*3220, SPAN*3230 - Must be completed prior to taking this course."
+SPAN*9102,None
+SPAN*9401,None
+SPMT*1020,None
+SPMT*1120,None
+SPMT*2020,2.00 credits including (MGMT*1000 or MGMT*2150) - Must be completed prior to taking this course.
+SPMT*2120,SPMT*2020 - Must be completed prior to taking this course.
+SPMT*2220,"MCS*1000, (HTM*2020 or SPMT*2020) - Must be completed prior to taking this course."
+SPMT*3020,"(HTM*2020 or SPMT*2020), (ECON*2560 or FIN*2000) - Must be completed prior to taking this course."
+SPMT*3220,"9.00 credits, (HTM*2020 or SPMT*2020) - Must be completed prior to taking this course."
+SPMT*3400,9.00 credits - Must be completed prior to taking this course.
+SPMT*4020,"14.00 credits, including SPMT*3220, (HTM*3020 or SPMT*3020) - Must be completed prior to taking this course."
+SPMT*4040,"14.00 credits, including SPMT*2020 - Must be completed prior to taking this course."
+SPMT*4080,"14.00 credits, including SPMT*2020 - Must be completed prior to taking this course."
+SPMT*4140,"MGMT*3140, SPMT*2020 - Must be completed prior to taking this course."
+SPMT*6120,None
+STAT*1200,"1 of 4U Advanced Functions, 4U Calculus, or equivalent - Must be completed prior to taking this course."
+STAT*2040,"1 of 4U Calculus and Vectors, Advanced Functions and Calculus, OAC Calculus, MATH*1080 - Must be completed prior to taking this course."
+STAT*2050,"1 of STAT*2040, STAT*2060, STAT*2120, STAT*2230 - Must be completed prior to taking this course."
+STAT*2060,(4U mathematics or equivalent) or 0.50 credit in mathematics - Must be completed prior to taking this course.
+STAT*2080,(4U mathematics or equivalent) or 0.50 credit in mathematics - Must be completed prior to taking this course.
+STAT*2090,STAT*2080 - Must be completed prior to taking this course.
+STAT*2120,"1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080 - Must be completed prior to taking this course."
+STAT*2230,BIOL*1070 - Must be completed prior to taking this course.
+STAT*3100,"(1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080), (STAT*2040 or STAT*2120) - Must be completed prior to taking this course."
+STAT*3110,STAT*3100 - Must be completed prior to taking this course.
+STAT*3210,STAT*2050 - Must be completed prior to taking this course.
+STAT*3240,"MATH*1160, STAT*2050, (1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080) - Must be completed prior to taking this course."
+STAT*3320,"(1 of IPS*1510, MATH*1090, MATH*1210, MATH*2080), (1 of STAT*2050, STAT*3240, STAT*3100) - Must be completed prior to taking this course."
+STAT*3510,STAT*2050 - Must be completed prior to taking this course.
+STAT*4000,"STAT*2050, STAT*3110 - Must be completed prior to taking this course."
+STAT*4050,"STAT*3110, STAT*3240 - Must be completed prior to taking this course."
+STAT*4060,"STAT*3110, STAT*3240 - Must be completed prior to taking this course."
+STAT*4150,"STAT*3110, STAT*3240 - Must be completed prior to taking this course."
+STAT*4340,"STAT*3110, STAT*3240 - Must be completed prior to taking this course."
+STAT*4350,"MATH*1160, STAT*3110, STAT*3240 - Must be completed prior to taking this course."
+STAT*4360,STAT*3240 - Must be completed prior to taking this course.
+STAT*4600,1.00 credits in Statistics at the 3000 level or above. - Must be completed prior to taking this course.
+STAT*6550,None
+STAT*6700,None
+STAT*6721,None
+STAT*6761,None
+STAT*6801,None
+STAT*6802,None
+STAT*6821,None
+STAT*6841,None
+SART*1050,None
+SART*1060,None
+SART*1090,None
+SART*1150,None
+SART*2090,"SART*1050, SART*1060, (1 of ARTH*1220, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+SART*2200,"SART*1050, SART*1060, (1 of ARTH*1220, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+SART*2300,"SART*1050, SART*1060, (1 of ARTH*1220, ARTH*1510, ARTH*1520, ARTH*2220) - Must be completed prior to taking this course."
+SART*2460,"SART*1050, SART*1060, (1 of ARTH*1220, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+SART*2610,"SART*1050, SART*1060, (1 of ARTH*1220, ARTH*1510, ARTH*1520) - Must be completed prior to taking this course."
+SART*2700,"SART*1050, SART*1060, (1 of ARTH*1220, ARTH*1510, ARTH*1520, ARTH*2220) - Must be completed prior to taking this course."
+SART*2710,SART*2700 - Must be completed prior to taking this course.
+SART*2800,"SART*1050, SART*1060, (1 of ARTH*1220, ARTH*1510, ARTH*1520, ARTH*2220) - Must be completed prior to taking this course."
+SART*3090,SART*2090 - Must be completed prior to taking this course.
+SART*3200,SART*2200 - Must be completed prior to taking this course.
+SART*3300,SART*2300 - Must be completed prior to taking this course.
+SART*3470,SART*2460 or SART*2610 - Must be completed prior to taking this course.
+SART*3480,SART*2710 - Must be completed prior to taking this course.
+SART*3600,SART*2460 or SART*2610 - Must be completed prior to taking this course.
+SART*3660,SART*2460 - Must be completed prior to taking this course.
+SART*3750,SART*2610 - Must be completed prior to taking this course.
+SART*3770,SART*2800 - Must be completed prior to taking this course.
+SART*3800,3.00 credits in Studio Art - Must be completed prior to taking this course.
+SART*3900,SART*3800 and 3.50 credits in Studio Art - Must be completed prior to taking this course.
+SART*3950,1.00 credits from SART at the 2000 level - Must be completed prior to taking this course.
+SART*3990,"SART*1050, SART*1060 - Must be completed prior to taking this course."
+SART*4090,SART*3090 - Must be completed prior to taking this course.
+SART*4200,SART*3200 - Must be completed prior to taking this course.
+SART*4250,SART*3090 or SART*3200 - Must be completed prior to taking this course.
+SART*4260,SART*3090 or SART*3200 - Must be completed prior to taking this course.
+SART*4300,SART*3300 - Must be completed prior to taking this course.
+THST*1040,None
+THST*1190,THST*1040 - Must be completed prior to taking this course.
+THST*1200,None
+THST*1270,None
+THST*2040,THST*1190 - Must be completed prior to taking this course.
+THST*2050,THST*1190 - Must be completed prior to taking this course.
+THST*2120,THST*1040 - Must be completed prior to taking this course.
+THST*2190,THST*1190 - Must be completed prior to taking this course.
+THST*2270,THST*1270 - Must be completed prior to taking this course.
+THST*2450,2.00 credits - Must be completed prior to taking this course.
+THST*2500,2.00 credits - Must be completed prior to taking this course.
+THST*2650,2.00 credits - Must be completed prior to taking this course.
+THST*3000,"7.50 credits, including THST*2050, THST*2190 - Must be completed prior to taking this course."
+THST*3010,"7.50 credits, including THST*2050, THST*2190 - Must be completed prior to taking this course."
+THST*3140,"7.50 credits, including THST*1040 - Must be completed prior to taking this course."
+THST*3150,"7.50 credits, including THST*2270 - Must be completed prior to taking this course."
+THST*3160,"7.50 credits, including THST*2270 - Must be completed prior to taking this course."
+THST*3170,"7.50 credits, including THST*2270 - Must be completed prior to taking this course."
+THST*3190,"7.50 credits, including THST*2190 - Must be completed prior to taking this course."
+THST*3260,2.50 credits in Theatre Studies including THST*3140 or 1.00 credits in English - Must be completed prior to taking this course.
+THST*3340,2.50 credits in Theatre Studies - Must be completed prior to taking this course.
+THST*3500,"THST*2050, THST*2190 - Must be completed prior to taking this course."
+THST*3520,8.00 credits including 1.00 credits in Theatre Studies - Must be completed prior to taking this course.
+THST*3530,7.50 credits - Must be completed prior to taking this course.
+THST*3600,3.00 credits in Theatre Studies including THST*3140 - Must be completed prior to taking this course.
+THST*3630,"3.00 credits in Theatre Studies including one of the following, as appropriate to the topic of the course: THST*2080, THST*2120, THST*2230, THST*2240. - Must be completed prior to taking this course."
+THST*4190,THST*3190 - Must be completed prior to taking this course.
+THST*4270,"10.00 credits including THST*2270, THST*3140 - Must be completed prior to taking this course."
+THST*4280,"THST*2050, THST*2190 and 2.00 credits at the 3000-level in Theatre Studies - Must be completed prior to taking this course."
+THST*4290,THST*4270 - Must be completed prior to taking this course.
+TRMH*6080,TRMH*6290 - Must be completed prior to taking this course.
+TRMH*6100,None
+TRMH*6110,None
+TRMH*6200,TRMH*6100 - Must be completed prior to taking this course.
+TRMH*6240,None
+TRMH*6250,None
+TRMH*6270,TRMH*6100 and PSYC*6060 Minimum grade 065; - Must be completed prior to taking this course.
+TRMH*6290,None
+TRMH*6310,"TRMH*6100 and one of TRMH*6290, MCS*6050, SOC*6130 or PSYC*6060 - Must be completed prior to taking this course."
+TRMH*6400,"TRMH*6100, TRMH*6200, and TRMH*6290"
+TRMH*6410,"TRMH*6100, TRMH*6200 and TRMH*6290 - Must be completed prior to taking this course."
+TRMH*6630,None
+TOX*2000,"CHEM*1050, (1 of IPS*1500, MATH*1080, MATH*1200 ), (1 of BIOL*1040, BIOL*1070, BIOL*1080, BIOL*1090) - Must be completed prior to taking this course."
+TOX*3360,CHEM*1050 - Must be completed prior to taking this course.
+TOX*4000,BIOM*3090 - Must be completed prior to taking this course.
+TOX*4100,PATH*3610 (or equivalent) - Must be completed prior to taking this course.
+TOX*4200,"CHEM*3430, TOX*2000 - Must be completed prior to taking this course."
+TOX*4590,"BIOC*3560, (BIOC*3570 or CHEM*3430) - Must be completed prior to taking this course."
+TOX*4900,CHEM*3430 - Must be completed prior to taking this course.
+TOX*4910,TOX*4900 - Must be completed prior to taking this course.
+TOX*6000,None
+TOX*6200,None
+TOX*6590,None
+DTM*1000,None
+DTM*1010,None
+DTM*1100,None
+DTM*1200,None
+DTM*1300,None
+DTM*1500,DTM*1000 - Must be taken either prior to or at the same time as this course.
+DTM*2000,"DTM*1100, DTM*1300 - Must be completed prior to taking this course."
+DTM*2010,DTM*1010 - Must be completed prior to taking this course.
+DTM*2100,DTM*1300 - Must be completed prior to taking this course.
+DTM*2200,DTM*1000 - Must be completed prior to taking this course.
+DTM*2400,DTM*1010 or DTM*1400 - Must be completed prior to taking this course.
+DTM*2600,"DTM*1000, DTM*1300 - Must be completed prior to taking this course."
+DTM*3000,"DTM*2000, DTM*2100 - Must be completed prior to taking this course."
+DTM*3100,"COOP*1020, DTM*1000, DTM*2000, 4.00 credits - Must be completed prior to taking this course."
+DTM*3200,DTM*1100 - Must be completed prior to taking this course.
+DTM*3300,DTM*1100 - Must be completed prior to taking this course.
+DTM*3400,DTM*2400 - Must be completed prior to taking this course.
+DTM*3800,4.00 credits - Must be completed prior to taking this course.
+DTM*4000,"DTM*3000, DTM*3200, DTM*3300 - Must be completed prior to taking this course."
+DTM*4200,"DTM*2400, DTM*3400 - Must be completed prior to taking this course."
+DTM*4300,"DTM*3000, DTM*3200, DTM*3300 - Must be completed prior to taking this course."
+DTM*4400,DTM*1500 - Must be completed prior to taking this course.
+DTM*4500,DTM*3000 - Must be completed prior to taking this course.
+DTM*4600,"DTM*2200, DTM*2400, (DTM*1400 or DTM*2010) - Must be completed prior to taking this course."
+DTM*4800,6.00 credits - Must be completed prior to taking this course.
+VETM*3070,All Phase 1 courses - Must be taken either prior to or at the same time as this course.
+VETM*3080,All Phase 1 courses - Must be taken either prior to or at the same time as this course.
+VETM*3120,All Phase 1 courses - Must be taken either prior to or at the same time as this course.
+VETM*3210,All Phase 1 courses - Must be taken either prior to or at the same time as this course.
+VETM*3220,All Phase 1 courses - Must be completed prior to taking this course.
+VETM*3390,All Phase 1 courses - Must be taken either prior to or at the same time as this course.
+VETM*3400,All Phase 1 courses - Must be taken either prior to or at the same time as this course.
+VETM*3410,All Phase 1 courses - Must be completed prior to taking this course.
+VETM*3430,All Phase 1 courses - Must be taken either prior to or at the same time as this course.
+VETM*3440,All Phase 1 courses - Must be completed prior to taking this course.
+VETM*3450,All Phase 1 courses - Must be completed prior to taking this course.
+VETM*3460,All Phase 1 courses - Must be completed prior to taking this course.
+VETM*3470,All Phase 1 courses - Must be completed prior to taking this course.
+VETM*3510,All Phase 1 courses - Must be completed prior to taking this course.
+VETM*4220,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4420,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4450,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4460,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4470,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4480,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4490,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4530,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4540,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4610,All Phase 3 courses - Must be completed prior to taking this course.
+VETM*4660,All Phase 3 courses - Must be completed prior to taking this course.
+VETM*4710,All Phase 3 courses - Must be completed prior to taking this course.
+VETM*4870,All Phase 2 courses - Must be completed prior to taking this course.
+VETM*4900,All Phase 3 courses - Must be completed prior to taking this course.
+VETM*4920,All Phase 3 courses - Must be completed prior to taking this course.
+CVOA*1050,None
+CVOA*1200,None
+CVOA*1410,None
+CVOA*1420,None
+CVOA*1460,None
+CVOA*2050,None
+CVOA*2060,None
+CVOA*2200,CVOA*1200 - Must be completed prior to taking this course.
+CVOA*2430,None
+CVOA*2450,None
+CVOA*2460,None
+CVOA*2500,None
+DVT*1000,None
+DVT*1010,None
+DVT*1040,None
+DVT*1060,None
+DVT*1100,None
+DVT*1110,None
+DVT*1120,None
+DVT*1160,None
+DVT*1300,None
+DVT*1350,None
+DVT*2000,None
+DVT*2040,DVT*1040 - Must be completed prior to taking this course.
+DVT*2050,DVT*2120 - Must be taken either prior to or at the same time as this course.
+DVT*2060,None
+DVT*2070,DVT*1160 - Must be completed prior to taking this course.
+DVT*2100,DVT*1060 or DVT*2040 - Must be completed prior to taking this course.
+DVT*2120,DVT*1120 - Must be completed prior to taking this course.
+DVT*2200,None
+DVT*2210,"DVT*1010, (DVT*2070 or DVT*1350), (DVT*1060 or DVT*2040) - Must be completed prior to taking this course."
+DVT*2220,"DVT*1010, DVT*2070, DVT*2100 - Must be completed prior to taking this course."
+DVT*2300,DVT*1010 - Must be completed prior to taking this course.
+DVT*2310,DVT*2100 - Must be completed prior to taking this course.
+DVT*2320,"DVT*2210, DVT*2330, (DVT*2310 or DVT*3010) - Must be taken either prior to or at the same time as this course."
+DVT*2330,DVT*1060 or DVT*2040 - Must be completed prior to taking this course.
+DVT*2340,DVT*2220 - Must be completed prior to taking this course.
+DVT*3010,DVT*2040 - Must be completed prior to taking this course.
+DVT*3030,"DVT*2040, DVT*2070, DVT*2300 - Must be completed prior to taking this course."
+DVT*3070,DVT*2340 or DVT*3030 - Must be taken either prior to or at the same time as this course.
+DVT*3200,None
+DVT*3210,DVT*2310 - Must be completed prior to taking this course.
+WMST*1000,None
+WMST*2000,None
+ZOO*2090,4.00 credits including BIOL*1070 - Must be completed prior to taking this course.
+ZOO*2700,4.00 credits including BIOL*1070 - Must be completed prior to taking this course.
+ZOO*3000,ZOO*2090 - Must be completed prior to taking this course.
+ZOO*3050,"MBG*2040, BIOL*2400 is strongly recommended. - Must be completed prior to taking this course."
+ZOO*3600,"BIOC*2580, ZOO*2090, (STAT*2040 or STAT*2230 is recommended) - Must be completed prior to taking this course."
+ZOO*3610,STAT*2040 or STAT*2230 - Must be completed prior to taking this course.
+ZOO*3620,ZOO*3600 - Must be completed prior to taking this course.
+ZOO*3630,ZOO*3610 - Must be completed prior to taking this course.
+ZOO*3700,ZOO*2700 - Must be completed prior to taking this course.
+ZOO*4070,"BIOL*2400, (STAT*2040 or STAT*2230) - Must be completed prior to taking this course."
+ZOO*4170,"1 of BIOM*3200, HK*2810, ZOO*3210, ZOO*3600 - Must be completed prior to taking this course."
+ZOO*4300,"BIOL*3450, ZOO*2700 - Must be completed prior to taking this course."
+ZOO*4330,"15.00 credits including (STAT*2040 or STAT*2230), ZOO*2090 - Must be completed prior to taking this course."
+ZOO*4570,"BIOL*2060, BIOL*3450, PHYS*1080 - Must be completed prior to taking this course."
+ZOO*4910,"BIOL*2400, ZOO*2090 - Must be completed prior to taking this course."
+ZOO*4920,14.00 credits including ZOO*2090 - Must be completed prior to taking this course.
+ZOO*4940,15.00 credits including ZOO*2090 - Must be completed prior to taking this course.
+ZOO*4950,15.00 credits including ZOO*2090 - Must be completed prior to taking this course.

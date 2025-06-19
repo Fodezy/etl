@@ -1,3 +1,5 @@
+* escape all backticks surrounding codeblocks, and wrapping the entire response in a Markdown codeblock
+
 # ETL Project
 
 A standalone, plugin‑based ETL engine for ingesting academic program & course data into a Postgres database. Designed to scale from a handful of connectors (e.g., UoG, Bishops, MockSchool) to hundreds of bespoke pipelines, with schema‑validated transforms and versioned loading.

@@ -6,66 +6,56 @@ import logging
 from pathlib import Path
 
 from core.connector_base import BaseConnector
-
-# Loader is not yet implemented; load() is stubbed
-# from core.loader import Loader
-
-# scraper driver orchestration
 from connectors.uog.extract.driver import main as run_scrapers
-# transformation functions
-
-# from connectors.uog.transformers.course_transformer import transform as transform_subjects_with_courses
-# from connectors.uog.transformers.program_transformer import transform_programs_with_sections
-
+from connectors.uog.extract.parsers.subjects_with_courses_parser import parse_subjects_with_courses
+from connectors.uog.extract.parsers.programs_with_sections_parser import parse_programs_with_sections
+# ... (other imports) ...
 
 logger = logging.getLogger(__name__)
 
 class UoGConnector(BaseConnector):
-    """
-    Connector for University of Guelph data.
-    Executes the scraping driver, then transforms data into universal schemas.
-    """
+    # ... (name property) ...
     name = "uog"
 
     def extract(self) -> dict:
         """
-        Run the scraper driver and load cleaned JSON outputs.
+        Run the scraper driver and get the cleaned data directly.
         Returns a dict with 'subjects_with_courses' and 'programs_with_sections'.
         """
         logger.info("UoGConnector.extract: running scrapers...")
-        run_scrapers()
+        # Capture the dictionary returned by the driver
+        scraped_data = run_scrapers()
 
-        raw_dir = Path(__file__).resolve().parent / 'raw'
-        subs_file = raw_dir / 'subjects_with_courses.json'
-        progs_file = raw_dir / 'programs_with_sections.json'
+        # The driver now provides the data directly, so we no longer need to read files here.
+        # We can simply return the data we received.
+        logger.info("UoGConnector.extract: received data directly from driver.")
 
-        missing = []
-        if not subs_file.exists(): missing.append(str(subs_file))
-        if not progs_file.exists(): missing.append(str(progs_file))
-        if missing:
-            msg = f"UoGConnector.extract: missing files: {', '.join(missing)}"
+        # Basic validation to ensure the keys are present
+        if 'subjects_with_courses' not in scraped_data or 'programs_with_sections' not in scraped_data:
+            msg = "UoGConnector.extract: driver did not return the expected data keys."
             logger.error(msg)
-            raise FileNotFoundError(msg)
+            raise KeyError(msg)
 
-        logger.info("UoGConnector.extract: loading raw JSON files")
-        subjects_raw = json.loads(subs_file.read_text(encoding='utf-8'))
-        programs_raw = json.loads(progs_file.read_text(encoding='utf-8'))
-
-        return {
-            'subjects_with_courses': subjects_raw,
-            'programs_with_sections': programs_raw
-        }
+        return scraped_data
 
     def transform(self, raw: dict) -> dict:
         """
         Map raw data into universal course & program schemas.
         Returns normalized dict with 'courses' and 'programs'.
         """
-        logger.info("UoGConnector.transform: transforming raw payloads")
+        logger.info("UoGConnector.transform: Unpacking raw data payloads...")
 
         # use the aliased `transform_subjects_with_courses`
-        courses_norm = [] #transform_subjects_with_courses(raw['subjects_with_courses'])
-        programs_norm = []  # placeholder until you wire up program_transformer
+        courses_norm = raw['subjects_with_courses'] # --> change this for now to read in the raw json file
+        logger.info(f"Successfully unpacked the 'subjects_with_courses' payload.")
+
+        programs_norm = raw['programs_with_sections'] # --> change this for now to read in the raw json file
+        logger.info(f"Successfully unpacked the 'programs_with_sections' payload.")
+
+        # CALL THE TRANSFORMER SECTION HERE BELLOW 
+
+
+
 
         out_dir = Path(__file__).parent / "cleaned"
         out_dir.mkdir(exist_ok=True)

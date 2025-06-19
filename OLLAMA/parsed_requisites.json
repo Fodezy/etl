@@ -1,0 +1,55 @@
+[
+  {
+    "course_code": "ECS*1070",
+    "raw_requisite": "ECS*1010 - Must be completed prior to taking this course.",
+    "prerequisites": {
+      "type": "COURSE",
+      "courses": [
+        "ECS*1010"
+      ]
+    }
+  },
+  {
+    "course_code": "CRWR*2300",
+    "raw_requisite": "CRWR*1000 or ENGL*2920 - Must be completed prior to taking this course.",
+    "prerequisites": {
+      "type": "OR",
+      "courses": [
+        "CRWR*1000",
+        "ENGL*2920"
+      ]
+    }
+  },
+  {
+    "course_code": "CRWR*3200",
+    "raw_requisite": "CRWR*2200 or (ENGL*1080, ENGL*2920) - Must be completed prior to taking this course.",
+    "prerequisites": {
+      "type": "OR",
+      "expressions": [
+        {
+          "type": "COURSE",
+          "courses": [
+            "CRWR*2200"
+          ]
+        },
+        {
+          "type": "AND",
+          "expressions": [
+            {
+              "type": "COURSE",
+              "courses": [
+                "ENGL*1080"
+              ]
+            },
+            {
+              "type": "COURSE",
+              "courses": [
+                "ENGL*2920"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

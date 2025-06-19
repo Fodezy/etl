@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.env
 # C extensions
 *.so
 
@@ -19,6 +20,10 @@ env/
 ENV/
 env.bak/
 venv.bak/
+
+etl-env/
+new_finetune_env/
+unsloth_compiled_cache/
 
 # IDEs and editors
 .vscode/

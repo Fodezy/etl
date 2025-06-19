@@ -1,13 +1,29 @@
-psycopg2-binary    # for Postgres inserts/upserts
-jsonschema         # validate transform output
-pytest             # test framework
-black              # code formatting
-isort              # import sorting
+# ======================== FineTuning venv ========================
+# 1. Point pip to the correct wheel index for PyTorch with CUDA 12.1 **Must be run on one lone 
+# pip install --extra-index-url https://download.pytorch.org/whl/cu128 torch torchvision torchaudio "unsloth[cu121] @ git+https://github.com/unslothai/unsloth.git" bitsandbytes==0.46.0 transformers==4.52.4 accelerate==1.7.0 peft==0.15.2 datasets==3.6.0 trl==0.18.1 xformers==0.0.30
+# $env:PYTHONUTF8=1
+
+
+
+# ======================== etl work venv ========================   
+
+psycopg2-binary
+jsonschema
+pytest
+black
+isort
 pydantic
 datamodel-code-generator
 playwright
 chromium
-pydantic[email]
 lark
 lark-parser
 pandas
+ollama
+requests
+huggingface-hub
+python-dotenv
+google-generativeai
+google-genai
+pydantic[email]
+openai
