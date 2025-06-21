@@ -1,0 +1,29 @@
+{
+  "expressions": [
+    {
+      "credits": 12.5,
+      "type": "CREDITS"
+    },
+    {
+      "count": 1,
+      "courses": [
+        "ANTH*3690",
+        "IDEV*2000",
+        "IDEV*2300",
+        "ONEH*3000"
+      ],
+      "type": "N_OF"
+    },
+    {
+      "count": 1,
+      "courses": [
+        "GEOG*2260",
+        "POLS*2650",
+        "IDEV*2100",
+        "SOAN*2120"
+      ],
+      "type": "N_OF"
+    }
+  ],
+  "type": "AND"
+}
