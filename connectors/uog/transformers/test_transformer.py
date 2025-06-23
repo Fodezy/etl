@@ -9,10 +9,15 @@ from typing import Dict, Any, Optional, List
 from concurrent.futures import ThreadPoolExecutor
 
 # --- Import all real, implemented parsers ---
-from course_transformer.course_helper_parsers.department_parser import parse_department
-from course_transformer.course_helper_parsers.terms_offered_parser import parse_terms_offered
-from course_transformer.course_helper_parsers.antirequisite_parser import parse_antirequisites
+from .course_transformer.course_helper_parsers.department_parser import parse_department
+from .course_transformer.course_helper_parsers.terms_offered_parser import parse_terms_offered
+from .course_transformer.course_helper_parsers.antirequisite_parser import parse_antirequisites
+from .course_transformer.course_helper_parsers.section_parser import parse_sections
 # We do NOT import the Gemini parser, as we will simulate its output below.
+
+
+from pydantic import ValidationError
+from etl.core.models.course import UniversalCourseSchema
 
 # --- Configuration ---
 logging.basicConfig(
@@ -92,46 +97,33 @@ def _parse_level_from_code(course_code: Optional[str]) -> Optional[int]:
     match = re.search(r'\*(\d)', course_code)
     return int(match.group(1)) * 1000 if match else None
 
-def _parse_sections(source_sections: Optional[List[Dict]]) -> List[Dict[str, Any]]:
-    """(STUB) This remains a stub for now."""
-    if not source_sections: return []
-    return [{"sectionId": s.get("section_code"), "raw_data": s} for s in source_sections]
-
 
 # --- UPDATED Worker Function for Testing ---
 def process_single_course_for_test(source_course: Dict[str, Any], prereq_lookup: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """
-    Transforms a single course, simulating the full logic for prerequisites and restrictions.
+    Transforms a single course, simulating the full logic, and validates the
+    output against the universal schema.
     """
+    course_code = source_course.get("code", "UNKNOWN")
     try:
-        course_code = source_course.get("code")
-        
-        # --- 1. PARSE ALL PREREQUISITE & RESTRICTION SOURCES ---
-
-        # Get course-based prereqs from the golden dataset (simulates OpenAI fine-tuned model)
+        # --- 1. SIMULATE PARSING LOGIC ---
+        # (Parsing logic remains the same)
         course_prereqs = prereq_lookup.get(course_code)
-
-        # Get the full restrictions text
         restrictions_text = source_course.get("restrictions")
-        
-        # Parse the restrictions text for antirequisites first
         antireqs = parse_antirequisites(restrictions_text, course_code)
         
-        # "Strip" the antirequisites from the string to create a cleaner version
         filtered_restrictions = restrictions_text
         if antireqs and filtered_restrictions:
             for code in antireqs:
                 filtered_restrictions = re.sub(rf'\b{re.escape(code)}\b\s*[.,]?', '', filtered_restrictions).strip()
         
-        # Simulate the Gemini API call by looking up the filtered string in our golden map
         program_restrictions = GOLDEN_RESTRICTIONS.get(filtered_restrictions)
 
         # --- 2. INTELLIGENTLY COMBINE PREREQUISITE RESULTS ---
+        # (Combining logic remains the same)
         final_prereqs_list = []
-        if course_prereqs:
-            final_prereqs_list.append(course_prereqs)
-        if program_restrictions:
-            final_prereqs_list.append(program_restrictions)
+        if course_prereqs: final_prereqs_list.append(course_prereqs)
+        if program_restrictions: final_prereqs_list.append(program_restrictions)
 
         if len(final_prereqs_list) > 1:
             prerequisite_obj = {"type": "AND", "expressions": final_prereqs_list}
@@ -141,27 +133,43 @@ def process_single_course_for_test(source_course: Dict[str, Any], prereq_lookup:
             prerequisite_obj = None
         
         # --- 3. ASSEMBLE THE FINAL UNIVERSAL COURSE OBJECT ---
-        universal_course = {
+        universal_course_dict = {
             "courseId": course_code,
             "courseCode": course_code,
             "title": source_course.get("name"),
             "description": source_course.get("description"),
             "department": parse_department(source_course.get("departments")),
             "level": _parse_level_from_code(course_code),
-            "credits": _parse_credits_from_string(source_course.get("credits")),
-            "prerequisites": prerequisite_obj, # This now contains the combined data
+            "credits": _parse_credits_from_string(source_course.get("credits")) or 0.0,
+            "prerequisites": prerequisite_obj,
             "corequisites": None,
             "antirequisites": antireqs,
             "crossListings": [],
             "tags": [],
             "termsOffered": parse_terms_offered(source_course.get("offered")),
             "courseStatus": "Active",
-            "sections": _parse_sections(source_course.get("sections"))
+            "sections": parse_sections(source_course.get("sections"), course_code)
         }
-        return universal_course
+
+        # --- 4. VALIDATE AGAINST THE UNIVERSAL SCHEMA ---
+        validated_course = UniversalCourseSchema(**universal_course_dict)
+        
+        # Return the validated data as a dictionary.
+        # Use .model_dump() for Pydantic v2 or .dict() for v1.
+        return validated_course.model_dump(mode='json', by_alias=True)
+
+    except ValidationError as e:
+        # Catch Pydantic-specific validation errors
+        logger.error(
+            f"Schema validation failed for course {course_code} during test run. "
+            f"Details:\n{e}", 
+            exc_info=False
+        )
+        return None
 
     except Exception as e:
-        logger.error(f"Failed to process item during test run: {e}. Item: {source_course.get('code')}")
+        # General catch-all for other parsing errors during the test
+        logger.error(f"Failed to process item {course_code} during test run due to an unexpected error: {e}", exc_info=True)
         return None
 
 # --- Main Test Orchestration Logic ---

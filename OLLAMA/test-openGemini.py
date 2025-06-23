@@ -23,7 +23,7 @@ MODEL_ID = "gemini-2.0-flash"
 OUTPUT_FILE_NAME = "gemini_api_test_output.json"
 
 # 4. The restriction string to test.
-USER_PROMPT = "Restricted to students in Culture and Technology Studies. This is a Priority Access Course. Enrolment may be restricted to particular programs or specializations. See department for more information"
+USER_PROMPT = "Student must be 19 years of age or older."
 
 # 5. A concise system prompt tailored for the Gemini API.
 #    The entire prompt is sent as a single block of text.

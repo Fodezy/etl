@@ -44,9 +44,9 @@ class Term(BaseModel):
 
 
 class Instructor(BaseModel):
-    instructorId: str = Field(..., description='System-generated unique ID.')
+    instructorId: Optional[str] = Field(None, description='System-generated unique ID.')
     name: str = Field(..., description='Full name.')
-    email: EmailStr = Field(..., description='Contact email.')
+    email: Optional[EmailStr] = Field(None, description='Contact email.')
     role: Optional[str] = Field(
         None, description="Teaching role (e.g. 'Lecturer','TA')."
     )

@@ -1,13 +1,4 @@
 {
-  "type": "AND",
-  "expressions": [
-    {
-      "type": "PROGRAM_REGISTRATION",
-      "program": "Culture and Technology Studies"
-    },
-    {
-      "type": "RAW_UNPARSED",
-      "value": "This is a Priority Access Course. Enrolment may be restricted to particular programs or specializations. See department for more information"
-    }
-  ]
+  "type": "RAW_UNPARSED",
+  "value": "Student must be 19 years of age or older."
 }

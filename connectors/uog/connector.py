@@ -7,8 +7,9 @@ from pathlib import Path
 
 from core.connector_base import BaseConnector
 from connectors.uog.extract.driver import main as run_scrapers
-from connectors.uog.extract.parsers.subjects_with_courses_parser import parse_subjects_with_courses
-from connectors.uog.extract.parsers.programs_with_sections_parser import parse_programs_with_sections
+
+from connectors.uog.transformers.main import transform_courses_universal
+from connectors.uog.transformers.main import transform_programs_universal
 # ... (other imports) ...
 
 logger = logging.getLogger(__name__)
@@ -53,6 +54,9 @@ class UoGConnector(BaseConnector):
         logger.info(f"Successfully unpacked the 'programs_with_sections' payload.")
 
         # CALL THE TRANSFORMER SECTION HERE BELLOW 
+
+        transform_courses_universal(courses_norm)   # Should be the right call
+        transform_programs_universal(programs_norm) # Should be the right call
 
 
 

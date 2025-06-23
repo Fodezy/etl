@@ -1,10 +1,10 @@
 # CourseMap ETL Pipeline Plan: Transformer Stage
 
-_Last Updated: June 20, 2025_
+_Last Updated: June 21, 2025_
 
 ## Project Status & Key Metrics
 
-- **Fine-Tuned Model ID:** `ft:gpt-3.5-turbo-0125:fodey::BkGY16gt` [cite: { "object": "fine_tuning.job", ... }]
+- **Fine-Tuned Model ID:** `ft:gpt-3.5-turbo-0125:fodey::BkGY16gt`
 - **Fine-Tuning Cost (One-Time):** ~$27.00 (for 1600 examples with a ~635 token prompt over 3 epochs).
 - **Secondary Model:** Gemini 2.0 Flash (for parsing program restrictions).
   - should be less then ~$0.10 per 1600 calls --> will be lower with caching
@@ -58,7 +58,8 @@ transformer/
 │     ├─ department_parser.py
 │     ├─ antirequisite_parser.py
 │     ├─ terms_offered_parser.py
-│     └─ program_restriction_parser.py
+│     ├─ program_restriction_parser.py
+│     └─ section_parser.py
 ├─ logs/
 │  ├─ processed.log
 │  └─ failed.log
@@ -87,14 +88,14 @@ Provides top-level functions that orchestrate the transformation of course and p
 ### `course_processor.py`
 
 **Responsibility:**
-Acts as the main "worker" for transforming a single source course object into the universal schema
+Acts as the main "worker" for transforming a single source course object into the universal schema.
 
 **Process:**
 
 1.  Receives a single "source-clean" course dictionary.
-2.  Orchestrates calls to a series of specialized helper parsers for each logical group of data.
-3.  Implements the "strip-and-pass" logic for the `restrictions` field: it first calls the `antirequisite_parser`, removes the found antirequisites from the string, and then passes the filtered string to the `program_restriction_parser`
-4.  Intelligently combines the structured prerequisite data from both the `requisites` and `restrictions` fields into a single, comprehensive `prerequisites` object
+2.  Orchestrates calls to a series of specialized helper parsers for each logical group of data, including the new `section_parser` for detailed section information.
+3.  Implements the "strip-and-pass" logic for the `restrictions` field: it first calls the `antirequisite_parser`, removes the found antirequisites from the string, and then passes the filtered string to the `program_restriction_parser`.
+4.  Intelligently combines the structured prerequisite data from both the `requisites` and `restrictions` fields into a single, comprehensive `prerequisites` object.
 5.  Assembles all transformed data fragments into a single, unified `Course` dictionary.
 
 ### `course_helper_parsers/`
@@ -104,14 +105,14 @@ Acts as the main "worker" for transforming a single source course object into th
 **Responsibilities:**
 
 - Takes the raw `requisites` string as input.
-- Calls the fine-tuned OpenAI model (`ft:gpt-3.5-turbo...`) to parse the string into a structured `RequisiteExpression` object
+- Calls the fine-tuned OpenAI model (`ft:gpt-3.5-turbo...`) to parse the string into a structured `RequisiteExpression` object.
 
 #### `department_parser.py`
 
 **Responsibilities:**
 
 - Parses a department name string into a structured `Department` object.
-- Uses comprehensive, pre-populated lookup maps to find the department's official short code and its parent college
+- Uses comprehensive, pre-populated lookup maps to find the department's official short code and its parent college.
 
 #### `antirequisite_parser.py`
 
@@ -133,6 +134,17 @@ Acts as the main "worker" for transforming a single source course object into th
 - Takes a filtered `restrictions` string as input (after antirequisites have been stripped out).
 - Calls the Gemini Flash API with a specialized prompt to find and structure rules like program enrollment or instructor consent.
 
+#### `section_parser.py`
+
+**Responsibilities:**
+
+- **Orchestration:** Acts as the primary function for parsing a list of raw section data for a given course.
+- **Seat Information:** Parses a "seats" string (e.g., "66 / 250 / 0") into structured `enrolled`, `capacity`, and `waitlist` integer fields.
+- **Instructor Details:** Extracts instructor names and their roles (e.g., "Senkl, D (Distance Education)") from strings, handling multiple instructors and deduping them.
+- **Meeting Time & Location:** Parses complex meeting strings that include days, times, and dates (e.g., "M,W,F 11:30 AM - 12:20 PM\n9/5/2025 - 8/1/2025") into structured `dayOfWeek`, `startTime` (24h format), `endTime` (24h format), `startDate` (YYYY-MM-DD), `endDate` (YYYY-MM-DD), and `location` fields.
+- **Delivery Mode Inference:** Infers the `delivery` mode (e.g., "InPerson", "Distance") based on keywords found in meeting location strings.
+- **Meeting Type Inference:** Determines the `type` of meeting (e.g., "Lecture", "Exam", "Lab", "Tutorial") based on keywords in the location string.
+
 ---
 
 ## Testing Strategy (`test_transformer.py`)
@@ -142,10 +154,10 @@ Provides a self-contained script for running an end-to-end test of the transform
 
 **Process:**
 
-1.  Loads the full `subjects_with_courses.json` source data
-2.  Loads a "golden dataset" of pre-parsed prerequisites from `Golden_DataSet_Final.jsonl` into a lookup map to simulate the OpenAI fine-tuned model's output
-3.  Simulates the `program_restriction_parser` by using a small, hardcoded dictionary of expected outputs for common restriction strings
-4.  Calls the `process_single_course` worker for each course, which uses the real helper parsers but injects the "golden" data instead of making API calls.
+1.  Loads the full `subjects_with_courses.json` source data.
+2.  Loads a "golden dataset" of pre-parsed prerequisites from `Golden_DataSet_Final.jsonl` into a lookup map to simulate the OpenAI fine-tuned model's output.
+3.  Simulates the `program_restriction_parser` and now the `section_parser` by using small, hardcoded dictionaries or simplified logic for expected outputs for common strings, preventing actual API calls during testing.
+4.  Calls the `process_single_course` worker for each course, which uses the real helper parsers but injects the "golden" data (or simulated data for `section_parser`) instead of making API calls.
 5.  Saves the final transformed output to `test_output_universal_courses.json` for review and validation.
 
 ---
@@ -165,13 +177,13 @@ _(This section remains a list of future goals)_
 ## Action Items
 
 | Task                                                     | Status    | Owner                                                   |
-| -------------------------------------------------------- | --------- | ------------------------------------------------------- |
-| Implement `ThreadPoolExecutor` in `main.py`              | **Done**  | Orchestration                                           |
+| :------------------------------------------------------- | :-------- | :------------------------------------------------------ |
+| Implement `ThreadPoolExecutor` in `main.py`            | **Done**  | Orchestration                                           |
 | Implement `requisite_parser` with fine-tuned model       | **Done**  | `requisite_parser.py`                                   |
 | Implement `department_parser` with lookup maps           | **Done**  | `department_parser.py`                                  |
 | Implement `antirequisite_parser` with keyword logic      | **Done**  | `antirequisite_parser.py`                               |
 | Implement `terms_offered_parser` helper                  | **Done**  | `terms_offered_parser.py`                               |
 | Implement `program_restriction_parser` with Gemini       | **Done**  | `program_restriction_parser.py`                         |
-| Implement `_parse_sections` helper (and its sub-parsers) | **To-Do** | `course_processor.py`                                   |
+| Implement `_parse_sections` helper (and its sub-parsers) | **Done**  | `section_parser.py`                                   |
 | Add schema validation calls in each `_processor` module  | **To-Do** | ETL Core                                                |
 | Implement API result caching                             | **To-Do** | `requisite_parser.py` / `program_restriction_parser.py` |
