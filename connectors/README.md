@@ -25,7 +25,7 @@ connectors/
 │   ├── raw/                      # Raw extracted data
 │   ├── cleaned/                  # Transformed data in universal schema
 │   ├── extract/                  # Web scraping components
-│   ├── transformers/             # Data transformation components
+│   ├── transformers/             # Data transformation components  --> switched to config.yaml file
 │   └── load/                     # load data into database
 └── [other_universities]/         # Other university connectors
 ```

@@ -27,3 +27,6 @@ google-generativeai
 google-genai
 pydantic[email]
 openai
+sentence-transformers
+keybert
+bs4

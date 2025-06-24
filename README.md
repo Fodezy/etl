@@ -9,7 +9,7 @@ A standalone, plugin‑based ETL engine for ingesting academic program & course 
 ## Repository Layout
 
 ```text
-etl-project/
+etl/
 ├── connectors/                # Individual connector plugins
 │   ├── uog/                   # University of Guelph connector
 │   │   ├── README.md          # UoG connector documentation
@@ -17,29 +17,42 @@ etl-project/
 │   │   ├── extract/           # Web scraping components
 │   │   │   ├── driver.py      # Orchestrates all scraping stages
 │   │   │   ├── parsers/       # Data cleaning parsers
-│   │   │   └── scrapper_modules/ # Reusable scraping modules
+│   │   │   ├── scrapper_modules/ # Reusable scraping modules
+│   │   │   └── data/          # Extracted data storage
 │   │   ├── transformers/      # Data transformation components
-│   │   │   └── src/           # Prerequisite parsing logic
+│   │   │   ├── course_transformer/ # Course processing logic
+│   │   │   ├── program_transformer/ # Program processing logic
+│   │   │   └── tests/         # Transformer tests
+│   │   ├── load/              # Database loading components
 │   │   ├── raw/               # Raw extracted data
-│   │   └── cleaned/           # Transformed data in universal schema
+│   │   ├── cleaned/           # Transformed data in universal schema
+│   │   └── csv/               # CSV exports
 │   │
-│   ├── bishops/
-│   │   └── connector.py       # BishopsConnector
-│   └── mockschool/
-│       └── connector.py       # MockSchoolConnector (demo)
+│   ├── bishops/               # Bishops connector (placeholder)
+│   └── mockschool/            # MockSchool connector (demo)
 ├── core/                      # ETL engine core
+│   ├── models/                # Pydantic models
+│   │   ├── course.py          # Course data models
+│   │   └── program.py         # Program data models
+│   ├── utils/                 # Utility functions
+│   │   └── api_handler.py     # API handling utilities
 │   ├── connector_base.py      # Defines BaseConnector interface
 │   ├── runner.py              # Discovers & orchestrates connectors
 │   └── loader.py              # DB versioning & upsert logic
 ├── schemas/                   # Shared JSON‑Schema definitions
 │   ├── universal_program.json
-│   └── universal_course.json
-├── tests/                     # Unit & integration tests
-│   ├── fixtures/              # Sample HTML/JSON for extract & transform
-│   ├── test_core.py           # Core discovery & runner tests
+│   ├── universal_course.json
+│   └── COURSE_SCHEMA.md       # Course schema documentation
+├── tests/                     # Test suite
+│   ├── fixtures/              # Test fixtures
+│   ├── test_core.py           # Core functionality tests
 │   └── test_uog.py            # UoG connector tests
+├── etl-env/                   # Python virtual environment
+├── new_finetune_env/          # Additional ML environment
+├── unsloth_compiled_cache/    # Compiled ML training modules
 ├── requirements.txt           # Python dependencies
-├── .gitlab-ci.yml             # CI: lint, test stages
+├── run_pipeline.py            # Main pipeline runner
+├── OVERVIEW.md                # Project overview
 └── README.md                  # This document
 ```
 
@@ -56,10 +69,10 @@ etl-project/
 ## Installation
 
 ```bash
-git clone <your-gitlab-url>/etl-project.git
-cd etl-project
-python3 -m venv .venv
-source .venv/bin/activate
+git clone <your-repo-url>/etl.git
+cd etl
+python -m venv etl-env
+etl-env\Scripts\activate
 pip install -r requirements.txt
 ```
 

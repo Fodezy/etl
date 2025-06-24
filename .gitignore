@@ -25,6 +25,11 @@ etl-env/
 new_finetune_env/
 unsloth_compiled_cache/
 
+.cache/
+
+output/
+connectors/*/extract/raw
+connectors/*/extract/clean
 # IDEs and editors
 .vscode/
 .idea/

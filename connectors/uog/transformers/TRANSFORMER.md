@@ -1,13 +1,15 @@
 # CourseMap ETL Pipeline Plan: Transformer Stage
 
-_Last Updated: June 21, 2025_
+_Last Updated: June 23, 2025_
 
 ## Project Status & Key Metrics
 
-- **Fine-Tuned Model ID:** `ft:gpt-3.5-turbo-0125:fodey::BkGY16gt`
+- **Fine-Tuned Model ID (Prerequisites):** `ft:gpt-3.5-turbo-0125:fodey::BkGY16gt`
 - **Fine-Tuning Cost (One-Time):** ~$27.00 (for 1600 examples with a ~635 token prompt over 3 epochs).
-- **Secondary Model:** Gemini 2.0 Flash (for parsing program restrictions).
-  - should be less then ~$0.10 per 1600 calls --> will be lower with caching
+- **Secondary Model (Program Restrictions):** Gemini Flash
+  - Should be less than ~$0.10 per 1600 calls --> will be lower with caching
+- **Local Models (Description Analysis):** `sentence-transformers/all-MiniLM-L6-v2` & `KeyBERT`
+  - One-time model download, no per-call cost.
 - **Inference Cost (Fine-Tuned Model):**
   - **Per Call (Avg):** ~$0.00886
   - **Per 1600 Courses:** ~$14.18
@@ -31,15 +33,14 @@ _Last Updated: June 21, 2025_
 This document details **Phase 2** of a two-phase ETL process. The overall data flow is designed to be modular and robust.
 
 - **Phase 1: Extraction & Parsing (`extract/` directory)**
-
   - **Responsibility:** Scrapes raw data from source websites.
   - **Process:** Uses scripts in `extract/parsers/` to perform initial cleaning, converting messy web content into a predictable, structured JSON format.
   - **Output:** A set of "source-clean" JSON files. The data is clean and structured but still specific to the source's schema.
 
 - **Phase 2: Transformation (`transformer/` directory)**
   - **Responsibility:** Ingests the "source-clean" JSON files from Phase 1.
-  - **Process:** Maps the source-specific data to a final **universal schema**. This involves a hybrid approach of using fine-tuned models, general AI models, and rule-based parsers for data enrichment.
-  - **Output:** A final set of JSON objects conforming to the universal schema, ready for the `load` stage.
+  - **Process:** Maps the source-specific data to final, universal schemas. This involves a hybrid approach of using fine-tuned models, general AI models, local ML models, and rule-based parsers for data enrichment.
+  - **Output:** Two distinct sets of JSON objects: (1) a list of universal course objects and (2) a list of vector data points, ready for their respective loaders.
 
 ---
 
@@ -59,14 +60,14 @@ transformer/
 │     ├─ antirequisite_parser.py
 │     ├─ terms_offered_parser.py
 │     ├─ program_restriction_parser.py
-│     └─ section_parser.py
+│     ├─ section_parser.py
+│     └─ description_parser.py
 ├─ logs/
 │  ├─ processed.log
 │  └─ failed.log
 └─ tests/
    └─ test_transformer.py
 ```
-
 ---
 
 ## Transformer Orchestration (`main.py`)
@@ -76,10 +77,12 @@ Provides top-level functions that orchestrate the transformation of course and p
 
 **Key Functions:**
 
-- `transform_courses_universal(source_courses: list) -> list`
+- `transform_courses_universal(source_courses: list) -> Tuple[list, list]`
   - Manages the transformation of the entire course data stream.
-  - Uses a `concurrent.futures.ThreadPoolExecutor` to process individual courses in parallel, ideal for handling I/O-bound tasks like API calls.
-  - Delegates the transformation of each course to the `process_single_course` function.
+  - **Initializes a singleton instance of the `DescriptionParser`**, loading the local ML models into memory only once for efficiency.
+  - Uses a `concurrent.futures.ThreadPoolExecutor` to process individual courses in parallel.
+  - Delegates the transformation of each course to the `process_single_course` function, passing the course data and the initialized parser instance.
+  - **Collects and separates the two types of results** (main course objects and vector points) into two distinct lists before returning them as a tuple.
 
 ---
 
@@ -88,77 +91,73 @@ Provides top-level functions that orchestrate the transformation of course and p
 ### `course_processor.py`
 
 **Responsibility:**
-Acts as the main "worker" for transforming a single source course object into the universal schema.
+Acts as the main "worker" for transforming a single source course object into two distinct, final objects: a universal course object and a vector data point.
 
 **Process:**
 
-1.  Receives a single "source-clean" course dictionary.
-2.  Orchestrates calls to a series of specialized helper parsers for each logical group of data, including the new `section_parser` for detailed section information.
-3.  Implements the "strip-and-pass" logic for the `restrictions` field: it first calls the `antirequisite_parser`, removes the found antirequisites from the string, and then passes the filtered string to the `program_restriction_parser`.
-4.  Intelligently combines the structured prerequisite data from both the `requisites` and `restrictions` fields into a single, comprehensive `prerequisites` object.
-5.  Assembles all transformed data fragments into a single, unified `Course` dictionary.
+1.  Receives a single "source-clean" course dictionary and an initialized `DescriptionParser` instance.
+2.  Orchestrates calls to a series of specialized helper parsers for each logical group of data.
+3.  **Calls the `description_parser`** to clean the raw description text, generate a vector embedding, and extract keywords.
+4.  Implements the "strip-and-pass" logic for the `restrictions` field.
+5.  Intelligently combines structured prerequisite data from multiple fields.
+6.  Assembles two distinct objects:
+    - The main, unified `Course` dictionary, now including the extracted keywords as tags.
+    - A `VectorPoint` dictionary containing the course ID and its generated vector embedding.
+7.  Returns a tuple containing these two objects.
 
 ### `course_helper_parsers/`
 
 #### `requisite_parser.py`
-
 **Responsibilities:**
-
 - Takes the raw `requisites` string as input.
 - Calls the fine-tuned OpenAI model (`ft:gpt-3.5-turbo...`) to parse the string into a structured `RequisiteExpression` object.
 
 #### `department_parser.py`
-
 **Responsibilities:**
-
 - Parses a department name string into a structured `Department` object.
 - Uses comprehensive, pre-populated lookup maps to find the department's official short code and its parent college.
 
 #### `antirequisite_parser.py`
-
 **Responsibilities:**
-
-- Scans the `restrictions` string for specific trigger phrases (e.g., "credit will not be given for") or patterns (e.g., starting with a course code).
-- Extracts only true antirequisite course codes using regular expressions, ignoring other text.
+- Scans the `restrictions` string for specific trigger phrases (e.g., "credit will not be given for").
+- Extracts only true antirequisite course codes using regular expressions.
 
 #### `terms_offered_parser.py`
-
 **Responsibilities:**
-
-- Parses the `offered` string (e.g., "Winter Only, All Years") into a structured `OfferingPattern` object with `terms`, `years`, and `note` fields.
+- Parses the `offered` string (e.g., "Winter Only, All Years") into a structured `OfferingPattern` object.
 
 #### `program_restriction_parser.py`
-
 **Responsibilities:**
-
 - Takes a filtered `restrictions` string as input (after antirequisites have been stripped out).
-- Calls the Gemini Flash API with a specialized prompt to find and structure rules like program enrollment or instructor consent.
+- Calls the Gemini Flash API to find and structure rules like program enrollment or instructor consent.
 
 #### `section_parser.py`
-
 **Responsibilities:**
+- Parses a list of raw section data, extracting details for meeting times, instructors, seat capacity, and delivery mode.
 
-- **Orchestration:** Acts as the primary function for parsing a list of raw section data for a given course.
-- **Seat Information:** Parses a "seats" string (e.g., "66 / 250 / 0") into structured `enrolled`, `capacity`, and `waitlist` integer fields.
-- **Instructor Details:** Extracts instructor names and their roles (e.g., "Senkl, D (Distance Education)") from strings, handling multiple instructors and deduping them.
-- **Meeting Time & Location:** Parses complex meeting strings that include days, times, and dates (e.g., "M,W,F 11:30 AM - 12:20 PM\n9/5/2025 - 8/1/2025") into structured `dayOfWeek`, `startTime` (24h format), `endTime` (24h format), `startDate` (YYYY-MM-DD), `endDate` (YYYY-MM-DD), and `location` fields.
-- **Delivery Mode Inference:** Infers the `delivery` mode (e.g., "InPerson", "Distance") based on keywords found in meeting location strings.
-- **Meeting Type Inference:** Determines the `type` of meeting (e.g., "Lecture", "Exam", "Lab", "Tutorial") based on keywords in the location string.
+#### `description_parser.py`
+**Responsibilities:**
+- **Data Cleaning:** Takes a raw description string and isolates the core descriptive text by finding and removing administrative sections (e.g., "Offering(s):", "Restriction(s):") using regular expressions.
+- **Vectorization:** Uses the `sentence-transformers` library (`all-MiniLM-L6-v2`) to convert the *cleaned* description into a 384-dimension vector embedding for semantic search.
+- **Keyword Extraction:** Uses the `KeyBERT` library to extract relevant keywords and phrases from the *cleaned* description to be used as filterable tags.
+- **Efficiency:** Implemented as a class to ensure the heavy ML models are loaded into memory only once per ETL run.
 
 ---
 
 ## Testing Strategy (`test_transformer.py`)
 
 **Responsibility:**
-Provides a self-contained script for running an end-to-end test of the transformation pipeline **without** making live API calls.
+Provides a self-contained script for running a small-scale, end-to-end test of the transformation pipeline.
 
 **Process:**
 
-1.  Loads the full `subjects_with_courses.json` source data.
-2.  Loads a "golden dataset" of pre-parsed prerequisites from `Golden_DataSet_Final.jsonl` into a lookup map to simulate the OpenAI fine-tuned model's output.
-3.  Simulates the `program_restriction_parser` and now the `section_parser` by using small, hardcoded dictionaries or simplified logic for expected outputs for common strings, preventing actual API calls during testing.
-4.  Calls the `process_single_course` worker for each course, which uses the real helper parsers but injects the "golden" data (or simulated data for `section_parser`) instead of making API calls.
-5.  Saves the final transformed output to `test_output_universal_courses.json` for review and validation.
+1.  Loads a subset of the full `subjects_with_courses.json` source data.
+2.  Simulates expensive API calls by using "golden datasets":
+    - Loads pre-parsed prerequisites from `Golden_DataSet_Final.jsonl` into a lookup map to simulate the OpenAI model.
+    - Uses a hardcoded dictionary to simulate the output of the Gemini-based `program_restriction_parser`.
+3.  **Performs a real, end-to-end test of the description processing pipeline** by initializing and using the actual `DescriptionParser` to generate real vectors and tags for the test data subset.
+4.  Calls the `process_single_course` worker for each course, passing the real `DescriptionParser` instance and the simulated data for other parsers.
+5.  **Saves the final transformed outputs to two separate files** for review and validation: `test_output_universal_courses.json` and `test_output_universal_vectors.json`.
 
 ---
 
@@ -178,12 +177,13 @@ _(This section remains a list of future goals)_
 
 | Task                                                     | Status    | Owner                                                   |
 | :------------------------------------------------------- | :-------- | :------------------------------------------------------ |
-| Implement `ThreadPoolExecutor` in `main.py`            | **Done**  | Orchestration                                           |
-| Implement `requisite_parser` with fine-tuned model       | **Done**  | `requisite_parser.py`                                   |
-| Implement `department_parser` with lookup maps           | **Done**  | `department_parser.py`                                  |
-| Implement `antirequisite_parser` with keyword logic      | **Done**  | `antirequisite_parser.py`                               |
-| Implement `terms_offered_parser` helper                  | **Done**  | `terms_offered_parser.py`                               |
-| Implement `program_restriction_parser` with Gemini       | **Done**  | `program_restriction_parser.py`                         |
-| Implement `_parse_sections` helper (and its sub-parsers) | **Done**  | `section_parser.py`                                   |
-| Add schema validation calls in each `_processor` module  | **To-Do** | ETL Core                                                |
+| Implement `ThreadPoolExecutor` in `main.py`                | **Done** | Orchestration                                           |
+| Implement `requisite_parser` with fine-tuned model       | **Done** | `requisite_parser.py`                                   |
+| Implement `department_parser` with lookup maps           | **Done** | `department_parser.py`                                  |
+| Implement `antirequisite_parser` with keyword logic      | **Done** | `antirequisite_parser.py`                                 |
+| Implement `terms_offered_parser` helper                  | **Done** | `terms_offered_parser.py`                                 |
+| Implement `program_restriction_parser` with Gemini       | **Done** | `program_restriction_parser.py`                           |
+| Implement `section_parser` helper                       | **Done** | `section_parser.py`                                     |
+| Implement `description_parser` with cleaning & ML models | **Done** | `description_parser.py`                                 |
+| Add schema validation calls in each `_processor` module    | **To-Do** | ETL Core                                                |
 | Implement API result caching                             | **To-Do** | `requisite_parser.py` / `program_restriction_parser.py` |

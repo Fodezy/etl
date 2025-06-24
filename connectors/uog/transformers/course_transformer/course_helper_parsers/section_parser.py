@@ -123,13 +123,11 @@ def parse_sections(source_sections: Optional[List[Dict]], course_code: str) -> L
             time_info = _parse_meeting_time(meeting_data.get("day_time"))
             location_string = meeting_data.get("location", "")
             
-            # Infer meeting type from location string
-            meeting_type = "Lecture"  # Default
+            meeting_type = "Lecture"
             if "EXAM" in location_string: meeting_type = "Exam"
             elif "LAB" in location_string: meeting_type = "Lab"
             elif "TUT" in location_string: meeting_type = "Tutorial"
 
-            # Infer delivery mode
             if "Distance Education" in location_string: delivery_mode = "Distance"
             
             all_instructors.extend(_parse_instructors(meeting_data.get("instructor")))
@@ -141,20 +139,27 @@ def parse_sections(source_sections: Optional[List[Dict]], course_code: str) -> L
                 "endTime": time_info["endTime"],
                 "startDate": time_info["startDate"],
                 "endDate": time_info["endDate"],
-                "location": location_string.split('\n')[0] # Take the first line as location
+                "location": location_string.split('\n')[0]
             })
         
-        # Deduplicate instructors in case they are listed in multiple meetings
         unique_instructors = [dict(t) for t in {tuple(d.items()) for d in all_instructors}]
+        
+        # --- FIX APPLIED HERE ---
+        # Determine the status safely by checking if the values are not None first.
+        status = "Unknown" # Default status
+        enrolled = seats_info.get("enrolled")
+        capacity = seats_info.get("capacity")
+        if isinstance(enrolled, int) and isinstance(capacity, int):
+            status = "Open" if enrolled < capacity else "Closed"
 
         universal_section = {
             "sectionId": section_data.get("section_code"),
-            "courseCode": course_code, # Use the parent course code passed into the function
-            "termId": "TBD",  # Term info is complex and will be derived later
+            "courseCode": course_code,
+            "termId": "TBD",
             "sectionCode": section_data.get("section_code"),
-            "status": "Open" if seats_info.get("enrolled", 0) < seats_info.get("capacity", 0) else "Closed",
-            "capacity": seats_info.get("capacity"),
-            "enrolled": seats_info.get("enrolled"),
+            "status": status,
+            "capacity": capacity,
+            "enrolled": enrolled,
             "waitlist": seats_info.get("waitlist"),
             "delivery": delivery_mode,
             "instructors": unique_instructors,
@@ -163,4 +168,3 @@ def parse_sections(source_sections: Optional[List[Dict]], course_code: str) -> L
         universal_sections.append(universal_section)
 
     return universal_sections
-

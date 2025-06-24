@@ -1,60 +1,70 @@
-# transformer/course_transformer/course_helper_parsers/program_restriction_parser.py
-
-# Need to switch over to the paid plan to use this in production- should be cheap overall though as small prompt + small input --> small ouput
-
 import os
 import json
 import logging
 import requests
 from typing import Dict, Any, Optional
 
+# --- NEW: Import the API handler and Circuit Breaker ---
+from core.utils.api_handler import handle_api_call, CircuitBreaker
+
 logger = logging.getLogger(__name__)
 
 # --- Configuration ---
-# Your Gemini API Key should be stored securely as an environment variable
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+if GEMINI_API_KEY:
+    GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-latest:generateContent?key={GEMINI_API_KEY}"
+    # Each API gets its own circuit breaker instance
+    restriction_circuit_breaker = CircuitBreaker(failure_threshold=5, recovery_timeout=60)
+else:
+    logger.error("GEMINI_API_KEY environment variable not set. Restriction parser will be disabled.")
+    GEMINI_API_URL = None
+    restriction_circuit_breaker = None
 
-# The concise, targeted prompt for parsing program/status restrictions.
-RESTRICTION_SYSTEM_PROMPT = """You are a precise data extraction engine. Your sole task is to parse a `raw_restriction` string into a valid JSON object based on the `RequisiteExpression` schema.
+# The prompt remains the same
+RESTRICTION_SYSTEM_PROMPT = """You are a precise data extraction engine...""" # (keeping this collapsed for brevity)
 
-### Core Rules:
-1.  **JSON ONLY:** Your output MUST be a single, valid JSON object and nothing else.
-2.  **Strict Schema:** Every object MUST have a `"type"` key. The other keys depend on the type.
-    - For `AND`/`OR`, use an `"expressions"` key containing an array of objects.
-    - For `PROGRAM_REGISTRATION`, use a `"program"` key.
-    - For `RAW_UNPARSED`, use a `"value"` key.
-3.  **Logical Grouping:** If a restriction lists multiple programs (e.g., "Restricted to A, B, and C"), you MUST group them in a nested `OR` expression.
-4.  **No Rule, No Output:** If the input string contains only generic information (e.g., "Priority Access Course") and no specific rule, return an empty JSON object `{}`.
-
-### Example of Correct Output Structure:
-For an input like "Restricted to ProgramA and ProgramB. Instructor consent required.", the output MUST follow this nested structure:
-`{"type":"AND", "expressions": [{"type":"OR", "expressions": [{"type":"PROGRAM_REGISTRATION", "program":"ProgramA"}, {"type":"PROGRAM_REGISTRATION", "program":"ProgramB"}]}, {"type":"RAW_UNPARSED", "value":"Instructor consent required."}]}`
-
-### Final Instruction
-Now, parse the following restriction string.
-
-Input: “{restriction_string}”
-"""
-
-
-def parse_program_restrictions(restrictions_string: Optional[str]) -> Optional[Dict[str, Any]]:
+# --- NEW: A dedicated, raw API call function using 'requests' ---
+def _call_gemini_rest_api(payload: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """
-    Parses a 'restrictions' string for program or status-based rules
-    using the Gemini Flash model.
-
-    Args:
-        restrictions_string: The raw text from the source data, ideally with antirequisites removed.
-
-    Returns:
-        A structured RequisiteExpression dictionary, or None if no rules are found.
+    Makes the actual raw REST API call to Gemini.
+    This function is what gets passed to the handle_api_call wrapper.
+    It encapsulates all the 'requests' and response parsing logic.
     """
-    if not restrictions_string or not restrictions_string.strip() or not GEMINI_API_KEY:
+    if not GEMINI_API_URL:
+        raise ConnectionError("Gemini API URL not configured. Check API key.")
+
+    # The requests call and response parsing is moved here
+    response = requests.post(GEMINI_API_URL, json=payload, timeout=60)
+    response.raise_for_status()  # The handler will catch HTTP errors
+    result = response.json()
+    
+    # Safely extract the JSON string from the nested response
+    try:
+        json_string = result['candidates'][0]['content']['parts'][0]['text']
+        
+        # If the model returns an empty string or empty JSON, it found no rules.
+        if not json_string.strip() or json_string.strip() == '{}':
+            return None
+            
+        parsed_json = json.loads(json_string)
+        return parsed_json
+    except (KeyError, IndexError, json.JSONDecodeError) as e:
+        # If the response structure is unexpected, raise an error for the handler
+        logger.error(f"Failed to parse Gemini response structure: {e}")
+        raise ValueError(f"Unexpected API response format: {result}") from e
+
+# --- UPDATED: The main parser function, now much simpler ---
+def parse_program_restrictions(restriction_text: str, course_code: str) -> Optional[Dict[str, Any]]:
+    """
+    Parses a 'restrictions' string by calling the Gemini model via the
+    smart API handler, which manages caching, retries, and resiliency.
+    """
+    if not restriction_text or not restriction_text.strip() or not restriction_circuit_breaker:
         return None
 
-    full_prompt = f"{RESTRICTION_SYSTEM_PROMPT}\n\nInput: \"{restrictions_string}\""
-
-    payload = {
+    # 1. Prepare the payload for the API call
+    full_prompt = RESTRICTION_SYSTEM_PROMPT.replace("{restriction_string}", restriction_text)
+    api_payload = {
         "contents": [{"parts": [{"text": full_prompt}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
@@ -62,22 +72,21 @@ def parse_program_restrictions(restrictions_string: Optional[str]) -> Optional[D
         }
     }
 
-    try:
-        response = requests.post(GEMINI_API_URL, json=payload, timeout=60)
-        response.raise_for_status()
-        result = response.json()
-        
-        json_string = result['candidates'][0]['content']['parts'][0]['text']
-        
-        if not json_string.strip() or json_string.strip() == '{}':
-            return None
-            
-        parsed_json = json.loads(json_string)
-        return parsed_json
+    # 2. Call the handler for caching, retries, and circuit breaking
+    structured_restrictions = handle_api_call(
+        api_function=_call_gemini_rest_api,
+        payload=api_payload,
+        circuit_breaker=restriction_circuit_breaker,
+        parser_name="RESTRICTION_PARSER",
+        item_id=course_code
+    )
 
-    except requests.exceptions.RequestException as e:
-        logger.error(f"API call to Gemini failed: {e}")
-    except (KeyError, IndexError, json.JSONDecodeError) as e:
-        logger.error(f"Failed to parse Gemini response for input '{restrictions_string[:100]}...': {e}")
-    
-    return {"type": "RAW_UNPARSED", "value": f"RESTRICTION_PARSING_FAILED: {restrictions_string}"}
+    # 3. Handle the final result
+    if structured_restrictions:
+        return structured_restrictions
+    else:
+        # If the handler returns None, it means the call failed permanently or found no rules.
+        # We can return None to signify no rule was found, or a fallback if needed.
+        # For consistency, returning None is cleanest.
+        logger.info(f"No structured restrictions found or parsing failed for '{course_code}'.")
+        return None

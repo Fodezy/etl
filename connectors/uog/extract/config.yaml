@@ -1,0 +1,195 @@
+# etl/connectors/uog/config.yaml
+
+school_id: "uog"
+school_name: "University of Guelph"
+
+# --- Seed URLs - You have successfully gathered this data ---
+# The crawler will visit every single one of these pages to start its work.
+seed_urls:
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ACCT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=AGR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=DAGR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ANSC
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ANTH
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ARAB
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ARTH
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=AVC
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ASCI
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=AHSS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BIOC
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BINF
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BIOL
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BIOM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BIOP
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BIOT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BLCK
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BOT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BUS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=BADM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CDE
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CHEM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CHIN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CLAS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CLIN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CSS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CIS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CONS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=COOP
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CREA
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CRWR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CJPP
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CCJP
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=IMPR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CROP
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CTS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=DATA
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ECS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ECON
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ENGG
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ENGL
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=EDRD
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ENVM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=DENM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ENVS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=EQN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=DEQN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=EURO
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FCSS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FRHD
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FRAN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FIN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FINA
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FSQA
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FOOD
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FARE
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=FREN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=GEOG
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=GERM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=GREK
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HISP
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HIST
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HORT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=DHRT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HTM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HHNS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HK
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HROB
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=HUMN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=IES
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=INDG
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=IBIO
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=IAEF
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=IPS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ISS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=UNIV
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=IDEV
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ITAL
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=JLS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=JUST
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=KIN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=LARC
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=LAT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=LACS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=LEAD
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=LING
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=LTS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MGMT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MCS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MATH
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MDST
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MICR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MCB
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MBG
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=MUSC
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=NANO
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=NEUR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=NUTR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ONEH
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=OAGR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PABI
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PATH
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CPHH
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PHIL
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PHYS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PLNT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PBIO
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=POLS
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=POPM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PORT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=PSYC
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=REAL
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ROY
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=RPD
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=RST
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SCMA
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=XSEN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SXGN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SOPR
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SOC
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SOAN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SPAN
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SPMT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=STAT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=SART
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=THST
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=TRMH
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=TOX
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=DTM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=VETM
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=CVOA
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=DVT
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=WMST
+  - https://colleague-ss.uoguelph.ca/Student/Courses/Search?subjects=ZOO
+
+
+# --- Pagination Selector ---
+# The crawler will click this button to move to the next page of course results.
+pagination_next_selector: 'button#course-results-next-page'
+
+parser_rules:
+  course:
+    type: 'list'
+    list_selector: 'li > div.esg-section--margin-top'
+    extractors:
+      full_title:    { css: 'h3 > span' }
+      description:   { css: 'section > div.search-coursedatarow > div.search-coursedescription' }
+      requisites:    { css: 'div.search-coursedataheader:contains("Requisites:") + div span[data-bind*="DisplayText"]' }
+      offerings:     { css: 'div.search-coursedataheader:contains("Offering(s):") + div span' }
+      restrictions:  { css: 'div.search-coursedataheader:contains("Restriction(s):") + div span' }
+      departments:   { css: 'div.search-coursedataheader:contains("Department(s):") + div span' }
+      location:      { css: 'div[data-bind*="LocationsDisplay"] span' }
+      offered:       { css: 'div[data-bind*="showCourseOffering"] span' }
+
+      # new: grab each term block
+      sections:
+        type: 'list'
+        list_selector: 'div[data-bind="foreach: TermsAndSections"]'
+        extractors:
+          # the term header
+          term_name: { css: 'h4' }
+
+          # within each term, grab every <li> section
+          sections:
+            type: 'list'
+            list_selector: 'ul[data-bind*="foreach: Sections"] > li.search-nestedaccordionitem'
+            extractors:
+              # e.g. "ACCT*1220*DE01"
+              section_code: { css: 'a.search-sectiondetailslink' }
+
+              # the section title beneath it
+              section_name: { css: 'div.no-side-padding span' }
+
+              # available seats text "67 / 250 / 0"
+              seats: { css: 'span.search-seatsavailabletext' }
+
+              # now dive into the meetings table
+              meetings:
+                type: 'list'
+                list_selector: 'table.search-sectiontable > tbody > tr.search-sectionrow'
+                extractors:
+                  # e.g. days/times + dates
+                  day_time:           { css: 'td.search-sectiondaystime' }
+                  # e.g. building/room or "Distance Education"
+                  location:           { css: 'td.search-sectionlocations' }
+                  # instructor names + methods
+                  instructor:         { css: 'td.search-sectioninstructormethods' }
