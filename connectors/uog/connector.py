@@ -24,17 +24,21 @@ class UoGConnector(BaseConnector):
         logger.info(f"UoGConnector.extract: calling AsyncCoreExtractor for '{self.name}'...")
         extractor = AsyncCoreExtractor(school_name=self.name)
         # run the async .run() method synchronously
-        raw_data_path = asyncio.run(extractor.run())
-        logger.info(f"UoGConnector.extract: AsyncCoreExtractor finished. Raw data at: {raw_data_path}")
-        return raw_data_path
+        clean_data_path = asyncio.run(extractor.run())
+        logger.info(f"UoGConnector.extract: AsyncCoreExtractor finished. Raw data at: {clean_data_path}")
+        return clean_data_path
 
-    def transform(self, raw_data_path: str) -> dict:
+    def transform(self, clean_data_path: str) -> dict:
         """
-        Map raw data from the filesystem into universal schemas.
+        Map cleaned data from the filesystem into universal schemas.
         """
-        logger.info(f"UoGConnector.transform: Reading raw data from {raw_data_path}")
+        logger.info(f"UoGConnector.transform: Reading cleaned data from {clean_data_path}")
         
-        source_path = Path(raw_data_path)
+        source_path = Path(clean_data_path)
+        if not source_path.exists():
+            logger.error(f"Connector: Cannot run Transform. Data path not found: {source_path}")
+            raise FileNotFoundError(f"Data path not found: {source_path}")
+
         all_courses: List[Dict[str, Any]] = []
         all_programs: List[Dict[str, Any]] = []
 
@@ -42,34 +46,22 @@ class UoGConnector(BaseConnector):
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
-                # Program files have 'requirements'; course files have 'full_title'
                 if 'requirements' in data:
                     all_programs.append(data)
-                elif 'full_title' in data:
+                elif 'code' in data:
                     all_courses.append(data)
 
-        logger.info(f"Loaded {len(all_courses)} raw course files and {len(all_programs)} raw program files.")
+        logger.info(f"Loaded {len(all_courses)} course files and {len(all_programs)} program files.")
 
-        # Decide whether to slice for testing
-        courses_to_process = all_courses  # or all_courses[:5] for a quick run
+        # --- FOR A FULL RUN, UNCOMMENT THE FIRST LINE AND COMMENT THE SECOND ---
+        # courses_to_process = all_courses
+        courses_to_process = all_courses[:5]
         
         if len(courses_to_process) < len(all_courses):
-            logger.info(f"--- RUNNING IN TEST MODE: Processing only the first {len(courses_to_process)} courses. ---")
+            logger.warning(f"--- RUNNING IN TEST MODE: Processing only the first {len(courses_to_process)} courses. ---")
         
-        # Transform courses & programs
-        if courses_to_process:
-            transformed_courses, vector_points = transform_courses_universal(courses_to_process)
-        else:
-            transformed_courses, vector_points = [], []
-        
+        transformed_courses, vector_points = transform_courses_universal(courses_to_process) if courses_to_process else ([], [])
         transformed_programs = transform_programs_universal(all_programs)
-
-        # Ensure the cleaned output directory exists
-        out_dir = Path(__file__).parent / "cleaned"
-        out_dir.mkdir(exist_ok=True)
-
-        logger.info(f"Saving {len(transformed_courses)} transformed courses...")
-        # (rest of your saving logic goes here: e.g. write JSON, CSV, etc.)
 
         return {
             'courses': transformed_courses,
@@ -77,6 +69,25 @@ class UoGConnector(BaseConnector):
             'programs': transformed_programs
         }
 
+    # --- UPDATED LOAD METHOD ---
     def load(self, norm: dict) -> None:
-        logger.info("UoGConnector.load: stub - skipping database load stage")
-        pass
+        """
+        Saves the transformed, normalized data to a final JSON output file.
+        """
+        logger.info(f"UoGConnector.load: Saving {len(norm.get('courses', []))} courses to file...")
+        
+        # Define the output directory relative to this connector file
+        output_dir = Path(__file__).parent / "output"
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Define the output file path
+        output_file_path = output_dir / "universal_courses_cleaned.json"
+
+        # Write the 'courses' list to the JSON file
+        try:
+            with open(output_file_path, 'w', encoding='utf-8') as f:
+                # We are saving just the courses list for this example
+                json.dump(norm.get('courses', []), f, ensure_ascii=False, indent=2)
+            logger.info(f"Successfully saved cleaned data to {output_file_path}")
+        except Exception as e:
+            logger.error(f"Failed to save data to {output_file_path}: {e}")

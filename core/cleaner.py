@@ -9,7 +9,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from typing import Any, Dict, Tuple, Optional
+from typing import Any, Dict, List, Tuple, Optional
 
 
 def parse_full_title(full_title: Optional[str]) -> Tuple[Optional[str], Optional[str], Optional[str]]:
@@ -33,7 +33,7 @@ def parse_full_title(full_title: Optional[str]) -> Tuple[Optional[str], Optional
 
 def clean_course(raw: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Clean & normalize one course JSON dict.
+    Clean & normalize one course JSON dict, flattening the nested section structure.
     """
     cleaned: Dict[str, Any] = {}
 
@@ -51,9 +51,33 @@ def clean_course(raw: Dict[str, Any]) -> Dict[str, Any]:
             cleaned[field] = val.strip() or None
         else:
             cleaned[field] = None
+            
+    # 3) --- FLATTEN NESTED SECTION STRUCTURE ---
+    flattened_sections: List[Dict[str, Any]] = []
+    # The top-level 'sections' in raw data is actually a list of term groupings.
+    for term_group in raw.get("sections") or []:
+        if not isinstance(term_group, dict):
+            continue # Skip if an item in the list isn't a dictionary
 
-    # 3) Sections remain unchanged
-    cleaned["sections"] = raw.get("sections", []) or []
+        term_name = term_group.get("term_name")
+        # The 'sections' key inside the term group contains the actual course sections.
+        for section in term_group.get("sections") or []:
+            if not isinstance(section, dict):
+                continue # Skip if a nested item isn't a dictionary
+            
+            # Create a new, clean section dictionary
+            clean_section = section.copy()
+
+            # Promote the term_name into each individual section object
+            clean_section['term'] = term_name
+            
+            # Use the unique section_code as the sectionId, providing a fallback
+            clean_section['sectionId'] = section.get('section_code') or 'N/A'
+            
+            flattened_sections.append(clean_section)
+    
+    cleaned["sections"] = flattened_sections
+    # --- END SECTION FLATTENING ---
 
     return cleaned
 
@@ -76,8 +100,6 @@ def clean_school(school_id: str) -> None:
             json.dumps(cleaned, ensure_ascii=False, indent=2),
             encoding="utf-8"
         )
-        print(f"Cleaned {src.name} -> clean/{src.name}")
-
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

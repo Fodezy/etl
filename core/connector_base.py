@@ -27,15 +27,14 @@ class BaseConnector(ABC):
         pass
 
     @abstractmethod
-    def transform(self, raw_data_path: str) -> Dict[str, Any]:
+    def transform(self, clean_data_path: str) -> Dict[str, Any]: # <-- CHANGED
         """
         --- UPDATED CONTRACT ---
-        The transformation phase. This method takes the raw data produced
-        by the extract phase and converts it into the universal schema.
+        The transformation phase. This method takes the *cleaned* data produced
+        by the extract+clean phase and converts it into the universal schema.
 
         Args:
-            raw_data_path: The file path to the raw data artifacts, as
-                           returned by the extract() method.
+            clean_data_path: The file path to the cleaned data artifacts.
 
         Returns:
             A dictionary containing lists of cleaned, validated data objects,

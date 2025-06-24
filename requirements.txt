@@ -30,3 +30,4 @@ openai
 sentence-transformers
 keybert
 bs4
+tqdm

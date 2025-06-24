@@ -55,7 +55,7 @@ if __name__ == "__main__":
             continue
 
         logger.info(f"--- Starting connector: {conn.name} for phases: {args.phases} ---")
-        raw_data_path = ""
+        raw_data_path = str(Path("connectors") / conn.name / "extract" / "clean")
         norm_data = {}
 
         # --- EXTRACT + CLEAN ---
@@ -73,7 +73,7 @@ if __name__ == "__main__":
         # --- TRANSFORM ---
         if 'T' in phases_to_run:
             if not raw_data_path or not Path(raw_data_path).exists():
-                logger.error(f"Cannot run Transform. Data path not found: {raw_data_path}.")
+                logger.error(f"T-Phase: Cannot run Transform. Data path not found: {raw_data_path}.")
                 continue
             logger.info("--- Running TRANSFORM stage ---")
             norm_data = conn.transform(raw_data_path)
